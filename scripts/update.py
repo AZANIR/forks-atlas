@@ -30,6 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
 DATA = ROOT / "data" / "forks.json"
 OVERRIDES = ROOT / "scripts" / "overrides.json"
+EXTRA = ROOT / "scripts" / "extra.json"
 
 PAGE_SIZE = 50          # 100 вузлів із вкладеним parent перевищують ліміт вартості GraphQL
 STALE_DAYS = 365        # після цього оригінал вважається «сплячим»
@@ -79,6 +80,12 @@ CATEGORIES = [
             "nuclei", "seclists", "ctf", "privacy", "antidetect", "anti detect",
             "man in the middle", "sbom", "secrets", "active directory", "ldap",
             "captcha", "cve", "xss", "sql injection",
+            # Ідентифікація й доступ. Свідомо без голого «authentication»:
+            # це слово згадує половина веб-бойлерплейтів, і безпека, що стоїть
+            # раніше за них у черзі, забрала б їх усі.
+            "sso", "single sign on", "multi factor", "multifactor", "2fa", "mfa",
+            "oauth2", "openid connect", "webauthn", "passkeys", "identity provider",
+            "zero trust", "vpn", "firewall", "password manager", "encryption",
         ],
     },
     {
@@ -270,6 +277,7 @@ OTHER = {
 
 BADGES = {
     "list": ("📋", "куративний список"),
+    "linkonly": ("🔗", "у форках немає — стежимо за оригіналом"),
     "archived": ("⚠️", "оригінал заархівовано"),
     "stale": ("💤", "оригінал без комітів понад рік"),
     "orphan": ("🗑️", "оригінал видалено або недоступний"),
@@ -361,6 +369,74 @@ def graphql(query: str, variables: dict, token: str) -> dict:
     sys.exit(f"GraphQL недоступний після 4 спроб: {last}")
 
 
+# Запит для записів із scripts/extra.json — проєктів, за якими стежимо без форку.
+# Псевдонімами (r0, r1, …) кількадесят репозиторіїв беруться одним запитом
+# замість окремого виклику на кожен.
+EXTRA_QUERY = """
+fragment RepoFields on Repository {
+  name
+  nameWithOwner
+  url
+  description
+  homepageUrl
+  stargazerCount
+  forkCount
+  isArchived
+  pushedAt
+  licenseInfo { spdxId }
+  primaryLanguage { name }
+  repositoryTopics(first: 10) { nodes { topic { name } } }
+}
+query {
+%s
+}
+"""
+
+EXTRA_BATCH = 25
+
+
+def fetch_extra(names: list[str], token: str) -> list[dict]:
+    """Дані про репозиторії, вказані як 'owner/name'."""
+    found = []
+    for start in range(0, len(names), EXTRA_BATCH):
+        chunk = names[start:start + EXTRA_BATCH]
+        aliases = []
+        for index, full in enumerate(chunk):
+            owner, _, name = full.partition("/")
+            if not owner or not name:
+                sys.exit(f"extra.json: очікується 'owner/name', отримано {full!r}")
+            aliases.append(
+                f'  r{index}: repository(owner: "{owner}", name: "{name}") '
+                f"{{ ...RepoFields }}"
+            )
+        data = graphql(EXTRA_QUERY % "\n".join(aliases), {}, token)
+        for index, full in enumerate(chunk):
+            repo = data.get(f"r{index}")
+            if repo:
+                found.append(repo)
+            else:
+                print(f"  увага: {full} недоступний — пропущено")
+    return found
+
+
+def as_pseudo_fork(repo: dict) -> dict:
+    """Обгортка, у якій репозиторій виступає власним оригіналом.
+
+    Так класифікатор, мітки й рендеринг працюють без жодної окремої гілки:
+    різниця між форком і просто відстежуваним проєктом зводиться до `url = None`.
+    """
+    return {
+        "name": repo["name"],
+        "url": None,
+        "description": repo.get("description"),
+        "isArchived": repo.get("isArchived", False),
+        "createdAt": None,
+        "primaryLanguage": repo.get("primaryLanguage"),
+        "repositoryTopics": repo.get("repositoryTopics"),
+        "parent": repo,
+    }
+
+
 def fetch_forks(token: str) -> list[dict]:
     forks, cursor = [], None
     while True:
@@ -430,6 +506,8 @@ def badges(repo: dict, now: datetime) -> list[str]:
         or " collection of " in hay
     ):
         marks.append("list")
+    if repo.get("url") is None:
+        marks.append("linkonly")
     if not parent:
         marks.append("orphan")
         return marks
@@ -449,7 +527,7 @@ def build(forks: list[dict], overrides: dict, now: datetime) -> list[dict]:
         rows.append(
             {
                 "name": repo["name"],
-                "url": repo["url"],
+                "url": repo.get("url"),
                 "category": classify(repo, overrides),
                 "upstream": parent.get("nameWithOwner"),
                 "upstream_url": parent.get("url"),
@@ -495,20 +573,27 @@ def render(rows: list[dict], now: datetime) -> str:
         grouped.setdefault(row["category"], []).append(row)
 
     total = len(rows)
+    forked = sum(1 for r in rows if r["url"])
     stars = sum(r["stars"] or 0 for r in rows)
     out: list[str] = []
     add = out.append
 
-    add(f"# Атлас форків [@{USER}](https://github.com/{USER})")
+    add(f"# Атлас проєктів [@{USER}](https://github.com/{USER})")
     add("")
     add(
-        f"Каталог усіх **{total}** форкнутих репозиторіїв: що це, звідки і навіщо збережено. "
+        f"Каталог **{total}** проєктів, за якими стежу: що це, звідки і навіщо тут. "
         "Оновлюється автоматично раз на тиждень."
     )
     add("")
     add(
-        f"`Форків: {total}` · `Сумарно ★ в оригіналів: {stars:,}`".replace(",", " ")
-        + f" · `Оновлено: {now:%d.%m.%Y}`"
+        f"Більшість — форки ({forked}). Решта позначена 🔗: форк видалено або його "
+        "не було, але сам проєкт лишається вартим уваги. Каталог переживає видалення "
+        "форку — запис нікуди не зникає."
+    )
+    add("")
+    add(
+        f"`Записів: {total}` · `З них форків: {forked}` "
+        f"· `Сумарно ★: {thousands(stars)}` · `Оновлено: {now:%d.%m.%Y}`"
     )
     add("")
     add("### Позначки")
@@ -546,7 +631,9 @@ def render(rows: list[dict], now: datetime) -> str:
         add("| --- | --- | --: | --- | --- |")
         for row in sorted(items, key=lambda r: (-(r["stars"] or 0), r["name"].lower())):
             icons = "".join(BADGES[b][0] for b in row["badges"])
-            name = f"[{row['name']}]({row['url']})"
+            # Без форку посилатися нікуди — лишається текст, а джерело
+            # дає сусідня колонка. Мертвих посилань у каталозі не буває.
+            name = f"[{row['name']}]({row['url']})" if row["url"] else row["name"]
             if icons:
                 name = f"{name} {icons}"
             if row["upstream"]:
@@ -567,10 +654,11 @@ def render(rows: list[dict], now: datetime) -> str:
     add("## Як це працює")
     add("")
     add(
-        "`scripts/update.py` тягне список форків через GitHub GraphQL, розкладає їх за "
-        "правилами (назва + опис + теми оригіналу) і перегенеровує цей файл разом із "
-        "`data/forks.json`. Правила й тексти категорій лежать у самому скрипті, ручні "
-        "виправлення — у `scripts/overrides.json`."
+        "`scripts/update.py` тягне список форків через GitHub GraphQL, додає проєкти з "
+        "`scripts/extra.json` (ті, за якими стежимо без форку), розкладає все за правилами "
+        "(назва + опис + теми оригіналу) і перегенеровує цей файл разом із `data/forks.json`. "
+        "Правила й тексти категорій лежать у самому скрипті, ручні виправлення — "
+        "у `scripts/overrides.json`."
     )
     add("")
     add("Деталі, формат винятків і як додати категорію — у [docs/how-it-works.md](docs/how-it-works.md).")
@@ -652,6 +740,28 @@ def self_test() -> None:
     orphan["parent"] = None
     assert badges(orphan, now) == ["orphan"]
 
+    # Проєкт без форку: класифікується як звичайний запис, але позначається 🔗
+    # і не отримує посилання на неіснуючий форк.
+    tracked = as_pseudo_fork({
+        "name": "authelia",
+        "nameWithOwner": "authelia/authelia",
+        "url": "https://github.com/authelia/authelia",
+        "description": "Single Sign-On Multi-Factor portal for web apps",
+        "homepageUrl": None,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": False,
+        "pushedAt": "2026-07-01T00:00:00Z",
+        "licenseInfo": None,
+        "primaryLanguage": {"name": "Go"},
+        "repositoryTopics": {"nodes": [{"topic": {"name": "authentication"}}]},
+    })
+    assert tracked["url"] is None
+    assert "linkonly" in badges(tracked, now)
+    assert classify(tracked, no_overrides) == "security"
+    built = build([tracked], no_overrides, now)[0]
+    assert built["upstream"] == "authelia/authelia" and built["url"] is None
+
     # Екранування таблиці: символ '|' не має ламати розмітку.
     assert cell("a | b") == "a \\| b"
 
@@ -671,10 +781,24 @@ def main() -> None:
         return
 
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8")) if OVERRIDES.exists() else {}
+    extra_names = json.loads(EXTRA.read_text(encoding="utf-8")) if EXTRA.exists() else []
     now = datetime.now(timezone.utc)
 
-    forks = fetch_forks(get_token())
-    rows = build(forks, overrides, now)
+    token = get_token()
+    forks = fetch_forks(token)
+
+    # Дедуплікація за оригіналом прибирає «день переходу»: поки форк існує,
+    # запис приходить із нього; щойно форк видалено — з extra.json. Обидва
+    # джерела можуть перелічувати той самий проєкт, дубля не буде.
+    already = {
+        (f.get("parent") or {}).get("nameWithOwner")
+        for f in forks
+        if f.get("parent")
+    }
+    wanted = [name for name in extra_names if name not in already]
+    tracked = [as_pseudo_fork(r) for r in fetch_extra(wanted, token)] if wanted else []
+
+    rows = build(forks + tracked, overrides, now)
 
     DATA.parent.mkdir(parents=True, exist_ok=True)
     DATA.write_text(
@@ -685,7 +809,7 @@ def main() -> None:
     counts: dict[str, int] = {}
     for row in rows:
         counts[row["category"]] = counts.get(row["category"], 0) + 1
-    print(f"Форків: {len(rows)}")
+    print(f"Записів: {len(rows)}  (форків: {len(forks)}, лише посилань: {len(tracked)})")
     for category in [*CATEGORIES, OTHER]:
         if counts.get(category["key"]):
             print(f"  {counts[category['key']]:>4}  {category['title']}")
