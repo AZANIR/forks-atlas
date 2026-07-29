@@ -482,8 +482,21 @@ def haystack(repo: dict) -> str:
     return normalize(" ".join(parts))
 
 
+def find_override(repo: dict, overrides: dict) -> dict:
+    """Виняток шукається спершу за 'owner/name', потім за короткою назвою.
+
+    Коротка назва не унікальна: у каталозі співіснують anthropics/skills,
+    mattpocock/skills і emilkowalski/skills. Ключ 'owner/name' розрізняє їх,
+    а короткий лишається робочим для форків, де він однозначний.
+    """
+    full = (repo.get("parent") or {}).get("nameWithOwner")
+    if full and full in overrides:
+        return overrides[full]
+    return overrides.get(repo["name"], {})
+
+
 def classify(repo: dict, overrides: dict) -> str:
-    forced = overrides.get(repo["name"], {}).get("category")
+    forced = find_override(repo, overrides).get("category")
     if forced:
         return forced
     hay = haystack(repo)
@@ -523,7 +536,7 @@ def build(forks: list[dict], overrides: dict, now: datetime) -> list[dict]:
     rows = []
     for repo in forks:
         parent = repo.get("parent") or {}
-        override = overrides.get(repo["name"], {})
+        override = find_override(repo, overrides)
         rows.append(
             {
                 "name": repo["name"],
@@ -631,15 +644,20 @@ def render(rows: list[dict], now: datetime) -> str:
         add("| --- | --- | --: | --- | --- |")
         for row in sorted(items, key=lambda r: (-(r["stars"] or 0), r["name"].lower())):
             icons = "".join(BADGES[b][0] for b in row["badges"])
-            # Без форку посилатися нікуди — лишається текст, а джерело
-            # дає сусідня колонка. Мертвих посилань у каталозі не буває.
-            name = f"[{row['name']}]({row['url']})" if row["url"] else row["name"]
+            if row["url"]:
+                name = f"[{row['name']}]({row['url']})"
+                upstream = (
+                    f"[{row['upstream']}]({row['upstream_url']})"
+                    if row["upstream"] else "—"
+                )
+            else:
+                # Без форку єдине існуюче посилання — на сам проєкт, і воно
+                # переїжджає в першу колонку. Коротка назва тут не годиться:
+                # 'skills' у каталозі три штуки від різних авторів.
+                name = f"[{row['upstream']}]({row['upstream_url']})"
+                upstream = "—"
             if icons:
                 name = f"{name} {icons}"
-            if row["upstream"]:
-                upstream = f"[{row['upstream']}]({row['upstream_url']})"
-            else:
-                upstream = "—"
             description = cell(row["description"])
             if row["note"]:
                 description = f"{description} **— {cell(row['note'], 120)}**"

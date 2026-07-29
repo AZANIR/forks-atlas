@@ -1,11 +1,16 @@
 {
   "add_to_NotebookLM": { "note": "букмарклет: кидає будь-яку сторінку в NotebookLM без ручного копіювання" },
 
+  "ag-kit": { "category": "agents", "note": "агентний кіт для Antigravity; в оригіналі немає ні опису, ні тем, тому правила його не бачать" },
   "agent-memory-skill": { "category": "memory" },
   "agent-second-brain": { "category": "memory", "note": "правила чіпляються за слово voice, але це не голосовий стек, а конвеєр Telegram → Obsidian" },
   "agents-towards-production": { "category": "resources" },
   "ai-agent-book": { "category": "resources", "note": "книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково" },
   "atlas": { "category": "devops" },
+  "block/buzz": { "category": "agents", "note": "спільний простір, де люди й агенти працюють над задачею на власному релеї" },
+  "lbjlaq/Antigravity-Manager": { "category": "llm-infra", "note": "не просто перемикач акаунтів: під капотом проксі-шлюз диспетчеризації запитів до AI-провайдерів" },
+  "nikok6/herdr-mirror": { "category": "agents", "note": "дзеркалить агентів з віддалених машин в одну панель — видно, хто працює, хто заблокований, хто завершив" },
+  "perminder-klair/subwave": { "category": "media", "note": "агентне за реалізацією, але артефакт — ефір: AI-діджей добирає треки й говорить між ними" },
   "autograph": { "category": "memory" },
   "awesome-os-setup": { "category": "devops" },
   "awesome-shadcn-ui": { "category": "web" },
