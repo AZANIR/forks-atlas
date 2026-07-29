@@ -2,7 +2,7 @@
 
 Каталог усіх **274** форкнутих репозиторіїв: що це, звідки і навіщо збережено. Оновлюється автоматично раз на тиждень.
 
-`Форків: 274` · `Сумарно ★ в оригіналів: 7 044 696` · `Оновлено: 29.07.2026`
+`Форків: 274` · `Сумарно ★ в оригіналів: 7 044 702` · `Оновлено: 29.07.2026`
 
 ### Позначки
 
@@ -140,11 +140,11 @@
 | [skills](https://github.com/AZANIR/skills) | [anthropics/skills](https://github.com/anthropics/skills) | 165 014 | Python | Public repository for Agent Skills |
 | [gstack](https://github.com/AZANIR/gstack) | [garrytan/gstack](https://github.com/garrytan/gstack) | 125 126 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
 | [ui-ux-pro-max-skill](https://github.com/AZANIR/ui-ux-pro-max-skill) | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 111 393 | Python | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
-| [ponytail](https://github.com/AZANIR/ponytail) | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 534 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [ponytail](https://github.com/AZANIR/ponytail) | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 535 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | [claude-code-best-practice](https://github.com/AZANIR/claude-code-best-practice) | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 63 698 | HTML | from vibe coding to agentic engineering - practice makes claude perfect |
 | [system_prompts_leaks](https://github.com/AZANIR/system_prompts_leaks) | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 61 294 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1… |
 | [last30days-skill](https://github.com/AZANIR/last30days-skill) | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 54 984 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
-| [awesome-openclaw-skills](https://github.com/AZANIR/awesome-openclaw-skills) 📋 | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 51 593 | — | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 |
+| [awesome-openclaw-skills](https://github.com/AZANIR/awesome-openclaw-skills) 📋 | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 51 594 | — | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 |
 | [agentic-awesome-skills](https://github.com/AZANIR/agentic-awesome-skills) 📋 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 44 129 | Python | AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 1,987+ agentic… |
 | [agents](https://github.com/AZANIR/agents) 📋 | [wshobson/agents](https://github.com/wshobson/agents) | 38 353 | Python | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | [awesome-copilot](https://github.com/AZANIR/awesome-copilot) 📋 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | 37 196 | Python | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. |
@@ -185,7 +185,7 @@
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
 | [vllm](https://github.com/AZANIR/vllm) | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 87 577 | Python | A high-throughput and memory-efficient inference and serving engine for LLMs |
-| [rtk](https://github.com/AZANIR/rtk) | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 73 822 | Rust | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
+| [rtk](https://github.com/AZANIR/rtk) | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 73 823 | Rust | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
 | [headroom](https://github.com/AZANIR/headroom) | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 63 158 | Python | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers.… |
 | [VibeVoice](https://github.com/AZANIR/VibeVoice) | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | 51 170 | Python | Open-Source Frontier Voice AI |
 | [CLIProxyAPIPlus](https://github.com/AZANIR/CLIProxyAPIPlus) | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | 45 486 | Go | Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT… |
@@ -282,7 +282,7 @@
 | [nanobot](https://github.com/AZANIR/nanobot) | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 46 379 | Python | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps |
 | [CLI-Anything](https://github.com/AZANIR/CLI-Anything) | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 46 286 | Python | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
 | [agent-browser](https://github.com/AZANIR/agent-browser) | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 39 490 | Rust | Browser automation CLI for AI agents |
-| [orca](https://github.com/AZANIR/orca) | [stablyai/orca](https://github.com/stablyai/orca) | 32 568 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. |
+| [orca](https://github.com/AZANIR/orca) | [stablyai/orca](https://github.com/stablyai/orca) | 32 569 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. |
 | [ai-website-cloner-template](https://github.com/AZANIR/ai-website-cloner-template) | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 30 546 | TypeScript | Clone any website with one command using AI coding agents |
 | [sim](https://github.com/AZANIR/sim) | [simstudioai/sim](https://github.com/simstudioai/sim) | 29 233 | TypeScript | Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce. |
 | [Scrapegraph-ai](https://github.com/AZANIR/Scrapegraph-ai) | [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 28 772 | Python | Python scraper based on AI |
@@ -348,7 +348,7 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [free-for-dev](https://github.com/AZANIR/free-for-dev) 📋 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | 130 749 | HTML | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev |
+| [free-for-dev](https://github.com/AZANIR/free-for-dev) 📋 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | 130 750 | HTML | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev |
 | [mise](https://github.com/AZANIR/mise) | [jdx/mise](https://github.com/jdx/mise) | 31 284 | Rust | dev tools, env vars, task runner **— заміна asdf/nvm/pyenv одним бінарником — керує і версіями інструментів, і env, і тасками** |
 | [omarchy](https://github.com/AZANIR/omarchy) | [basecamp/omarchy](https://github.com/basecamp/omarchy) | 24 169 | Shell | Beautiful, Modern & Opinionated Linux |
 | [DevOps-Roadmap](https://github.com/AZANIR/DevOps-Roadmap) | [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) | 19 984 | — | DevOps Roadmap for 2026. with learning resources |
@@ -373,7 +373,7 @@
 | --- | --- | --: | --- | --- |
 | [the-book-of-secret-knowledge](https://github.com/AZANIR/the-book-of-secret-knowledge) 📋💤 | [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 235 731 | — | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. |
 | [claude-howto](https://github.com/AZANIR/claude-howto) | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 40 649 | Python | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. |
-| [ai-agent-book](https://github.com/AZANIR/ai-agent-book) | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 26 095 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
+| [ai-agent-book](https://github.com/AZANIR/ai-agent-book) | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 26 096 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
 | [nn-zero-to-hero](https://github.com/AZANIR/nn-zero-to-hero) 💤 | [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero) | 23 772 | Jupyter Notebook | Neural Networks: Zero to Hero |
 | [GenAI_Agents](https://github.com/AZANIR/GenAI_Agents) | [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 23 531 | Jupyter Notebook | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. |
 | [agents-towards-production](https://github.com/AZANIR/agents-towards-production) | [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | 21 202 | Jupyter Notebook | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment. |
