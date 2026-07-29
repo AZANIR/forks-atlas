@@ -1,7 +1,7 @@
 [
   {
     "name": "11tyblog-theme",
-    "url": "https://github.com/AZANIR/11tyblog-theme",
+    "url": null,
     "category": "web",
     "upstream": "isNan909/11tyblog-theme",
     "upstream_url": "https://github.com/isNan909/11tyblog-theme",
@@ -11,8 +11,9 @@
     "language": "Nunjucks",
     "license": null,
     "upstream_pushed_at": "2021-04-10T10:48:12Z",
-    "forked_at": "2022-08-31T15:45:44Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -67,7 +68,7 @@
   },
   {
     "name": "advanced-selenium-webdriver",
-    "url": "https://github.com/AZANIR/advanced-selenium-webdriver",
+    "url": null,
     "category": "archive",
     "upstream": "dimashyshkin/advanced-selenium-webdriver",
     "upstream_url": "https://github.com/dimashyshkin/advanced-selenium-webdriver",
@@ -77,8 +78,9 @@
     "language": "HTML",
     "license": null,
     "upstream_pushed_at": "2023-09-29T13:52:27Z",
-    "forked_at": "2021-05-20T16:08:17Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -374,7 +376,7 @@
     "stars": 2013,
     "language": null,
     "license": "MIT",
-    "upstream_pushed_at": "2026-07-29T18:18:22Z",
+    "upstream_pushed_at": "2026-07-29T18:21:43Z",
     "forked_at": "2026-05-29T17:11:50Z",
     "badges": [],
     "note": null
@@ -387,7 +389,7 @@
     "upstream_url": "https://github.com/bojieli/ai-agent-book",
     "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
     "homepage": "",
-    "stars": 26112,
+    "stars": 26115,
     "language": "Python",
     "license": "Apache-2.0",
     "upstream_pushed_at": "2026-07-29T14:51:35Z",
@@ -483,7 +485,7 @@
     "upstream_url": "https://github.com/multica-ai/andrej-karpathy-skills",
     "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
     "homepage": "",
-    "stars": 197571,
+    "stars": 197572,
     "language": null,
     "license": null,
     "upstream_pushed_at": "2026-04-20T10:05:04Z",
@@ -591,7 +593,7 @@
   },
   {
     "name": "astro-cc",
-    "url": "https://github.com/AZANIR/astro-cc",
+    "url": null,
     "category": "web",
     "upstream": "vladilenm/astro-cc",
     "upstream_url": "https://github.com/vladilenm/astro-cc",
@@ -601,8 +603,9 @@
     "language": "Astro",
     "license": null,
     "upstream_pushed_at": "2022-09-20T07:03:28Z",
-    "forked_at": "2022-10-05T19:58:15Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -713,7 +716,7 @@
     "upstream_url": "https://github.com/andyrewlee/awesome-agent-orchestrators",
     "description": "List of agent orchestrators",
     "homepage": "",
-    "stars": 1155,
+    "stars": 1156,
     "language": null,
     "license": null,
     "upstream_pushed_at": "2026-07-29T17:54:38Z",
@@ -948,7 +951,7 @@
     "upstream_url": "https://github.com/hesamsheikh/awesome-openclaw-usecases",
     "description": "A community collection of OpenClaw use cases for making life easier.",
     "homepage": "",
-    "stars": 31643,
+    "stars": 31644,
     "language": null,
     "license": "MIT",
     "upstream_pushed_at": "2026-03-24T14:54:56Z",
@@ -1086,7 +1089,7 @@
   },
   {
     "name": "berry-11ty",
-    "url": "https://github.com/AZANIR/berry-11ty",
+    "url": null,
     "category": "web",
     "upstream": "andberry/berry-11ty",
     "upstream_url": "https://github.com/andberry/berry-11ty",
@@ -1096,8 +1099,9 @@
     "language": "SCSS",
     "license": null,
     "upstream_pushed_at": "2022-03-21T00:35:00Z",
-    "forked_at": "2022-08-10T12:53:21Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -1158,7 +1162,7 @@
     "upstream_url": "https://github.com/block/buzz",
     "description": "A hive mind communication platform",
     "homepage": "",
-    "stars": 16735,
+    "stars": 16736,
     "language": "Rust",
     "license": "Apache-2.0",
     "upstream_pushed_at": "2026-07-29T18:07:43Z",
@@ -1195,7 +1199,7 @@
     "stars": 62154,
     "language": "JavaScript",
     "license": "MIT",
-    "upstream_pushed_at": "2026-07-29T17:11:20Z",
+    "upstream_pushed_at": "2026-07-29T18:19:45Z",
     "forked_at": "2026-04-12T22:55:52Z",
     "badges": [],
     "note": null
@@ -1218,7 +1222,7 @@
   },
   {
     "name": "claude-agents",
-    "url": "https://github.com/AZANIR/claude-agents",
+    "url": null,
     "category": "skills",
     "upstream": "iannuttall/claude-agents",
     "upstream_url": "https://github.com/iannuttall/claude-agents",
@@ -1228,8 +1232,9 @@
     "language": null,
     "license": "MIT",
     "upstream_pushed_at": "2025-07-25T11:08:48Z",
-    "forked_at": "2025-09-01T19:24:55Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "archived",
       "stale"
     ],
@@ -1563,7 +1568,7 @@
     "upstream_url": "https://github.com/openai/codex-plugin-cc",
     "description": "Use Codex from Claude Code to review code or delegate tasks.",
     "homepage": null,
-    "stars": 30351,
+    "stars": 30352,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "upstream_pushed_at": "2026-07-08T00:17:31Z",
@@ -1659,7 +1664,7 @@
     "upstream_url": "https://github.com/trycua/cua",
     "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
     "homepage": "https://cua.ai",
-    "stars": 20758,
+    "stars": 20759,
     "language": "HTML",
     "license": "MIT",
     "upstream_pushed_at": "2026-07-29T17:00:31Z",
@@ -1700,8 +1705,8 @@
     "note": null
   },
   {
-    "name": "Cypress-cucumber-1",
-    "url": "https://github.com/AZANIR/Cypress-cucumber-1",
+    "name": "Cypress-cucumber",
+    "url": null,
     "category": "qa",
     "upstream": "Diankavoy19/Cypress-cucumber",
     "upstream_url": "https://github.com/Diankavoy19/Cypress-cucumber",
@@ -1711,15 +1716,16 @@
     "language": "HTML",
     "license": null,
     "upstream_pushed_at": "2022-08-16T18:03:26Z",
-    "forked_at": "2022-08-23T07:59:19Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
   },
   {
     "name": "cypress-cucumber-boilerplate",
-    "url": "https://github.com/AZANIR/cypress-cucumber-boilerplate",
+    "url": null,
     "category": "qa",
     "upstream": "JoanEsquivel/cypress-cucumber-boilerplate",
     "upstream_url": "https://github.com/JoanEsquivel/cypress-cucumber-boilerplate",
@@ -1729,15 +1735,16 @@
     "language": "JavaScript",
     "license": null,
     "upstream_pushed_at": "2023-08-21T07:19:36Z",
-    "forked_at": "2022-12-26T19:16:14Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
   },
   {
     "name": "cypress-cucumber___telnyx.com",
-    "url": "https://github.com/AZANIR/cypress-cucumber___telnyx.com",
+    "url": null,
     "category": "qa",
     "upstream": "teosoph/cypress-cucumber___telnyx.com",
     "upstream_url": "https://github.com/teosoph/cypress-cucumber___telnyx.com",
@@ -1747,15 +1754,16 @@
     "language": "JavaScript",
     "license": null,
     "upstream_pushed_at": "2022-09-16T09:22:14Z",
-    "forked_at": "2022-08-17T11:21:45Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
   },
   {
     "name": "cypress-telnyx.com",
-    "url": "https://github.com/AZANIR/cypress-telnyx.com",
+    "url": null,
     "category": "qa",
     "upstream": "Cryzalis/cypress-telnyx.com",
     "upstream_url": "https://github.com/Cryzalis/cypress-telnyx.com",
@@ -1765,15 +1773,16 @@
     "language": "JavaScript",
     "license": null,
     "upstream_pushed_at": "2022-10-05T12:47:23Z",
-    "forked_at": "2022-10-04T07:26:45Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
   },
   {
     "name": "Cypress_Cucumber",
-    "url": "https://github.com/AZANIR/Cypress_Cucumber",
+    "url": null,
     "category": "qa",
     "upstream": "Andrey-Pivtorak/Cypress_Cucumber",
     "upstream_url": "https://github.com/Andrey-Pivtorak/Cypress_Cucumber",
@@ -1783,15 +1792,16 @@
     "language": "JavaScript",
     "license": null,
     "upstream_pushed_at": "2023-01-11T19:49:29Z",
-    "forked_at": "2023-01-04T10:19:15Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
   },
   {
     "name": "cypress_demo",
-    "url": "https://github.com/AZANIR/cypress_demo",
+    "url": null,
     "category": "qa",
     "upstream": "doktorgonza21/cypress_demo",
     "upstream_url": "https://github.com/doktorgonza21/cypress_demo",
@@ -1801,15 +1811,16 @@
     "language": "JavaScript",
     "license": null,
     "upstream_pushed_at": "2022-10-27T14:03:08Z",
-    "forked_at": "2022-09-28T08:53:24Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
   },
   {
     "name": "Cypress_Typescript_e2e",
-    "url": "https://github.com/AZANIR/Cypress_Typescript_e2e",
+    "url": null,
     "category": "qa",
     "upstream": "cri-us/Cypress_Typescript_e2e",
     "upstream_url": "https://github.com/cri-us/Cypress_Typescript_e2e",
@@ -1819,8 +1830,9 @@
     "language": "TypeScript",
     "license": null,
     "upstream_pushed_at": "2022-04-27T21:51:38Z",
-    "forked_at": "2022-04-28T08:25:36Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -1995,7 +2007,7 @@
     "upstream_url": "https://github.com/altic-dev/FluidVoice",
     "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
     "homepage": "https://altic.dev/fluid",
-    "stars": 9096,
+    "stars": 9097,
     "language": "Swift",
     "license": "GPL-3.0",
     "upstream_pushed_at": "2026-07-29T04:07:04Z",
@@ -2043,7 +2055,7 @@
     "upstream_url": "https://github.com/Alishahryar1/free-claude-code",
     "description": "Use claude code, codex or pi for free from the terminal, IDE, or your phone like OpenClaw (voice supported)",
     "homepage": "",
-    "stars": 42878,
+    "stars": 42879,
     "language": "Python",
     "license": "MIT",
     "upstream_pushed_at": "2026-07-29T11:20:33Z",
@@ -2161,7 +2173,7 @@
     "upstream_url": "https://github.com/NationalSecurityAgency/ghidra",
     "description": "Ghidra is a software reverse engineering (SRE) framework",
     "homepage": "https://www.nsa.gov/ghidra",
-    "stars": 71582,
+    "stars": 71583,
     "language": "Java",
     "license": "Apache-2.0",
     "upstream_pushed_at": "2026-07-29T14:08:56Z",
@@ -2251,7 +2263,7 @@
   },
   {
     "name": "graphql-visualizer",
-    "url": "https://github.com/AZANIR/graphql-visualizer",
+    "url": null,
     "category": "media",
     "upstream": "NathanRSmith/graphql-visualizer",
     "upstream_url": "https://github.com/NathanRSmith/graphql-visualizer",
@@ -2261,8 +2273,9 @@
     "language": "JavaScript",
     "license": "MIT",
     "upstream_pushed_at": "2016-12-01T16:18:09Z",
-    "forked_at": "2025-05-07T12:01:54Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -2391,10 +2404,10 @@
     "upstream_url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
     "homepage": "https://hermes-agent.nousresearch.com",
-    "stars": 222243,
+    "stars": 222244,
     "language": "Python",
     "license": "MIT",
-    "upstream_pushed_at": "2026-07-29T18:10:56Z",
+    "upstream_pushed_at": "2026-07-29T18:21:09Z",
     "forked_at": "2026-03-31T21:04:19Z",
     "badges": [],
     "note": null
@@ -2499,7 +2512,7 @@
   },
   {
     "name": "k6-Grafana-InfluxDb-GitHubCopilot",
-    "url": "https://github.com/AZANIR/k6-Grafana-InfluxDb-GitHubCopilot",
+    "url": null,
     "category": "qa",
     "upstream": "YegorMaksymchuk/k6-Grafana-InfluxDb-GitHubCopilot",
     "upstream_url": "https://github.com/YegorMaksymchuk/k6-Grafana-InfluxDb-GitHubCopilot",
@@ -2509,8 +2522,9 @@
     "language": "JavaScript",
     "license": null,
     "upstream_pushed_at": "2025-07-27T13:51:43Z",
-    "forked_at": "2025-09-29T19:43:17Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -2555,7 +2569,7 @@
     "upstream_url": "https://github.com/mvanhorn/last30days-skill",
     "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
     "homepage": null,
-    "stars": 54991,
+    "stars": 54992,
     "language": "Python",
     "license": "MIT",
     "upstream_pushed_at": "2026-07-28T21:16:55Z",
@@ -2565,7 +2579,7 @@
   },
   {
     "name": "LearningTerraform",
-    "url": "https://github.com/AZANIR/LearningTerraform",
+    "url": null,
     "category": "devops",
     "upstream": "dimdimuzun/LearningTerraform",
     "upstream_url": "https://github.com/dimdimuzun/LearningTerraform",
@@ -2575,8 +2589,9 @@
     "language": "HCL",
     "license": null,
     "upstream_pushed_at": "2023-08-02T05:57:08Z",
-    "forked_at": "2026-04-02T19:11:40Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -2647,7 +2662,7 @@
   },
   {
     "name": "LumenRvenu",
-    "url": "https://github.com/AZANIR/LumenRvenu",
+    "url": null,
     "category": "archive",
     "upstream": "LumenRvenu/LumenRvenu",
     "upstream_url": "https://github.com/LumenRvenu/LumenRvenu",
@@ -2657,8 +2672,9 @@
     "language": null,
     "license": null,
     "upstream_pushed_at": "2022-02-11T10:06:16Z",
-    "forked_at": "2022-10-19T19:01:49Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -2687,7 +2703,7 @@
     "upstream_url": "https://github.com/microsoft/markitdown",
     "description": "Python tool for converting files and office documents to Markdown.",
     "homepage": "",
-    "stars": 170005,
+    "stars": 170006,
     "language": "Python",
     "license": "MIT",
     "upstream_pushed_at": "2026-07-29T18:18:09Z",
@@ -2719,7 +2735,7 @@
     "upstream_url": "https://github.com/Zackriya-Solutions/meetily",
     "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
     "homepage": "https://meetily.ai",
-    "stars": 27351,
+    "stars": 27352,
     "language": "Rust",
     "license": "MIT",
     "upstream_pushed_at": "2026-06-05T13:53:17Z",
@@ -2738,7 +2754,7 @@
     "stars": 31287,
     "language": "Rust",
     "license": "MIT",
-    "upstream_pushed_at": "2026-07-29T18:17:36Z",
+    "upstream_pushed_at": "2026-07-29T18:21:31Z",
     "forked_at": "2025-10-31T21:52:45Z",
     "badges": [],
     "note": "заміна asdf/nvm/pyenv одним бінарником — керує і версіями інструментів, і env, і тасками"
@@ -2873,7 +2889,7 @@
   },
   {
     "name": "nn-zero-to-hero",
-    "url": "https://github.com/AZANIR/nn-zero-to-hero",
+    "url": null,
     "category": "resources",
     "upstream": "karpathy/nn-zero-to-hero",
     "upstream_url": "https://github.com/karpathy/nn-zero-to-hero",
@@ -2883,8 +2899,9 @@
     "language": "Jupyter Notebook",
     "license": "MIT",
     "upstream_pushed_at": "2024-08-18T12:16:26Z",
-    "forked_at": "2025-09-29T17:42:16Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -3011,10 +3028,10 @@
     "upstream_url": "https://github.com/diegosouzapw/OmniRoute",
     "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
     "homepage": "https://omniroute.online",
-    "stars": 33938,
+    "stars": 33939,
     "language": "TypeScript",
     "license": "MIT",
-    "upstream_pushed_at": "2026-07-29T14:24:30Z",
+    "upstream_pushed_at": "2026-07-29T18:18:56Z",
     "forked_at": "2026-04-04T19:35:19Z",
     "badges": [],
     "note": null
@@ -3027,7 +3044,7 @@
     "upstream_url": "https://github.com/nexu-io/open-design",
     "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
     "homepage": "https://open-design.ai",
-    "stars": 82492,
+    "stars": 82494,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "upstream_pushed_at": "2026-07-29T17:59:12Z",
@@ -3075,10 +3092,10 @@
     "upstream_url": "https://github.com/openclaw/openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
     "homepage": "https://openclaw.ai",
-    "stars": 384468,
+    "stars": 384469,
     "language": "TypeScript",
     "license": "NOASSERTION",
-    "upstream_pushed_at": "2026-07-29T18:15:22Z",
+    "upstream_pushed_at": "2026-07-29T18:21:24Z",
     "forked_at": "2026-01-31T14:20:20Z",
     "badges": [],
     "note": null
@@ -3285,7 +3302,7 @@
     "upstream_url": "https://github.com/calesthio/OpenMontage",
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
     "homepage": "https://www.openmontage.video/",
-    "stars": 43811,
+    "stars": 43813,
     "language": "Python",
     "license": "AGPL-3.0",
     "upstream_pushed_at": "2026-07-24T19:25:54Z",
@@ -3295,7 +3312,7 @@
   },
   {
     "name": "openscreen",
-    "url": "https://github.com/AZANIR/openscreen",
+    "url": null,
     "category": "media",
     "upstream": "siddharthvaddem/openscreen",
     "upstream_url": "https://github.com/siddharthvaddem/openscreen",
@@ -3305,8 +3322,9 @@
     "language": "TypeScript",
     "license": "MIT",
     "upstream_pushed_at": "2026-06-17T02:34:20Z",
-    "forked_at": "2026-05-30T09:38:25Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "archived"
     ],
     "note": null
@@ -3351,7 +3369,7 @@
     "upstream_url": "https://github.com/stablyai/orca",
     "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
     "homepage": "https://onOrca.dev",
-    "stars": 32596,
+    "stars": 32599,
     "language": "TypeScript",
     "license": "MIT",
     "upstream_pushed_at": "2026-07-29T18:07:26Z",
@@ -3569,7 +3587,7 @@
   },
   {
     "name": "playwright-ts",
-    "url": "https://github.com/AZANIR/playwright-ts",
+    "url": null,
     "category": "qa",
     "upstream": "leraroy/playwright-ts",
     "upstream_url": "https://github.com/leraroy/playwright-ts",
@@ -3579,8 +3597,9 @@
     "language": "TypeScript",
     "license": null,
     "upstream_pushed_at": "2022-10-14T11:50:41Z",
-    "forked_at": "2022-09-21T14:54:08Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -3621,7 +3640,7 @@
   },
   {
     "name": "PlayWrightProject",
-    "url": "https://github.com/AZANIR/PlayWrightProject",
+    "url": null,
     "category": "qa",
     "upstream": "Andrey-Pivtorak/PlayWrightProject",
     "upstream_url": "https://github.com/Andrey-Pivtorak/PlayWrightProject",
@@ -3631,8 +3650,9 @@
     "language": "TypeScript",
     "license": null,
     "upstream_pushed_at": "2022-12-12T23:55:53Z",
-    "forked_at": "2022-12-19T17:14:27Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": "правила не бачать playwright у злитій назві PlayWrightProject — саме такі випадки й потрапляють у «Нерозібране»"
@@ -3671,7 +3691,7 @@
   },
   {
     "name": "Postman-newman-ghActions",
-    "url": "https://github.com/AZANIR/Postman-newman-ghActions",
+    "url": null,
     "category": "qa",
     "upstream": "Cryzalis/Postman-newman-ghActions",
     "upstream_url": "https://github.com/Cryzalis/Postman-newman-ghActions",
@@ -3681,8 +3701,9 @@
     "language": null,
     "license": null,
     "upstream_pushed_at": "2022-10-20T12:24:56Z",
-    "forked_at": "2022-10-21T06:02:32Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -3778,14 +3799,14 @@
     "stars": 3442,
     "language": "Python",
     "license": "NOASSERTION",
-    "upstream_pushed_at": "2026-07-29T18:07:37Z",
+    "upstream_pushed_at": "2026-07-29T18:21:25Z",
     "forked_at": "2026-06-05T06:14:46Z",
     "badges": [],
     "note": null
   },
   {
     "name": "recon-ng",
-    "url": "https://github.com/AZANIR/recon-ng",
+    "url": null,
     "category": "security",
     "upstream": "lanmaster53/recon-ng",
     "upstream_url": "https://github.com/lanmaster53/recon-ng",
@@ -3795,15 +3816,16 @@
     "language": "Python",
     "license": "GPL-3.0",
     "upstream_pushed_at": "2024-11-01T20:11:51Z",
-    "forked_at": "2026-05-23T17:58:57Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
   },
   {
     "name": "Red-team-Interview-Questions",
-    "url": "https://github.com/AZANIR/Red-team-Interview-Questions",
+    "url": null,
     "category": "security",
     "upstream": "HadessCS/Red-team-Interview-Questions",
     "upstream_url": "https://github.com/HadessCS/Red-team-Interview-Questions",
@@ -3813,8 +3835,9 @@
     "language": null,
     "license": null,
     "upstream_pushed_at": "2025-04-11T10:47:57Z",
-    "forked_at": "2025-09-03T16:30:30Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -3859,7 +3882,7 @@
     "upstream_url": "https://github.com/rtk-ai/rtk",
     "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
     "homepage": "https://www.rtk-ai.app",
-    "stars": 73829,
+    "stars": 73830,
     "language": "Rust",
     "license": "Apache-2.0",
     "upstream_pushed_at": "2026-07-28T17:36:50Z",
@@ -3901,7 +3924,7 @@
   },
   {
     "name": "sampler",
-    "url": "https://github.com/AZANIR/sampler",
+    "url": null,
     "category": "devops",
     "upstream": "sqshq/sampler",
     "upstream_url": "https://github.com/sqshq/sampler",
@@ -3911,8 +3934,9 @@
     "language": "Go",
     "license": "GPL-3.0",
     "upstream_pushed_at": "2024-02-22T10:21:15Z",
-    "forked_at": "2025-11-02T12:10:22Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -3967,7 +3991,7 @@
   },
   {
     "name": "SecCertRoadmapHTML",
-    "url": "https://github.com/AZANIR/SecCertRoadmapHTML",
+    "url": null,
     "category": "security",
     "upstream": "PaulJerimy/SecCertRoadmapHTML",
     "upstream_url": "https://github.com/PaulJerimy/SecCertRoadmapHTML",
@@ -3977,8 +4001,9 @@
     "language": "HTML",
     "license": "CC-BY-SA-4.0",
     "upstream_pushed_at": "2024-08-20T06:00:50Z",
-    "forked_at": "2025-09-04T10:06:23Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -4067,7 +4092,7 @@
   },
   {
     "name": "ShyamPraveenSingh",
-    "url": "https://github.com/AZANIR/ShyamPraveenSingh",
+    "url": null,
     "category": "archive",
     "upstream": "ShyamPraveenSingh/ShyamPraveenSingh",
     "upstream_url": "https://github.com/ShyamPraveenSingh/ShyamPraveenSingh",
@@ -4077,8 +4102,9 @@
     "language": null,
     "license": null,
     "upstream_pushed_at": "2025-05-15T13:38:09Z",
-    "forked_at": "2021-02-20T19:01:42Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -4139,7 +4165,7 @@
     "upstream_url": "https://github.com/anthropics/skills",
     "description": "Public repository for Agent Skills",
     "homepage": "",
-    "stars": 165022,
+    "stars": 165023,
     "language": "Python",
     "license": null,
     "upstream_pushed_at": "2026-07-24T20:12:36Z",
@@ -4173,7 +4199,7 @@
     "upstream_url": "https://github.com/mattpocock/skills",
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
     "homepage": "",
-    "stars": 194325,
+    "stars": 194327,
     "language": "Shell",
     "license": "MIT",
     "upstream_pushed_at": "2026-07-29T11:37:10Z",
@@ -4287,7 +4313,7 @@
     "upstream_url": "https://github.com/usestrix/strix",
     "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
     "homepage": "https://strix.ai",
-    "stars": 45559,
+    "stars": 45560,
     "language": "Python",
     "license": "Apache-2.0",
     "upstream_pushed_at": "2026-07-29T18:06:00Z",
@@ -4321,7 +4347,7 @@
     "upstream_url": "https://github.com/obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
     "homepage": "",
-    "stars": 263157,
+    "stars": 263159,
     "language": "Shell",
     "license": "MIT",
     "upstream_pushed_at": "2026-07-28T19:25:36Z",
@@ -4443,7 +4469,7 @@
   },
   {
     "name": "task-magic",
-    "url": "https://github.com/AZANIR/task-magic",
+    "url": null,
     "category": "agents",
     "upstream": "iannuttall/task-magic",
     "upstream_url": "https://github.com/iannuttall/task-magic",
@@ -4453,8 +4479,9 @@
     "language": null,
     "license": null,
     "upstream_pushed_at": "2025-05-19T08:43:00Z",
-    "forked_at": "2025-09-01T19:25:38Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "archived",
       "stale"
     ],
@@ -4462,19 +4489,20 @@
   },
   {
     "name": "the-book-of-secret-knowledge",
-    "url": "https://github.com/AZANIR/the-book-of-secret-knowledge",
+    "url": null,
     "category": "resources",
     "upstream": "trimstray/the-book-of-secret-knowledge",
     "upstream_url": "https://github.com/trimstray/the-book-of-secret-knowledge",
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
     "homepage": "",
-    "stars": 235737,
+    "stars": 235738,
     "language": null,
     "license": "MIT",
     "upstream_pushed_at": "2024-11-19T14:00:38Z",
-    "forked_at": "2026-03-10T16:33:36Z",
+    "forked_at": null,
     "badges": [
       "list",
+      "linkonly",
       "stale"
     ],
     "note": null
@@ -4503,7 +4531,7 @@
     "upstream_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
     "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
     "homepage": "https://www.uupm.cc/",
-    "stars": 111405,
+    "stars": 111408,
     "language": "Python",
     "license": "MIT",
     "upstream_pushed_at": "2026-07-28T05:00:36Z",
@@ -4657,7 +4685,7 @@
   },
   {
     "name": "wdio-selenoid-boilerplate",
-    "url": "https://github.com/AZANIR/wdio-selenoid-boilerplate",
+    "url": null,
     "category": "qa",
     "upstream": "sherlock1982/wdio-selenoid-boilerplate",
     "upstream_url": "https://github.com/sherlock1982/wdio-selenoid-boilerplate",
@@ -4667,15 +4695,16 @@
     "language": "JavaScript",
     "license": null,
     "upstream_pushed_at": "2023-01-26T21:43:27Z",
-    "forked_at": "2022-01-09T15:43:51Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "stale"
     ],
     "note": null
   },
   {
     "name": "web-eval-agent",
-    "url": "https://github.com/AZANIR/web-eval-agent",
+    "url": null,
     "category": "qa",
     "upstream": "refreshdotdev/web-eval-agent",
     "upstream_url": "https://github.com/refreshdotdev/web-eval-agent",
@@ -4685,8 +4714,9 @@
     "language": "Python",
     "license": "Apache-2.0",
     "upstream_pushed_at": "2026-02-11T14:55:42Z",
-    "forked_at": "2026-04-02T19:02:48Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "archived"
     ],
     "note": null
@@ -4709,7 +4739,7 @@
   },
   {
     "name": "ZennoPoster-project-template",
-    "url": "https://github.com/AZANIR/ZennoPoster-project-template",
+    "url": null,
     "category": "web",
     "upstream": "ZennoHelpers/ZennoPoster-project-template",
     "upstream_url": "https://github.com/ZennoHelpers/ZennoPoster-project-template",
@@ -4719,8 +4749,9 @@
     "language": "C#",
     "license": null,
     "upstream_pushed_at": "2021-02-11T04:35:57Z",
-    "forked_at": "2019-09-18T13:09:11Z",
+    "forked_at": null,
     "badges": [
+      "linkonly",
       "archived",
       "stale"
     ],
