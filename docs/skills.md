@@ -6,17 +6,17 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [obra/superpowers](https://github.com/obra/superpowers) | 263 204 | Shell | An agentic skills framework & software development methodology that works. |
+| [obra/superpowers](https://github.com/obra/superpowers) | 263 205 | Shell | An agentic skills framework & software development methodology that works. |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 235 482 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and… **— harness-система: skills, інстинкти, пам'ять і research-first підхід одним набором** |
-| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 197 607 | — | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 194 402 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 197 609 | — | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 194 403 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
 | [anthropics/skills](https://github.com/anthropics/skills) | 165 035 | Python | Public repository for Agent Skills |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | 125 152 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 111 430 | Python | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 605 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 63 705 | HTML | from vibe coding to agentic engineering - practice makes claude perfect |
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 61 321 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1… |
-| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 55 031 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | 125 153 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 111 431 | Python | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 606 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 63 706 | HTML | from vibe coding to agentic engineering - practice makes claude perfect |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 61 322 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1… |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 55 032 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
 | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) 📋 | 51 596 | — | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 |
 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 44 134 | Python | AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 1,987+ agentic… |
 | [wshobson/agents](https://github.com/wshobson/agents) | 38 355 | Python | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
@@ -32,7 +32,7 @@
 | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) 📋 | 17 498 | Python | A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or… |
 | [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) 📋 | 9 217 | JavaScript | A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai |
 | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | 9 158 | Python | GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup,… |
-| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 6 862 | Python | Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram,… |
+| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 6 863 | Python | Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram,… |
 | [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) 📋 | 6 112 | TypeScript | 🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus,… |
 | [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) 📋 | 5 859 | — | A collection of 130+ specialized Codex subagents covering a wide range of development use cases. |
 | [oso95/scroll-world](https://github.com/oso95/scroll-world) | 5 728 | JavaScript | A skill that turn any brand into a scrollable 3D world |

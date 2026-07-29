@@ -7,14 +7,14 @@
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 170 033 | Python | Python tool for converting files and office documents to Markdown. |
-| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 82 514 | TypeScript | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards,… |
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 82 515 | TypeScript | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards,… |
 | [penpot/penpot](https://github.com/penpot/penpot) | 57 691 | Clojure | Penpot: The open-source design platform for Product teams that need scalable collaboration. |
 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 43 844 | Python | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI… |
 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 41 814 | Python | AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio… |
 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) ⚠️ | 39 863 | TypeScript | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. |
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 38 609 | TypeScript | Write HTML. Render video. Built for agents. |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 38 610 | TypeScript | Write HTML. Render video. Built for agents. |
 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 27 996 | Java | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
-| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 27 365 | Rust | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local… **— правила чіпляються за privacy first, але це транскрибування зустрічей** |
+| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 27 366 | Rust | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local… **— правила чіпляються за privacy first, але це транскрибування зустрічей** |
 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | 12 629 | Python | Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. |
 | [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 7 633 | Python | An AI-boost cross-platform multi-protocol fluent-design concurrent downloader built with Python & Qt. |
 | [persepolisdm/persepolis](https://github.com/persepolisdm/persepolis) | 7 427 | Python | Persepolis is a download manager written in Python. |

@@ -6,7 +6,7 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 98 363 | Python | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini… |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 98 364 | Python | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini… |
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 88 968 | JavaScript | Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back… |
 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 76 702 | TypeScript | Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code,… |
 | [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | 36 155 | TypeScript | An Open Source implementation of Notebook LM with more flexibility and features |
