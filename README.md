@@ -4,7 +4,7 @@
 
 Форків не тримаю: копія чужого репозиторію застаріває з першим же комітом в оригіналі, а посилання — ні. Каталог веде до джерел і щотижня перевіряє, чи вони ще живі.
 
-`Проєктів: 286` · `Сумарно ★: 7 342 994` · `Оновлено: 29.07.2026`
+`Проєктів: 286` · `Сумарно ★: 7 343 011` · `Оновлено: 29.07.2026`
 
 ### Позначки
 
@@ -52,7 +52,7 @@
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
 | [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) 📋 | 72 486 | PHP | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types… |
-| [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 71 585 | Java | Ghidra is a software reverse engineering (SRE) framework |
+| [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 71 586 | Java | Ghidra is a software reverse engineering (SRE) framework |
 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 46 255 | TypeScript | Shannon is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits… |
 | [usestrix/strix](https://github.com/usestrix/strix) | 45 564 | Python | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. |
 | [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | 44 498 | Python | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
@@ -62,7 +62,7 @@
 | [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) | 23 600 | JavaScript | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites |
 | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 21 349 | Go | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
 | [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) | 18 026 | — | This repository contains a 90-day cybersecurity study plan, along with resources and materials for learning various cybersecurity concepts and technologies. The… |
-| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 13 935 | Python | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks. |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 13 936 | Python | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks. |
 | [awslabs/git-secrets](https://github.com/awslabs/git-secrets) | 13 358 | Shell | Prevents you from committing secrets and credentials into git repositories |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 📋 | 12 712 | JavaScript | Community curated list of templates for the nuclei engine to find security vulnerabilities. |
 | [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) 📋 | 10 496 | — | A curated list of Awesome Threat Intelligence resources |
@@ -136,14 +136,14 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [obra/superpowers](https://github.com/obra/superpowers) | 263 172 | Shell | An agentic skills framework & software development methodology that works. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 235 433 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and… **— harness-система: skills, інстинкти, пам'ять і research-first підхід одним набором** |
+| [obra/superpowers](https://github.com/obra/superpowers) | 263 174 | Shell | An agentic skills framework & software development methodology that works. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 235 434 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and… **— harness-система: skills, інстинкти, пам'ять і research-first підхід одним набором** |
 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 197 579 | — | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 194 350 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 194 352 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
 | [anthropics/skills](https://github.com/anthropics/skills) | 165 029 | Python | Public repository for Agent Skills |
 | [garrytan/gstack](https://github.com/garrytan/gstack) | 125 140 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 111 415 | Python | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 573 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 111 416 | Python | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 574 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 63 700 | HTML | from vibe coding to agentic engineering - practice makes claude perfect |
 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 61 310 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1… |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 55 003 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
@@ -195,7 +195,7 @@
 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | 51 182 | Python | Open-Source Frontier Voice AI |
 | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | 45 493 | Go | Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT… |
 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 42 882 | Python | Use claude code, codex or pi for free from the terminal, IDE, or your phone like OpenClaw (voice supported) |
-| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 33 956 | TypeScript | Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with… |
+| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 33 957 | TypeScript | Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with… |
 | [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) | 30 251 | Rust | Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity… **— не просто перемикач акаунтів: під капотом проксі-шлюз диспетчеризації запитів до AI-провайдерів** |
 | [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) 📋 | 28 655 | Python | A list of free LLM inference resources accessible via API. |
 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | 26 912 | Python | Fully automatic censorship removal for language models |
@@ -275,10 +275,10 @@
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 384 474 | TypeScript | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 222 255 | Python | The agent that grows with you |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 222 256 | Python | The agent that grows with you |
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 198 561 | TypeScript | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194 942 | Rust | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. |
-| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 137 420 | Shell | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized… |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 137 421 | Shell | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized… |
 | [github/spec-kit](https://github.com/github/spec-kit) | 124 468 | Python | 💫 Toolkit to help you get started with Spec-Driven Development |
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 92 331 | Python | AI agents running research on single-GPU nanochat training automatically |
 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | 80 959 | TypeScript | 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team. |
@@ -289,7 +289,7 @@
 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 46 381 | Python | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps |
 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 46 289 | Python | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 39 499 | Rust | Browser automation CLI for AI agents |
-| [stablyai/orca](https://github.com/stablyai/orca) | 32 615 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. |
+| [stablyai/orca](https://github.com/stablyai/orca) | 32 616 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. |
 | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 30 549 | TypeScript | Clone any website with one command using AI coding agents |
 | [simstudioai/sim](https://github.com/simstudioai/sim) | 29 233 | TypeScript | Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce. |
 | [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 28 778 | Python | Python scraper based on AI |
@@ -303,7 +303,7 @@
 | [trycua/cua](https://github.com/trycua/cua) | 20 759 | HTML | Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation. |
 | [iii-hq/iii](https://github.com/iii-hq/iii) | 18 530 | Rust | Effortlessly compose, extend, and observe every service in real-time for the first time ever. |
 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 16 877 | TypeScript | Open-source AI coworker, with memory |
-| [block/buzz](https://github.com/block/buzz) | 16 760 | Rust | A hive mind communication platform **— спільний простір, де люди й агенти працюють над задачею на власному релеї** |
+| [block/buzz](https://github.com/block/buzz) | 16 763 | Rust | A hive mind communication platform **— спільний простір, де люди й агенти працюють над задачею на власному релеї** |
 | [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14 491 | TypeScript | Autonomous multi-session AI coding |
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 13 920 | Python | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |
 | [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) | 13 623 | TypeScript | Desktop Companion for Hermes Agent |
@@ -386,7 +386,7 @@
 | --- | --: | --- | --- |
 | [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 📋💤 | 235 741 | — | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. |
 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 40 652 | Python | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. |
-| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 26 119 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
+| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 26 120 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
 | [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero) 💤 | 23 772 | Jupyter Notebook | Neural Networks: Zero to Hero |
 | [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 23 533 | Jupyter Notebook | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. |
 | [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | 21 202 | Jupyter Notebook | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment. |
