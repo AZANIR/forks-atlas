@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 288" width="240" height="216" role="img" aria-label="Тека «LLM-інфра», 15 проєктів">
+  <title>Тека «LLM-інфра», 15 проєктів</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26262b"/>
+      <stop offset="1" stop-color="#161619"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4ae8ff"/>
+      <stop offset="1" stop-color="#3cbcd3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="320" height="288" rx="28" fill="url(#tile)"/>
+  <!-- Верхня грань ловить світло: так поверхня читається як матеріал, а не як заливка. -->
+  <rect x="1" y="1" width="318" height="286" rx="27" fill="none"
+        stroke="#ffffff" stroke-opacity="0.09"/>
+  <path d="M29 1 H291" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+
+  <g>
+    <rect x="80" y="56" width="68" height="34" rx="11" fill="#2f94a6"/>
+    <rect x="80" y="72" width="160" height="100" rx="16" fill="#33a0b3"/>
+    <rect x="80" y="90" width="160" height="82" rx="16" fill="url(#front)"/>
+    <path d="M96 91 H224" stroke="#ffffff" stroke-opacity="0.34" stroke-width="1.5"/>
+  </g>
+
+  <text x="160" y="214" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="27" font-weight="600" letter-spacing="-0.3">LLM-інфра</text>
+  <text x="160" y="248" text-anchor="middle" fill="#98989d" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="21" letter-spacing="0.2">15 проєктів</text>
+</svg>

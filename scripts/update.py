@@ -22,6 +22,8 @@ import sys
 import time
 import urllib.error
 import urllib.request
+
+import artwork
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -31,6 +33,10 @@ README = ROOT / "README.md"
 DATA = ROOT / "data" / "forks.json"
 OVERRIDES = ROOT / "scripts" / "overrides.json"
 EXTRA = ROOT / "scripts" / "extra.json"
+DOCS = ROOT / "docs"
+ASSETS = ROOT / "assets" / "readme"
+HERO = "assets/readme/hero.svg"
+HERO_PATH = ROOT / HERO
 
 PAGE_SIZE = 50          # 100 вузлів із вкладеним parent перевищують ліміт вартості GraphQL
 STALE_DAYS = 365        # після цього оригінал вважається «сплячим»
@@ -273,6 +279,24 @@ OTHER = {
         "у `scripts/overrides.json`; якщо цей блок росте — правила потребують уваги."
     ),
     "keywords": [],
+}
+
+# Візуальна мова тек: коротка назва для іконки та колір.
+# Палітра — системні кольори macOS у темному варіанті, щоб теки читались
+# як мітки Finder, а не як випадкові плями.
+LOOK = {
+    "archive":   ("Архів",      "#8e8e93"),
+    "security":  ("Безпека",    "#ff453a"),
+    "qa":        ("QA",         "#30d158"),
+    "skills":    ("Skills",     "#bf5af2"),
+    "llm-infra": ("LLM-інфра",  "#40c8e0"),
+    "memory":    ("Пам'ять",    "#5e5ce6"),
+    "media":     ("Медіа",      "#ff375f"),
+    "agents":    ("Агенти",     "#0a84ff"),
+    "devops":    ("DevOps",     "#ff9f0a"),
+    "resources": ("Ресурси",    "#ffd60a"),
+    "web":       ("Веб",        "#63e6be"),
+    "other":     ("Інше",       "#98989d"),
 }
 
 BADGES = {
@@ -579,57 +603,62 @@ def cell(text: str, limit: int = DESC_LIMIT) -> str:
     return text or "—"
 
 
-def render(rows: list[dict], now: datetime) -> str:
+def render_index(rows, now, shown, any_fork):
+    """README.md — робочий стіл: обкладинка, сітка тек, коротка довідка."""
     order = [*CATEGORIES, OTHER]
-    grouped = {c["key"]: [] for c in order}
-    for row in rows:
-        grouped.setdefault(row["category"], []).append(row)
+    grouped = group(rows)
+    live = [c for c in order if grouped.get(c["key"])]
 
     total = len(rows)
-    forked = sum(1 for r in rows if r["url"])
     stars = sum(r["stars"] or 0 for r in rows)
-    # Колонка «Оригінал» має сенс лише поки є що з чим зіставляти. Якщо форків
-    # не лишилось, вона перетворюється на стовпчик прочерків — тоді її немає.
-    any_fork = forked > 0
     out: list[str] = []
     add = out.append
 
-    add(f"# Атлас проєктів [@{USER}](https://github.com/{USER})")
+    add(f"![Атлас проєктів @{USER} — {artwork.projects(total)}]({HERO})")
     add("")
-    add(
-        f"Каталог **{total}** проєктів, за якими стежу: що це, звідки і навіщо тут. "
-        "Оновлюється автоматично раз на тиждень."
-    )
-    add("")
+
     if any_fork:
+        forked = sum(1 for r in rows if r["url"])
         add(
-            f"Більшість — форки ({forked}). Решта позначена 🔗: форк видалено або його "
-            "не було, але сам проєкт лишається вартим уваги. Каталог переживає видалення "
-            "форку — запис нікуди не зникає."
-        )
-        add("")
-        add(
-            f"`Записів: {total}` · `З них форків: {forked}` "
-            f"· `Сумарно ★: {thousands(stars)}` · `Оновлено: {now:%d.%m.%Y}`"
+            f"Каталог проєктів, за якими стежу. Більшість — форки ({forked}); решта "
+            "позначена 🔗. Розкладено по теках, оновлюється автоматично раз на тиждень."
         )
     else:
         add(
-            "Форків не тримаю: копія чужого репозиторію застаріває з першим же комітом "
-            "в оригіналі, а посилання — ні. Каталог веде до джерел і щотижня перевіряє, "
-            "чи вони ще живі."
-        )
-        add("")
-        add(
-            f"`Проєктів: {total}` · `Сумарно ★: {thousands(stars)}` "
-            f"· `Оновлено: {now:%d.%m.%Y}`"
+            "Каталог проєктів, за якими стежу. Форків не тримаю: копія чужого "
+            "репозиторію застаріває з першим же комітом в оригіналі, а посилання — ні. "
+            "Розкладено по теках, оновлюється автоматично раз на тиждень."
         )
     add("")
-    # Легенда показує лише ті мітки, що справді трапляються. А 🔗 ховається,
-    # коли форків немає взагалі: позначка на всіх 286 рядках нічого не виділяє,
-    # і про це вже сказано абзацом вище.
-    shown = {b for r in rows for b in r["badges"]}
-    if not any_fork:
-        shown.discard("linkonly")
+
+    # Сітка тек. Три колонки: чотири по 240 пікселів уже не вміщаються
+    # в контентну ширину GitHub і поїхали б у горизонтальний скрол.
+    add("<table>")
+    for start in range(0, len(live), 3):
+        add("  <tr>")
+        for cat in live[start:start + 3]:
+            key = cat["key"]
+            label = LOOK[key][0]
+            count = len(grouped[key])
+            add(
+                f'    <td align="center" width="33%">'
+                f'<a href="docs/{key}.md">'
+                f'<img src="assets/readme/folder-{key}.svg" width="240" '
+                f'alt="{label} — {artwork.projects(count)}"></a></td>'
+            )
+        add("  </tr>")
+    add("</table>")
+    add("")
+
+    # Текстовий дублікат сітки: працює на вузькому екрані, у скрін-рідері
+    # і тоді, коли картинки не завантажились.
+    jump = " · ".join(
+        f"[{LOOK[c['key']][0]}](docs/{c['key']}.md) {len(grouped[c['key']])}"
+        for c in live
+    )
+    add(f"**Швидкий перехід** · {jump}")
+    add("")
+
     if shown:
         add("### Позначки")
         add("")
@@ -637,62 +666,11 @@ def render(rows: list[dict], now: datetime) -> str:
             if key in shown:
                 add(f"- {icon} — {meaning}")
         add("")
-    add(
-        "> Формат не є темою: awesome-список про безпеку лежить у розділі безпеки з міткою 📋, "
-        "а не в загальному списку списків. Категорія відповідає на питання «про що це», "
-        "мітка — «в якому це вигляді»."
-    )
-    add("")
-    add("## Зміст")
-    add("")
-    for category in order:
-        items = grouped.get(category["key"]) or []
-        if items:
-            add(f"- [{category['title']}](#cat-{category['key']}) — {len(items)}")
-    add("")
-    add("---")
-    add("")
-
-    for category in order:
-        items = grouped.get(category["key"]) or []
-        if not items:
-            continue
-        add(f'<a id="cat-{category["key"]}"></a>')
-        add("")
-        add(f"## {category['title']}")
-        add("")
-        add(category["blurb"])
-        add("")
-        if any_fork:
-            add("| Проєкт | Оригінал | ★ | Мова | Що це |")
-            add("| --- | --- | --: | --- | --- |")
-        else:
-            add("| Проєкт | ★ | Мова | Що це |")
-            add("| --- | --: | --- | --- |")
-        for row in sorted(items, key=lambda r: (-(r["stars"] or 0), r["name"].lower())):
-            icons = "".join(BADGES[b][0] for b in row["badges"] if b in shown)
-            if row["url"]:
-                name = f"[{row['name']}]({row['url']})"
-                upstream = (
-                    f"[{row['upstream']}]({row['upstream_url']})"
-                    if row["upstream"] else "—"
-                )
-            else:
-                # Без форку єдине існуюче посилання — на сам проєкт, і воно
-                # переїжджає в першу колонку. Коротка назва тут не годиться:
-                # 'skills' у каталозі три штуки від різних авторів.
-                name = f"[{row['upstream']}]({row['upstream_url']})"
-                upstream = "—"
-            if icons:
-                name = f"{name} {icons}"
-            description = cell(row["description"])
-            if row["note"]:
-                description = f"{description} **— {cell(row['note'], 120)}**"
-            tail = (
-                f"{thousands(row['stars'] or 0)} | {row['language'] or '—'} "
-                f"| {description} |"
-            )
-            add(f"| {name} | {upstream} | {tail}" if any_fork else f"| {name} | {tail}")
+        add(
+            "> Формат не є темою: awesome-список про безпеку лежить у теці безпеки "
+            "з міткою 📋, а не в окремому списку списків. Тека відповідає на питання "
+            "«про що це», мітка — «в якому це вигляді»."
+        )
         add("")
 
     add("---")
@@ -702,14 +680,149 @@ def render(rows: list[dict], now: datetime) -> str:
     add(
         "`scripts/update.py` тягне список форків через GitHub GraphQL, додає проєкти з "
         "`scripts/extra.json` (ті, за якими стежимо без форку), розкладає все за правилами "
-        "(назва + опис + теми оригіналу) і перегенеровує цей файл разом із `data/forks.json`. "
-        "Правила й тексти категорій лежать у самому скрипті, ручні виправлення — "
-        "у `scripts/overrides.json`."
+        "і перегенеровує цю сторінку, теки в `docs/` та `data/forks.json`. Правила й тексти "
+        "категорій лежать у самому скрипті, ручні виправлення — у `scripts/overrides.json`."
     )
     add("")
-    add("Деталі, формат винятків і як додати категорію — у [docs/how-it-works.md](docs/how-it-works.md).")
+    add(
+        f"`{artwork.projects(total)}` · `{artwork.thousands(stars)} ★ сумарно` "
+        f"· `{len(live)} {artwork.plural(len(live), 'тека', 'теки', 'тек')}` "
+        f"· `оновлено {now:%d.%m.%Y}`"
+    )
+    add("")
+    add(
+        "Деталі, формат винятків і як додати категорію — "
+        "у [docs/how-it-works.md](docs/how-it-works.md)."
+    )
     add("")
     return "\n".join(out)
+
+
+def render_category(cat, items, shown, any_fork, live):
+    """docs/<key>.md — відкрита тека: шапка-вікно, пояснення, таблиця, вихід."""
+    key = cat["key"]
+    label = LOOK[key][0]
+    out: list[str] = []
+    add = out.append
+
+    add(f"![{label} — {artwork.projects(len(items))}](../assets/readme/window-{key}.svg)")
+    add("")
+    add(f"# {cat['title']}")
+    add("")
+    add(cat["blurb"])
+    add("")
+    add_table(add, items, shown, any_fork)
+    add("---")
+    add("")
+
+    # Кожна сторінка має відповідати, куди звідси можна піти й як вийти.
+    others = " · ".join(
+        f"[{LOOK[c['key']][0]}]({c['key']}.md)" for c in live if c["key"] != key
+    )
+    add(f"**Інші теки** · {others}")
+    add("")
+    add("[← На робочий стіл](../README.md)")
+    add("")
+    return "\n".join(out)
+
+
+def add_table(add, items, shown, any_fork):
+    if any_fork:
+        add("| Проєкт | Оригінал | ★ | Мова | Що це |")
+        add("| --- | --- | --: | --- | --- |")
+    else:
+        add("| Проєкт | ★ | Мова | Що це |")
+        add("| --- | --: | --- | --- |")
+
+    for row in sorted(items, key=lambda r: (-(r["stars"] or 0), r["name"].lower())):
+        icons = "".join(BADGES[b][0] for b in row["badges"] if b in shown)
+        if row["url"]:
+            name = f"[{row['name']}]({row['url']})"
+            upstream = (
+                f"[{row['upstream']}]({row['upstream_url']})" if row["upstream"] else "—"
+            )
+        else:
+            # Без форку єдине існуюче посилання — на сам проєкт, і воно переїжджає
+            # в першу колонку. Коротка назва тут не годиться: 'skills' у каталозі три.
+            name = f"[{row['upstream']}]({row['upstream_url']})"
+            upstream = "—"
+        if icons:
+            name = f"{name} {icons}"
+
+        description = cell(row["description"])
+        if row["note"]:
+            description = f"{description} **— {cell(row['note'], 120)}**"
+
+        tail = f"{thousands(row['stars'] or 0)} | {row['language'] or '—'} | {description} |"
+        add(f"| {name} | {upstream} | {tail}" if any_fork else f"| {name} | {tail}")
+    add("")
+
+
+def group(rows):
+    grouped: dict[str, list] = {c["key"]: [] for c in [*CATEGORIES, OTHER]}
+    for row in rows:
+        grouped.setdefault(row["category"], []).append(row)
+    return grouped
+
+
+def visible_badges(rows, any_fork):
+    """Мітка, що стоїть на всіх записах, нічого не виділяє — таку ховаємо."""
+    shown = {b for r in rows for b in r["badges"]}
+    if not any_fork:
+        shown.discard("linkonly")
+    return shown
+
+
+def write_site(rows, now):
+    """Пише README.md, теки в docs/ і всі SVG. Повертає перелік створених файлів."""
+    order = [*CATEGORIES, OTHER]
+    grouped = group(rows)
+    live = [c for c in order if grouped.get(c["key"])]
+    any_fork = any(r["url"] for r in rows)
+    shown = visible_badges(rows, any_fork)
+
+    ASSETS.mkdir(parents=True, exist_ok=True)
+    DOCS.mkdir(parents=True, exist_ok=True)
+
+    written = set()
+    HERO_PATH.write_text(
+        artwork.hero(
+            len(rows),
+            sum(r["stars"] or 0 for r in rows),
+            len(live),
+            f"{now:%d.%m.%Y}",
+        ),
+        encoding="utf-8",
+    )
+
+    for cat in live:
+        key = cat["key"]
+        label, color = LOOK[key]
+        count = len(grouped[key])
+        (ASSETS / f"folder-{key}.svg").write_text(
+            artwork.folder(label, color, count), encoding="utf-8"
+        )
+        (ASSETS / f"window-{key}.svg").write_text(
+            artwork.window(cat["title"], color, count), encoding="utf-8"
+        )
+        (DOCS / f"{key}.md").write_text(
+            render_category(cat, grouped[key], shown, any_fork, live), encoding="utf-8"
+        )
+        written |= {f"folder-{key}.svg", f"window-{key}.svg", f"{key}.md"}
+
+    README.write_text(render_index(rows, now, shown, any_fork), encoding="utf-8")
+
+    # Категорія могла спорожніти — тоді її сторінка й іконки мають зникнути,
+    # інакше в docs/ назавжди лишиться теча, якої вже немає на робочому столі.
+    stale = []
+    for cat in order:
+        key = cat["key"]
+        for path in (ASSETS / f"folder-{key}.svg", ASSETS / f"window-{key}.svg",
+                     DOCS / f"{key}.md"):
+            if path.exists() and path.name not in written:
+                path.unlink()
+                stale.append(path.name)
+    return live, stale
 
 
 # --------------------------------------------------------------------------- #
@@ -811,10 +924,33 @@ def self_test() -> None:
     # Екранування таблиці: символ '|' не має ламати розмітку.
     assert cell("a | b") == "a \\| b"
 
-    # Кожна категорія має унікальний ключ і непорожній опис.
+    # Кожна категорія має унікальний ключ, непорожній опис і власну іконку.
     keys = [c["key"] for c in [*CATEGORIES, OTHER]]
     assert len(keys) == len(set(keys)), "дублікати ключів категорій"
     assert all(c["blurb"].strip() for c in [*CATEGORIES, OTHER]), "категорія без опису"
+    assert set(keys) == set(LOOK), f"LOOK не збігається з категоріями: {set(keys) ^ set(LOOK)}"
+    assert len({color for _, color in LOOK.values()}) == len(LOOK), "кольори тек повторюються"
+
+    # SVG має бути валідним XML: GitHub мовчки не покаже зламану картинку.
+    from xml.etree import ElementTree
+    for svg in (
+        artwork.hero(286, 7_342_994, 11, "29.07.2026"),
+        artwork.folder("Пам'ять", "#5e5ce6", 23),
+        artwork.window("Кібербезпека, OSINT і red team", "#ff453a", 37),
+    ):
+        ElementTree.fromstring(svg)
+    # Ні скриптів, ні зовнішніх ресурсів — GitHub усе одно їх вирізає.
+    assert "<script" not in artwork.hero(1, 1, 1, "x")
+    assert "http://www.w3.org/2000/svg" in artwork.folder("x", "#000000", 1)
+
+    # Українська множина в підписах тек.
+    assert artwork.projects(1) == "1 проєкт"
+    assert artwork.projects(3) == "3 проєкти"
+    assert artwork.projects(11) == "11 проєктів"
+    assert artwork.projects(22) == "22 проєкти"
+
+    # Екранування в SVG: назва з амперсандом не має ламати XML.
+    ElementTree.fromstring(artwork.window("R&D <test>", "#30d158", 2))
 
     print(f"Самоперевірка пройдена: {len(cases)} кейсів класифікації, {len(keys)} категорій.")
 
@@ -850,7 +986,7 @@ def main() -> None:
     DATA.write_text(
         json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    README.write_text(render(rows, now), encoding="utf-8")
+    live, stale = write_site(rows, now)
 
     counts: dict[str, int] = {}
     for row in rows:
@@ -859,6 +995,9 @@ def main() -> None:
     for category in [*CATEGORIES, OTHER]:
         if counts.get(category["key"]):
             print(f"  {counts[category['key']]:>4}  {category['title']}")
+    print(f"\nСторінок: 1 + {len(live)}   SVG: {1 + len(live) * 2}")
+    if stale:
+        print(f"Прибрано застаріле: {', '.join(stale)}")
 
 
 if __name__ == "__main__":
