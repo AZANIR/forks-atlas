@@ -1,8 +1,8 @@
 # Атлас форків [@AZANIR](https://github.com/AZANIR)
 
-Каталог усіх **279** форкнутих репозиторіїв: що це, звідки і навіщо збережено. Оновлюється автоматично раз на тиждень.
+Каталог усіх **274** форкнутих репозиторіїв: що це, звідки і навіщо збережено. Оновлюється автоматично раз на тиждень.
 
-`Форків: 279` · `Сумарно ★ в оригіналів: 7 044 634` · `Оновлено: 29.07.2026`
+`Форків: 274` · `Сумарно ★ в оригіналів: 7 044 655` · `Оновлено: 29.07.2026`
 
 ### Позначки
 
@@ -15,7 +15,7 @@
 
 ## Зміст
 
-- [Навчальний архів і курсові проєкти](#cat-archive) — 9
+- [Навчальний архів і курсові проєкти](#cat-archive) — 4
 - [Кібербезпека, OSINT і red team](#cat-security) — 35
 - [QA та автоматизація тестування](#cat-qa) — 30
 - [Agent Skills, субагенти та плагіни](#cat-skills) — 41
@@ -41,12 +41,7 @@
 | [advanced-selenium-webdriver](https://github.com/AZANIR/advanced-selenium-webdriver) 💤 | [dimashyshkin/advanced-selenium-webdriver](https://github.com/dimashyshkin/advanced-selenium-webdriver) | 43 | HTML | Code examples for Advanced Selenium Webdriver course on Udemy |
 | [jamesgeorge007](https://github.com/AZANIR/jamesgeorge007) | [jamesgeorge007/jamesgeorge007](https://github.com/jamesgeorge007/jamesgeorge007) | 35 | — | 🙌 **— профільний README іншої людини — форкнуто як приклад оформлення** |
 | [ShyamPraveenSingh](https://github.com/AZANIR/ShyamPraveenSingh) 💤 | [ShyamPraveenSingh/ShyamPraveenSingh](https://github.com/ShyamPraveenSingh/ShyamPraveenSingh) | 5 | — | — |
-| [greencity-backcore-AZANIR-DOP](https://github.com/AZANIR/greencity-backcore-AZANIR-DOP) 💤 | [DevOps-ProjectLevel/greencity-backcore-AZANIR](https://github.com/DevOps-ProjectLevel/greencity-backcore-AZANIR) | 0 | Java | devops-projectlevel-greencity-backcore-greencity-backcore created by GitHub Classroom |
-| [greencity-backuser-AZANIR-DOP](https://github.com/AZANIR/greencity-backuser-AZANIR-DOP) 💤 | [DevOps-ProjectLevel/greencity-backuser-AZANIR](https://github.com/DevOps-ProjectLevel/greencity-backuser-AZANIR) | 0 | Java | devops-projectlevel-greencity-backuser-greencity-backuser created by GitHub Classroom |
-| [greencity-frontend-AZANIR-DOP](https://github.com/AZANIR/greencity-frontend-AZANIR-DOP) 💤 | [DevOps-ProjectLevel/greencity-frontend-AZANIR](https://github.com/DevOps-ProjectLevel/greencity-frontend-AZANIR) | 0 | TypeScript | devops-projectlevel-greencity-frontend-greencity-frontend created by GitHub Classroom |
 | [LumenRvenu](https://github.com/AZANIR/LumenRvenu) 💤 | [LumenRvenu/LumenRvenu](https://github.com/LumenRvenu/LumenRvenu) | 0 | — | Config files for my GitHub profile. |
-| [pyforum-AZANIR-DOP](https://github.com/AZANIR/pyforum-AZANIR-DOP) 💤 | [DevOps-ProjectLevel/pyforum-AZANIR](https://github.com/DevOps-ProjectLevel/pyforum-AZANIR) | 0 | Python | devops-projectlevel-pyforum-pyforum created by GitHub Classroom |
-| [travelagency-AZANIR-DOP](https://github.com/AZANIR/travelagency-AZANIR-DOP) | [DevOps-ProjectLevel/travelagency-AZANIR](https://github.com/DevOps-ProjectLevel/travelagency-AZANIR) | 0 | Java | devops-projectlevel-travelagency-travelagency created by GitHub Classroom |
 
 <a id="cat-security"></a>
 
@@ -59,7 +54,7 @@
 | [SecLists](https://github.com/AZANIR/SecLists) 📋 | [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) | 72 481 | PHP | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types… |
 | [ghidra](https://github.com/AZANIR/ghidra) | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 71 581 | Java | Ghidra is a software reverse engineering (SRE) framework |
 | [shannon](https://github.com/AZANIR/shannon) | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 46 253 | TypeScript | Shannon is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits… |
-| [strix](https://github.com/AZANIR/strix) | [usestrix/strix](https://github.com/usestrix/strix) | 45 552 | Python | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. |
+| [strix](https://github.com/AZANIR/strix) | [usestrix/strix](https://github.com/usestrix/strix) | 45 553 | Python | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. |
 | [mitmproxy](https://github.com/AZANIR/mitmproxy) | [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | 44 498 | Python | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
 | [nuclei](https://github.com/AZANIR/nuclei) | [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | 30 095 | Go | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle… |
 | [Anthropic-Cybersecurity-Skills](https://github.com/AZANIR/Anthropic-Cybersecurity-Skills) | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 26 874 | Python | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) ·… |
@@ -139,16 +134,16 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [superpowers](https://github.com/AZANIR/superpowers) | [obra/superpowers](https://github.com/obra/superpowers) | 263 132 | Shell | An agentic skills framework & software development methodology that works. |
+| [superpowers](https://github.com/AZANIR/superpowers) | [obra/superpowers](https://github.com/obra/superpowers) | 263 134 | Shell | An agentic skills framework & software development methodology that works. |
 | [everything-claude-code](https://github.com/AZANIR/everything-claude-code) | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 235 407 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and… |
 | [andrej-karpathy-skills](https://github.com/AZANIR/andrej-karpathy-skills) | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 197 557 | — | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
 | [skills](https://github.com/AZANIR/skills) | [anthropics/skills](https://github.com/anthropics/skills) | 165 014 | Python | Public repository for Agent Skills |
-| [gstack](https://github.com/AZANIR/gstack) | [garrytan/gstack](https://github.com/garrytan/gstack) | 125 124 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
-| [ui-ux-pro-max-skill](https://github.com/AZANIR/ui-ux-pro-max-skill) | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 111 392 | Python | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
-| [ponytail](https://github.com/AZANIR/ponytail) | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 532 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [gstack](https://github.com/AZANIR/gstack) | [garrytan/gstack](https://github.com/garrytan/gstack) | 125 126 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
+| [ui-ux-pro-max-skill](https://github.com/AZANIR/ui-ux-pro-max-skill) | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 111 393 | Python | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
+| [ponytail](https://github.com/AZANIR/ponytail) | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 533 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | [claude-code-best-practice](https://github.com/AZANIR/claude-code-best-practice) | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 63 698 | HTML | from vibe coding to agentic engineering - practice makes claude perfect |
-| [system_prompts_leaks](https://github.com/AZANIR/system_prompts_leaks) | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 61 292 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1… |
-| [last30days-skill](https://github.com/AZANIR/last30days-skill) | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 54 981 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
+| [system_prompts_leaks](https://github.com/AZANIR/system_prompts_leaks) | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 61 293 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1… |
+| [last30days-skill](https://github.com/AZANIR/last30days-skill) | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 54 983 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
 | [awesome-openclaw-skills](https://github.com/AZANIR/awesome-openclaw-skills) 📋 | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 51 593 | — | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 |
 | [agentic-awesome-skills](https://github.com/AZANIR/agentic-awesome-skills) 📋 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 44 128 | Python | AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 1,987+ agentic… |
 | [agents](https://github.com/AZANIR/agents) 📋 | [wshobson/agents](https://github.com/wshobson/agents) | 38 353 | Python | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
@@ -160,7 +155,7 @@
 | [agentskills](https://github.com/AZANIR/agentskills) | [agentskills/agentskills](https://github.com/agentskills/agentskills) | 23 630 | Python | Specification and documentation for Agent Skills |
 | [compound-engineering-plugin](https://github.com/AZANIR/compound-engineering-plugin) | [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | 23 597 | TypeScript | Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more |
 | [Claude-Code-Game-Studios](https://github.com/AZANIR/Claude-Code-Game-Studios) | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 23 481 | Shell | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. |
-| [Agent-Skills-for-Context-Engineering](https://github.com/AZANIR/Agent-Skills-for-Context-Engineering) 📋 | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | 17 496 | Python | A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or… |
+| [Agent-Skills-for-Context-Engineering](https://github.com/AZANIR/Agent-Skills-for-Context-Engineering) 📋 | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | 17 497 | Python | A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or… |
 | [awesome-opencode](https://github.com/AZANIR/awesome-opencode) 📋 | [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) | 9 217 | JavaScript | A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai |
 | [geo-seo-claude](https://github.com/AZANIR/geo-seo-claude) | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | 9 156 | Python | GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup,… |
 | [drawio-skill](https://github.com/AZANIR/drawio-skill) | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 6 857 | Python | Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram,… |
@@ -191,11 +186,11 @@
 | --- | --- | --: | --- | --- |
 | [vllm](https://github.com/AZANIR/vllm) | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 87 577 | Python | A high-throughput and memory-efficient inference and serving engine for LLMs |
 | [rtk](https://github.com/AZANIR/rtk) | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 73 824 | Rust | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
-| [headroom](https://github.com/AZANIR/headroom) | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 63 156 | Python | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers.… |
+| [headroom](https://github.com/AZANIR/headroom) | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 63 157 | Python | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers.… |
 | [VibeVoice](https://github.com/AZANIR/VibeVoice) | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | 51 170 | Python | Open-Source Frontier Voice AI |
 | [CLIProxyAPIPlus](https://github.com/AZANIR/CLIProxyAPIPlus) | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | 45 486 | Go | Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT… |
 | [free-claude-code](https://github.com/AZANIR/free-claude-code) | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 42 873 | Python | Use claude code, codex or pi for free from the terminal, IDE, or your phone like OpenClaw (voice supported) |
-| [OmniRoute](https://github.com/AZANIR/OmniRoute) | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 33 908 | TypeScript | Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with… |
+| [OmniRoute](https://github.com/AZANIR/OmniRoute) | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 33 909 | TypeScript | Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with… |
 | [free-llm-api-resources](https://github.com/AZANIR/free-llm-api-resources) 📋 | [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) | 28 648 | Python | A list of free LLM inference resources accessible via API. |
 | [heretic](https://github.com/AZANIR/heretic) | [p-e-w/heretic](https://github.com/p-e-w/heretic) | 26 908 | Python | Fully automatic censorship removal for language models |
 | [supertonic](https://github.com/AZANIR/supertonic) | [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | 13 547 | Swift | Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX. |
@@ -253,7 +248,7 @@
 | [hyperframes](https://github.com/AZANIR/hyperframes) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 38 585 | TypeScript | Write HTML. Render video. Built for agents. |
 | [opendataloader-pdf](https://github.com/AZANIR/opendataloader-pdf) | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 27 992 | Java | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
 | [meetily](https://github.com/AZANIR/meetily) | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 27 344 | Rust | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local… **— правила чіпляються за privacy first, але це транскрибування зустрічей** |
-| [claude-video](https://github.com/AZANIR/claude-video) | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | 12 601 | Python | Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. |
+| [claude-video](https://github.com/AZANIR/claude-video) | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | 12 602 | Python | Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. |
 | [Ghost-Downloader-3](https://github.com/AZANIR/Ghost-Downloader-3) | [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 7 621 | Python | An AI-boost cross-platform multi-protocol fluent-design concurrent downloader built with Python & Qt. |
 | [persepolis](https://github.com/AZANIR/persepolis) | [persepolisdm/persepolis](https://github.com/persepolisdm/persepolis) | 7 428 | Python | Persepolis is a download manager written in Python. |
 | [svg-path-editor](https://github.com/AZANIR/svg-path-editor) | [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) | 5 249 | TypeScript | Online editor to create and manipulate SVG paths |
@@ -273,7 +268,7 @@
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
 | [openclaw](https://github.com/AZANIR/openclaw) | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 384 466 | TypeScript | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
-| [hermes-agent](https://github.com/AZANIR/hermes-agent) | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 222 224 | Python | The agent that grows with you |
+| [hermes-agent](https://github.com/AZANIR/hermes-agent) | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 222 225 | Python | The agent that grows with you |
 | [n8n_self_host](https://github.com/AZANIR/n8n_self_host) | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 198 550 | TypeScript | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
 | [claw-code](https://github.com/AZANIR/claw-code) | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194 941 | Rust | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. |
 | [agency-agents](https://github.com/AZANIR/agency-agents) | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 137 411 | Shell | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized… |
@@ -287,7 +282,7 @@
 | [nanobot](https://github.com/AZANIR/nanobot) | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 46 379 | Python | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps |
 | [CLI-Anything](https://github.com/AZANIR/CLI-Anything) | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 46 286 | Python | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
 | [agent-browser](https://github.com/AZANIR/agent-browser) | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 39 490 | Rust | Browser automation CLI for AI agents |
-| [orca](https://github.com/AZANIR/orca) | [stablyai/orca](https://github.com/stablyai/orca) | 32 564 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. |
+| [orca](https://github.com/AZANIR/orca) | [stablyai/orca](https://github.com/stablyai/orca) | 32 566 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. |
 | [ai-website-cloner-template](https://github.com/AZANIR/ai-website-cloner-template) | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 30 546 | TypeScript | Clone any website with one command using AI coding agents |
 | [sim](https://github.com/AZANIR/sim) | [simstudioai/sim](https://github.com/simstudioai/sim) | 29 233 | TypeScript | Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce. |
 | [Scrapegraph-ai](https://github.com/AZANIR/Scrapegraph-ai) | [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 28 772 | Python | Python scraper based on AI |
@@ -305,12 +300,12 @@
 | [AutoResearchClaw](https://github.com/AZANIR/AutoResearchClaw) | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 13 920 | Python | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |
 | [hermes-desktop](https://github.com/AZANIR/hermes-desktop) | [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) | 13 623 | TypeScript | Desktop Companion for Hermes Agent |
 | [ccstatusline](https://github.com/AZANIR/ccstatusline) | [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) | 12 092 | TypeScript | 🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more. |
-| [openship](https://github.com/AZANIR/openship) | [oblien/openship](https://github.com/oblien/openship) | 9 675 | TypeScript | Self-hosted deployment platform |
+| [openship](https://github.com/AZANIR/openship) | [oblien/openship](https://github.com/oblien/openship) | 9 677 | TypeScript | Self-hosted deployment platform |
 | [loop-engineering](https://github.com/AZANIR/loop-engineering) | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 9 581 | JavaScript | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and… |
 | [pixel-agents](https://github.com/AZANIR/pixel-agents) | [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) | 8 739 | TypeScript | Pixel office. |
 | [Claude-Code-Usage-Monitor](https://github.com/AZANIR/Claude-Code-Usage-Monitor) | [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | 8 543 | Python | Real-time Claude Code usage monitor with predictions and warnings |
 | [ClawWork](https://github.com/AZANIR/ClawWork) | [HKUDS/ClawWork](https://github.com/HKUDS/ClawWork) | 8 299 | Python | "ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours" |
-| [OpenJarvis](https://github.com/AZANIR/OpenJarvis) | [open-jarvis/OpenJarvis](https://github.com/open-jarvis/OpenJarvis) | 8 105 | Python | Personal AI, On Personal Devices |
+| [OpenJarvis](https://github.com/AZANIR/OpenJarvis) | [open-jarvis/OpenJarvis](https://github.com/open-jarvis/OpenJarvis) | 8 106 | Python | Personal AI, On Personal Devices |
 | [codebuff](https://github.com/AZANIR/codebuff) | [CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff) | 8 070 | TypeScript | Generate code from the terminal! |
 | [glass](https://github.com/AZANIR/glass) | [pickle-com/glass](https://github.com/pickle-com/glass) | 7 560 | JavaScript | Digital Mind Extension |
 | [Star-Office-UI](https://github.com/AZANIR/Star-Office-UI) | [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) | 7 400 | HTML | A pixel office for your OpenClaw: turn invisible work states into a cozy little space with characters, daily notes, and guest agents. Code under MIT; art assets for… |
@@ -353,7 +348,7 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [free-for-dev](https://github.com/AZANIR/free-for-dev) 📋 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | 130 747 | HTML | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev |
+| [free-for-dev](https://github.com/AZANIR/free-for-dev) 📋 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | 130 748 | HTML | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev |
 | [mise](https://github.com/AZANIR/mise) | [jdx/mise](https://github.com/jdx/mise) | 31 284 | Rust | dev tools, env vars, task runner **— заміна asdf/nvm/pyenv одним бінарником — керує і версіями інструментів, і env, і тасками** |
 | [omarchy](https://github.com/AZANIR/omarchy) | [basecamp/omarchy](https://github.com/basecamp/omarchy) | 24 169 | Shell | Beautiful, Modern & Opinionated Linux |
 | [DevOps-Roadmap](https://github.com/AZANIR/DevOps-Roadmap) | [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) | 19 984 | — | DevOps Roadmap for 2026. with learning resources |
