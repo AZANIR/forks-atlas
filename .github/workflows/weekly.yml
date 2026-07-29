@@ -1,0 +1,46 @@
+name: Оновлення каталогу
+
+on:
+  schedule:
+    # Щопонеділка о 06:00 UTC. GitHub може затримати запуск на десятки хвилин
+    # при піковому навантаженні — для тижневої задачі це неважливо.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # setup-python не потрібен: на ubuntu-latest уже є python3,
+      # а скрипт не має жодної зовнішньої залежності.
+      - name: Перевірити класифікатор
+        run: python3 scripts/update.py --self-test
+
+      - name: Оновити каталог
+        run: python3 scripts/update.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Закомітити, якщо дані змінилися
+        run: |
+          # README містить дату генерації, тому змінюється щоразу.
+          # Ознакою реальних змін є тільки data/forks.json — інакше
+          # у історії щотижня осідав би порожній коміт.
+          if git diff --quiet -- data/forks.json; then
+            echo "Змін немає — коміт пропущено."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Оновлення каталогу форків"
+          git push
