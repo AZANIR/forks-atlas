@@ -6,23 +6,23 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 384 476 | TypeScript | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 222 260 | Python | The agent that grows with you |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 198 563 | TypeScript | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 384 477 | TypeScript | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 222 262 | Python | The agent that grows with you |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 198 564 | TypeScript | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194 941 | Rust | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. |
-| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 137 423 | Shell | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized… |
-| [github/spec-kit](https://github.com/github/spec-kit) | 124 468 | Python | 💫 Toolkit to help you get started with Spec-Driven Development |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 137 424 | Shell | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized… |
+| [github/spec-kit](https://github.com/github/spec-kit) | 124 469 | Python | 💫 Toolkit to help you get started with Spec-Driven Development |
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 92 332 | Python | AI agents running research on single-GPU nanochat training automatically |
 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | 80 960 | TypeScript | 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team. |
 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 75 077 | TypeScript | The open-source app everyone uses to manage agents at work |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 66 484 | TypeScript | 🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive… |
-| [santifer/career-ops](https://github.com/santifer/career-ops) | 62 157 | JavaScript | Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally… |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 66 485 | TypeScript | 🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive… |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | 62 158 | JavaScript | Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally… |
 | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | 51 256 | JavaScript | Breakthrough Method for Agile Ai Driven Development |
 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 46 381 | Python | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps |
 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 46 289 | Python | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 39 500 | Rust | Browser automation CLI for AI agents |
-| [stablyai/orca](https://github.com/stablyai/orca) | 32 623 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. |
-| [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 30 550 | TypeScript | Clone any website with one command using AI coding agents |
+| [stablyai/orca](https://github.com/stablyai/orca) | 32 626 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. |
+| [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 30 551 | TypeScript | Clone any website with one command using AI coding agents |
 | [simstudioai/sim](https://github.com/simstudioai/sim) | 29 233 | TypeScript | Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce. |
 | [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 28 778 | Python | Python scraper based on AI |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 28 393 | Python | Build and run agents you can see, understand and trust. |
@@ -35,12 +35,12 @@
 | [trycua/cua](https://github.com/trycua/cua) | 20 759 | HTML | Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation. |
 | [iii-hq/iii](https://github.com/iii-hq/iii) | 18 530 | Rust | Effortlessly compose, extend, and observe every service in real-time for the first time ever. |
 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 16 877 | TypeScript | Open-source AI coworker, with memory |
-| [block/buzz](https://github.com/block/buzz) | 16 781 | Rust | A hive mind communication platform **— спільний простір, де люди й агенти працюють над задачею на власному релеї** |
+| [block/buzz](https://github.com/block/buzz) | 16 784 | Rust | A hive mind communication platform **— спільний простір, де люди й агенти працюють над задачею на власному релеї** |
 | [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14 491 | TypeScript | Autonomous multi-session AI coding |
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 13 920 | Python | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |
 | [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) | 13 624 | TypeScript | Desktop Companion for Hermes Agent |
 | [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) | 12 096 | TypeScript | 🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more. |
-| [oblien/openship](https://github.com/oblien/openship) | 9 695 | TypeScript | Self-hosted deployment platform |
+| [oblien/openship](https://github.com/oblien/openship) | 9 696 | TypeScript | Self-hosted deployment platform |
 | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 9 586 | JavaScript | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and… |
 | [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) | 8 739 | TypeScript | Pixel office. |
 | [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | 8 543 | Python | Real-time Claude Code usage monitor with predictions and warnings |

@@ -17,9 +17,9 @@
 | [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) | 23 600 | JavaScript | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites |
 | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 21 349 | Go | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
 | [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) | 18 026 | — | This repository contains a 90-day cybersecurity study plan, along with resources and materials for learning various cybersecurity concepts and technologies. The… |
-| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 13 936 | Python | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks. |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 13 937 | Python | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks. |
 | [awslabs/git-secrets](https://github.com/awslabs/git-secrets) | 13 358 | Shell | Prevents you from committing secrets and credentials into git repositories |
-| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 📋 | 12 713 | JavaScript | Community curated list of templates for the nuclei engine to find security vulnerabilities. |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 📋 | 12 714 | JavaScript | Community curated list of templates for the nuclei engine to find security vulnerabilities. |
 | [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) 📋 | 10 496 | — | A curated list of Awesome Threat Intelligence resources |
 | [lissy93/awesome-privacy](https://github.com/lissy93/awesome-privacy) 📋 | 9 681 | Astro | 🦄 A curated list of privacy & security-focused software and services |
 | [aliasrobotics/cai](https://github.com/aliasrobotics/cai) | 9 593 | Python | Cybersecurity AI (CAI), the framework for AI Security |

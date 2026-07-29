@@ -7,25 +7,25 @@
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
 | [obra/superpowers](https://github.com/obra/superpowers) | 263 182 | Shell | An agentic skills framework & software development methodology that works. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 235 440 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and… **— harness-система: skills, інстинкти, пам'ять і research-first підхід одним набором** |
-| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 197 585 | — | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 194 361 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 235 442 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and… **— harness-система: skills, інстинкти, пам'ять і research-first підхід одним набором** |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 197 586 | — | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 194 363 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
 | [anthropics/skills](https://github.com/anthropics/skills) | 165 030 | Python | Public repository for Agent Skills |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | 125 143 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 111 418 | Python | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 577 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | 125 144 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 111 419 | Python | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 91 578 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 63 701 | HTML | from vibe coding to agentic engineering - practice makes claude perfect |
 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 61 310 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1… |
-| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 55 006 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 55 007 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
 | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) 📋 | 51 595 | — | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 |
 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 44 131 | Python | AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 1,987+ agentic… |
 | [wshobson/agents](https://github.com/wshobson/agents) | 38 354 | Python | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) 📋 | 37 200 | Python | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. |
 | [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) 📋 | 31 644 | — | A community collection of OpenClaw use cases for making life easier. |
-| [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 30 356 | JavaScript | Use Codex from Claude Code to review code or delegate tasks. |
+| [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 30 357 | JavaScript | Use Codex from Claude Code to review code or delegate tasks. |
 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) 📋 | 29 199 | — | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more. |
 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 26 936 | JavaScript | A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress |
-| [agentskills/agentskills](https://github.com/agentskills/agentskills) | 23 633 | Python | Specification and documentation for Agent Skills |
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) | 23 632 | Python | Specification and documentation for Agent Skills |
 | [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | 23 599 | TypeScript | Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more |
 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 23 482 | Shell | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. |
 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 22 472 | — | Skills for Design Engineers. |
