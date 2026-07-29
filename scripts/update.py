@@ -588,6 +588,9 @@ def render(rows: list[dict], now: datetime) -> str:
     total = len(rows)
     forked = sum(1 for r in rows if r["url"])
     stars = sum(r["stars"] or 0 for r in rows)
+    # Колонка «Оригінал» має сенс лише поки є що з чим зіставляти. Якщо форків
+    # не лишилось, вона перетворюється на стовпчик прочерків — тоді її немає.
+    any_fork = forked > 0
     out: list[str] = []
     add = out.append
 
@@ -598,22 +601,42 @@ def render(rows: list[dict], now: datetime) -> str:
         "Оновлюється автоматично раз на тиждень."
     )
     add("")
-    add(
-        f"Більшість — форки ({forked}). Решта позначена 🔗: форк видалено або його "
-        "не було, але сам проєкт лишається вартим уваги. Каталог переживає видалення "
-        "форку — запис нікуди не зникає."
-    )
+    if any_fork:
+        add(
+            f"Більшість — форки ({forked}). Решта позначена 🔗: форк видалено або його "
+            "не було, але сам проєкт лишається вартим уваги. Каталог переживає видалення "
+            "форку — запис нікуди не зникає."
+        )
+        add("")
+        add(
+            f"`Записів: {total}` · `З них форків: {forked}` "
+            f"· `Сумарно ★: {thousands(stars)}` · `Оновлено: {now:%d.%m.%Y}`"
+        )
+    else:
+        add(
+            "Форків не тримаю: копія чужого репозиторію застаріває з першим же комітом "
+            "в оригіналі, а посилання — ні. Каталог веде до джерел і щотижня перевіряє, "
+            "чи вони ще живі."
+        )
+        add("")
+        add(
+            f"`Проєктів: {total}` · `Сумарно ★: {thousands(stars)}` "
+            f"· `Оновлено: {now:%d.%m.%Y}`"
+        )
     add("")
-    add(
-        f"`Записів: {total}` · `З них форків: {forked}` "
-        f"· `Сумарно ★: {thousands(stars)}` · `Оновлено: {now:%d.%m.%Y}`"
-    )
-    add("")
-    add("### Позначки")
-    add("")
-    for icon, meaning in BADGES.values():
-        add(f"- {icon} — {meaning}")
-    add("")
+    # Легенда показує лише ті мітки, що справді трапляються. А 🔗 ховається,
+    # коли форків немає взагалі: позначка на всіх 286 рядках нічого не виділяє,
+    # і про це вже сказано абзацом вище.
+    shown = {b for r in rows for b in r["badges"]}
+    if not any_fork:
+        shown.discard("linkonly")
+    if shown:
+        add("### Позначки")
+        add("")
+        for key, (icon, meaning) in BADGES.items():
+            if key in shown:
+                add(f"- {icon} — {meaning}")
+        add("")
     add(
         "> Формат не є темою: awesome-список про безпеку лежить у розділі безпеки з міткою 📋, "
         "а не в загальному списку списків. Категорія відповідає на питання «про що це», "
@@ -640,10 +663,14 @@ def render(rows: list[dict], now: datetime) -> str:
         add("")
         add(category["blurb"])
         add("")
-        add("| Проєкт | Оригінал | ★ | Мова | Що це |")
-        add("| --- | --- | --: | --- | --- |")
+        if any_fork:
+            add("| Проєкт | Оригінал | ★ | Мова | Що це |")
+            add("| --- | --- | --: | --- | --- |")
+        else:
+            add("| Проєкт | ★ | Мова | Що це |")
+            add("| --- | --: | --- | --- |")
         for row in sorted(items, key=lambda r: (-(r["stars"] or 0), r["name"].lower())):
-            icons = "".join(BADGES[b][0] for b in row["badges"])
+            icons = "".join(BADGES[b][0] for b in row["badges"] if b in shown)
             if row["url"]:
                 name = f"[{row['name']}]({row['url']})"
                 upstream = (
@@ -661,10 +688,11 @@ def render(rows: list[dict], now: datetime) -> str:
             description = cell(row["description"])
             if row["note"]:
                 description = f"{description} **— {cell(row['note'], 120)}**"
-            add(
-                f"| {name} | {upstream} | {thousands(row['stars'] or 0)} "
-                f"| {row['language'] or '—'} | {description} |"
+            tail = (
+                f"{thousands(row['stars'] or 0)} | {row['language'] or '—'} "
+                f"| {description} |"
             )
+            add(f"| {name} | {upstream} | {tail}" if any_fork else f"| {name} | {tail}")
         add("")
 
     add("---")
