@@ -1,31 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 288" width="240" height="216" role="img" aria-label="Тека «Медіа», 20 проєктів">
-  <title>Тека «Медіа», 20 проєктів</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 252" width="164" height="129" role="img" aria-label="Тека «Медіа»">
+  <title>Тека «Медіа»</title>
   <defs>
     <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#26262b"/>
-      <stop offset="1" stop-color="#161619"/>
+      <stop offset="0" stop-color="#2a2a2f"/>
+      <stop offset="1" stop-color="#1a1a1d"/>
     </linearGradient>
     <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ff406e"/>
-      <stop offset="1" stop-color="#f03459"/>
+      <stop offset="0" stop-color="#ff4170"/>
+      <stop offset="1" stop-color="#eb3357"/>
     </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000"
+                    flood-opacity="0.30"/>
+    </filter>
   </defs>
 
-  <rect width="320" height="288" rx="28" fill="url(#tile)"/>
-  <!-- Верхня грань ловить світло: так поверхня читається як матеріал, а не як заливка. -->
-  <rect x="1" y="1" width="318" height="286" rx="27" fill="none"
+  <rect width="320" height="252" rx="28" fill="url(#tile)"/>
+  <!-- Верхня грань ловить світло: так поверхня читається як матеріал, а не заливка. -->
+  <rect x="1" y="1" width="318" height="250" rx="27" fill="none"
         stroke="#ffffff" stroke-opacity="0.09"/>
-  <path d="M29 1 H291" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+  <path d="M29 1 H291" fill="none" stroke="#ffffff" stroke-opacity="0.16"
+        stroke-width="1.5"/>
 
-  <g>
-    <rect x="80" y="56" width="68" height="34" rx="11" fill="#bd2946"/>
-    <rect x="80" y="72" width="160" height="100" rx="16" fill="#cc2c4c"/>
-    <rect x="80" y="90" width="160" height="82" rx="16" fill="url(#front)"/>
-    <path d="M96 91 H224" stroke="#ffffff" stroke-opacity="0.34" stroke-width="1.5"/>
+  <g filter="url(#shadow)">
+    <rect x="80" y="44" width="68" height="34" rx="11" fill="#b82844"/>
+    <rect x="80" y="60" width="160" height="104" rx="16" fill="#c72b4a"/>
+    <rect x="80" y="78" width="160" height="86" rx="16" fill="url(#front)"/>
+    <path d="M96 79 H224" fill="none" stroke="#ffffff" stroke-opacity="0.34"
+          stroke-width="1.5"/>
   </g>
+  <g transform="translate(134.0 95.0) scale(1.1818)" fill="none" stroke="#ffffff" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="7" y="11" width="30" height="22" rx="5.5"/>
+      <path d="M19 17.5 L28.5 22 L19 26.5 Z" fill="#ffffff" stroke="none"/></g>
 
-  <text x="160" y="214" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-        font-size="27" font-weight="600" letter-spacing="-0.3">Медіа</text>
-  <text x="160" y="248" text-anchor="middle" fill="#98989d" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-        font-size="21" letter-spacing="0.2">20 проєктів</text>
+  <text x="160" y="212" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="30" font-weight="600" letter-spacing="-0.4">Медіа</text>
 </svg>

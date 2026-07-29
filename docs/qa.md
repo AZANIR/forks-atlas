@@ -6,7 +6,7 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 23 731 | TypeScript | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple… **— правила відносять до безпеки через red teaming, але за суттю це тест-фреймворк для промптів** |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 23 732 | TypeScript | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple… **— правила відносять до безпеки через red teaming, але за суттю це тест-фреймворк для промптів** |
 | [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) | 10 841 | Java | Continuous Inspection |
 | [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) | 9 485 | Python | UI Automation Framework for Games and Apps |
 | [refreshdotdev/web-eval-agent](https://github.com/refreshdotdev/web-eval-agent) ⚠️ | 1 240 | Python | An MCP server that autonomously evaluates web applications. |

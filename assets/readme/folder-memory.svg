@@ -1,31 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 288" width="240" height="216" role="img" aria-label="Тека «Пам'ять», 23 проєкти">
-  <title>Тека «Пам'ять», 23 проєкти</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 252" width="164" height="129" role="img" aria-label="Тека «Пам'ять»">
+  <title>Тека «Пам'ять»</title>
   <defs>
     <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#26262b"/>
-      <stop offset="1" stop-color="#161619"/>
+      <stop offset="0" stop-color="#2a2a2f"/>
+      <stop offset="1" stop-color="#1a1a1d"/>
     </linearGradient>
     <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#6d6bff"/>
-      <stop offset="1" stop-color="#5856d8"/>
+      <stop offset="0" stop-color="#6f6dff"/>
+      <stop offset="1" stop-color="#5655d4"/>
     </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000"
+                    flood-opacity="0.30"/>
+    </filter>
   </defs>
 
-  <rect width="320" height="288" rx="28" fill="url(#tile)"/>
-  <!-- Верхня грань ловить світло: так поверхня читається як матеріал, а не як заливка. -->
-  <rect x="1" y="1" width="318" height="286" rx="27" fill="none"
+  <rect width="320" height="252" rx="28" fill="url(#tile)"/>
+  <!-- Верхня грань ловить світло: так поверхня читається як матеріал, а не заливка. -->
+  <rect x="1" y="1" width="318" height="250" rx="27" fill="none"
         stroke="#ffffff" stroke-opacity="0.09"/>
-  <path d="M29 1 H291" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+  <path d="M29 1 H291" fill="none" stroke="#ffffff" stroke-opacity="0.16"
+        stroke-width="1.5"/>
 
-  <g>
-    <rect x="80" y="56" width="68" height="34" rx="11" fill="#4644aa"/>
-    <rect x="80" y="72" width="160" height="100" rx="16" fill="#4b4ab8"/>
-    <rect x="80" y="90" width="160" height="82" rx="16" fill="url(#front)"/>
-    <path d="M96 91 H224" stroke="#ffffff" stroke-opacity="0.34" stroke-width="1.5"/>
+  <g filter="url(#shadow)">
+    <rect x="80" y="44" width="68" height="34" rx="11" fill="#4442a6"/>
+    <rect x="80" y="60" width="160" height="104" rx="16" fill="#4948b3"/>
+    <rect x="80" y="78" width="160" height="86" rx="16" fill="url(#front)"/>
+    <path d="M96 79 H224" fill="none" stroke="#ffffff" stroke-opacity="0.34"
+          stroke-width="1.5"/>
   </g>
+  <g transform="translate(134.0 95.0) scale(1.1818)" fill="none" stroke="#ffffff" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="22" cy="11.5" r="4.2"/>
+      <circle cx="10.5" cy="31" r="4.2"/>
+      <circle cx="33.5" cy="31" r="4.2"/>
+      <path d="M19.2 14.8 L13.3 27.7"/>
+      <path d="M24.8 14.8 L30.7 27.7"/>
+      <path d="M14.7 31 h14.6"/></g>
 
-  <text x="160" y="214" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-        font-size="27" font-weight="600" letter-spacing="-0.3">Пам'ять</text>
-  <text x="160" y="248" text-anchor="middle" fill="#98989d" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-        font-size="21" letter-spacing="0.2">23 проєкти</text>
+  <text x="160" y="212" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="30" font-weight="600" letter-spacing="-0.4">Пам'ять</text>
 </svg>

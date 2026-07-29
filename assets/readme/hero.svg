@@ -1,44 +1,201 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Атлас проєктів: 286 проєктів у 11 категоріях">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 832" width="1200" height="832" role="img" aria-label="Атлас проєктів: 286 проєктів у 11 теках">
   <title>Атлас проєктів — робочий стіл</title>
   <defs>
-    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2b2350"/>
-      <stop offset="0.45" stop-color="#1b1b3a"/>
-      <stop offset="1" stop-color="#141428"/>
+    <linearGradient id="wall" x1="0.05" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#3b2a63"/>
+      <stop offset="0.42" stop-color="#241f4d"/>
+      <stop offset="1" stop-color="#141230"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.78" cy="0.12" r="0.7">
-      <stop offset="0" stop-color="#6f5bff" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#6f5bff" stop-opacity="0"/>
+    <radialGradient id="aurora" cx="0.16" cy="0.08" r="0.75">
+      <stop offset="0" stop-color="#8b6cff" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#8b6cff" stop-opacity="0"/>
     </radialGradient>
-    <clipPath id="card"><rect width="1200" height="360" rx="22"/></clipPath>
+    <radialGradient id="streak" cx="0.9" cy="0.95" r="0.6">
+      <stop offset="0" stop-color="#c77dff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#c77dff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e2e33"/>
+      <stop offset="1" stop-color="#1a1a1d"/>
+    </linearGradient>
+    <filter id="winShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0a0618"
+                    flood-opacity="0.55"/>
+    </filter>
+    <clipPath id="screen"><rect width="1200" height="832" rx="22"/></clipPath>
+    <clipPath id="win">
+      <rect x="64" y="62" width="950" height="630" rx="15"/>
+    </clipPath>
   </defs>
 
-  <g clip-path="url(#card)">
-    <rect width="1200" height="360" fill="url(#wall)"/>
-    <rect width="1200" height="360" fill="url(#glow)"/>
+  <g clip-path="url(#screen)">
+    <rect width="1200" height="832" fill="url(#wall)"/>
+    <rect width="1200" height="832" fill="url(#aurora)"/>
+    <rect width="1200" height="832" fill="url(#streak)"/>
+    
+    <rect width="1200" height="34" fill="#ffffff" fill-opacity="0.13"/>
+    <path d="M0 34 H1200" stroke="#ffffff" stroke-opacity="0.14"/>
+    <!-- Знак замість логотипа платформи: роза вітрів під назву «Атлас». -->
+    <path d="M22 7 L24.6 14.4 L32 17 L24.6 19.6 L22 27 L19.4 19.6 L12 17 L19.4 14.4 Z"
+          fill="#f5f5f7" fill-opacity="0.92"/>
+    <text x="42" y="23" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19"
+          font-weight="680">Атлас проєктів</text>
+    <text x="208" y="23" fill="#f5f5f7" fill-opacity="0.70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19">Файл</text><text x="276" y="23" fill="#f5f5f7" fill-opacity="0.70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19">Правка</text><text x="364" y="23" fill="#f5f5f7" fill-opacity="0.70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19">Вигляд</text><text x="452" y="23" fill="#f5f5f7" fill-opacity="0.70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19">Перейти</text><text x="551" y="23" fill="#f5f5f7" fill-opacity="0.70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19">Вікно</text><text x="629" y="23" fill="#f5f5f7" fill-opacity="0.70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19">Довідка</text>
 
-    <!-- Рядок меню: напівпрозорий шар поверх шпалер, як у macOS. -->
-    <rect width="1200" height="46" fill="#ffffff" fill-opacity="0.10"/>
-    <path d="M0 46 H1200" stroke="#ffffff" stroke-opacity="0.14"/>
-    <circle cx="34" cy="23" r="8" fill="#f5f5f7" fill-opacity="0.9"/>
-    <text x="58" y="31" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20"
-          font-weight="650">Атлас</text>
-    <text x="130" y="31" fill="#f5f5f7" fill-opacity="0.62" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-          font-size="20">Категорії</text>
-    <text x="228" y="31" fill="#f5f5f7" fill-opacity="0.62" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-          font-size="20">Джерела</text>
-    <text x="320" y="31" fill="#f5f5f7" fill-opacity="0.62" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-          font-size="20">Оновлення</text>
-    <text x="1168" y="31" text-anchor="end" fill="#f5f5f7" fill-opacity="0.72"
-          font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20">29.07.2026</text>
+    <!-- Дата стоїть праворуч і займає близько 100 одиниць, тож іконки статусу
+         мусять закінчитись до 1050 — інакше вони наїжджають на текст. -->
+    <g fill="none" stroke="#f5f5f7" stroke-opacity="0.85" stroke-width="1.9"
+       stroke-linecap="round">
+      <g transform="translate(962 17)">
+        <path d="M-10 -2.5 a14 14 0 0 1 20 0"/>
+        <path d="M-5.8 2.2 a8.6 8.6 0 0 1 11.6 0"/>
+        <circle cx="0" cy="6.8" r="1.5" fill="#f5f5f7" stroke="none"/>
+      </g>
+      <g transform="translate(1000 17)">
+        <circle cx="-1" cy="-1" r="6"/>
+        <path d="M3.4 3.4 L7.6 7.6"/>
+      </g>
+      <g transform="translate(1038 17)">
+        <rect x="-8.5" y="-7" width="7.5" height="14" rx="3.7"/>
+        <rect x="1" y="-7" width="7.5" height="14" rx="3.7"/>
+        <circle cx="-4.7" cy="-3" r="1.5" fill="#f5f5f7" stroke="none"/>
+        <circle cx="4.7" cy="3" r="1.5" fill="#f5f5f7" stroke="none"/>
+      </g>
+    </g>
+    <text x="1178" y="23" text-anchor="end" fill="#f5f5f7" fill-opacity="0.88"
+          font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19">29.07.2026</text>
+    <g><title>Довідка</title><defs><linearGradient id="ic-desk-doc-1104-108" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#adadb3"/><stop offset="1" stop-color="#7a7a7e"/></linearGradient></defs><rect x="1070.0" y="74.0" width="68" height="68" rx="17.7" fill="url(#ic-desk-doc-1104-108)"/><rect x="1070.0" y="74.0" width="68" height="68" rx="17.7" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(1083.6 87.6) scale(0.9273)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M13.5 9 h12 l6.5 6.5 V35 a2 2 0 0 1 -2 2 H15.5 a2 2 0 0 1 -2 -2 Z"/>
+      <path d="M18.5 23 h10"/>
+      <path d="M18.5 29 h10"/></g></g><text x="1104" y="168" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="520">Довідка</text><g><title>Дані</title><defs><linearGradient id="ic-desk-data-1104-242" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3bff6b"/><stop offset="1" stop-color="#29b44c"/></linearGradient></defs><rect x="1070.0" y="208.0" width="68" height="68" rx="17.7" fill="url(#ic-desk-data-1104-242)"/><rect x="1070.0" y="208.0" width="68" height="68" rx="17.7" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(1083.6 221.6) scale(0.9273)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 8 L35.5 15.5 V30 L22 37.5 L8.5 30 V15.5 Z"/>
+      <path d="M8.5 15.5 L22 23 L35.5 15.5"/>
+      <path d="M22 23 V37.5"/></g></g><text x="1104" y="302" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="520">Дані</text>
 
-    <!-- Великий кегль просить від'ємного трекінгу: інакше літери розповзаються. -->
-    <text x="56" y="176" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="66"
-          font-weight="700" letter-spacing="-1.4">Атлас проєктів</text>
-    <text x="56" y="222" fill="#f5f5f7" fill-opacity="0.66" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-          font-size="25" letter-spacing="-0.1">Що варте уваги в AI-агентах, безпеці та
-      автоматизації — розкладене по теках</text>
+    <g filter="url(#winShadow)">
+      <rect x="64" y="62" width="950" height="630" rx="15"
+            fill="url(#glass)"/>
+    </g>
+    <g clip-path="url(#win)">
+      <rect x="64" y="62" width="950" height="630" fill="#1c1c1e"/>
+      <rect x="64" y="62" width="950" height="42" fill="#2c2c2e"/>
+      <path d="M64 104 H1014" stroke="#ffffff"
+            stroke-opacity="0.10"/>
 
-    <g><rect x="56" y="262" width="198" height="52" rx="26" fill="#0a84ff" fill-opacity="0.16"/><rect x="56" y="262" width="198" height="52" rx="26" fill="none" stroke="#0a84ff" stroke-opacity="0.42"/><circle cx="82" cy="288" r="6" fill="#0a84ff"/><text x="100" y="295" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="500">286 проєктів</text></g><g><rect x="270" y="262" width="186" height="52" rx="26" fill="#ff9f0a" fill-opacity="0.16"/><rect x="270" y="262" width="186" height="52" rx="26" fill="none" stroke="#ff9f0a" stroke-opacity="0.42"/><circle cx="296" cy="288" r="6" fill="#ff9f0a"/><text x="314" y="295" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="500">7 343 240 ★</text></g><g><rect x="472" y="262" width="198" height="52" rx="26" fill="#bf5af2" fill-opacity="0.16"/><rect x="472" y="262" width="198" height="52" rx="26" fill="none" stroke="#bf5af2" stroke-opacity="0.42"/><circle cx="498" cy="288" r="6" fill="#bf5af2"/><text x="516" y="295" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="500">11 категорій</text></g>
+      <g transform="translate(64 62)">
+        <!-- Керування вікном завжди ліворуч зверху — ламати це немає підстав. -->
+        <circle cx="24" cy="21" r="6.5" fill="#ff5f57"/>
+        <circle cx="45" cy="21" r="6.5" fill="#febc2e"/>
+        <circle cx="66" cy="21" r="6.5" fill="#28c840"/>
+        <text x="475.0" y="28" text-anchor="middle" fill="#f5f5f7"
+              fill-opacity="0.86" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20"
+              font-weight="600">Атлас проєктів</text>
+
+        <!-- Великий кегль просить від'ємного трекінгу: інакше літери розповзаються. -->
+        <text x="36" y="104" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="46"
+              font-weight="700" letter-spacing="-1.1">Атлас проєктів</text>
+        <text x="36" y="138" fill="#f5f5f7" fill-opacity="0.66" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+              font-size="20">Що варте уваги в AI-агентах, безпеці та автоматизації —</text>
+        <text x="36" y="162" fill="#f5f5f7" fill-opacity="0.66" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+              font-size="20">розкладене по теках, оновлюється щотижня.</text>
+
+        <!-- Пошук і кнопки прив'язані до правого краю вікна виразом, а не
+             числами: інакше кожна зміна WIN_W тихо зсуває їх у нікуди. -->
+        <g>
+          <rect x="592" y="66" width="222" height="38" rx="19"
+                fill="#ffffff" fill-opacity="0.08"/>
+          <rect x="592" y="66" width="222" height="38" rx="19" fill="none"
+                stroke="#ffffff" stroke-opacity="0.14"/>
+          <g transform="translate(616 85)" fill="none" stroke="#a1a1a6"
+             stroke-width="1.9" stroke-linecap="round">
+            <circle cx="-1" cy="-1" r="5.4"/><path d="M3 3 L6.8 6.8"/>
+          </g>
+          <text x="632" y="91" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">Пошук по теках…</text>
+
+          <rect x="828" y="66" width="38" height="38" rx="13" fill="#ffffff"
+                fill-opacity="0.08"/>
+          <path d="M850 76 a10 10 0 1 0 6.5 17.5 A11.5 11.5 0 0 1 850 76 Z"
+                fill="#f5f5f7" fill-opacity="0.72"/>
+          <rect x="876" y="66" width="38" height="38" rx="13" fill="#ffffff"
+                fill-opacity="0.08"/>
+          <g fill="#f5f5f7" fill-opacity="0.72">
+            <circle cx="889" cy="80" r="2.1"/>
+            <circle cx="901" cy="80" r="2.1"/>
+            <circle cx="889" cy="90" r="2.1"/>
+            <circle cx="901" cy="90" r="2.1"/>
+          </g>
+        </g>
+
+        <g transform="translate(36 186)"><title>проєктів у каталозі</title><rect width="208" height="50" rx="15" fill="#ffffff" fill-opacity="0.07"/><rect width="208" height="50" rx="15" fill="none" stroke="#ffffff" stroke-opacity="0.13"/><g><defs><linearGradient id="ic-chip-folder-30-25" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0ca1ff"/><stop offset="1" stop-color="#0972db"/></linearGradient></defs><rect x="16.0" y="11.0" width="28" height="28" rx="7.3" fill="url(#ic-chip-folder-30-25)"/><rect x="16.0" y="11.0" width="28" height="28" rx="7.3" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(21.6 16.6) scale(0.3818)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round"><path d="M8 15 h10 l3.5 4.5 H36 v13 a3 3 0 0 1 -3 3 H11 a3 3 0 0 1 -3 -3 Z" fill="#ffffff" stroke="none"/></g></g><text x="52" y="33" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600">286 проєктів</text></g><g transform="translate(258 186)"><title>зірок у оригіналів разом</title><rect width="197" height="50" rx="15" fill="#ffffff" fill-opacity="0.07"/><rect width="197" height="50" rx="15" fill="none" stroke="#ffffff" stroke-opacity="0.13"/><g><defs><linearGradient id="ic-chip-star-30-25" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffc20c"/><stop offset="1" stop-color="#db8909"/></linearGradient></defs><rect x="16.0" y="11.0" width="28" height="28" rx="7.3" fill="url(#ic-chip-star-30-25)"/><rect x="16.0" y="11.0" width="28" height="28" rx="7.3" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(21.6 16.6) scale(0.3818)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round"><path d="M22 8 L26.6 18.2 L37.5 19.6 L29.6 27.2 L31.6 38 L22 32.8 L12.4 38 L14.4 27.2 L6.5 19.6 L17.4 18.2 Z" fill="#ffffff" stroke="none"/></g></g><text x="52" y="33" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600">7 344 050 ★</text></g><g transform="translate(469 186)"><title>категорій</title><rect width="141" height="50" rx="15" fill="#ffffff" fill-opacity="0.07"/><rect width="141" height="50" rx="15" fill="none" stroke="#ffffff" stroke-opacity="0.13"/><g><defs><linearGradient id="ic-chip-tag-30-25" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e96eff"/><stop offset="1" stop-color="#a44dd0"/></linearGradient></defs><rect x="16.0" y="11.0" width="28" height="28" rx="7.3" fill="url(#ic-chip-tag-30-25)"/><rect x="16.0" y="11.0" width="28" height="28" rx="7.3" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(21.6 16.6) scale(0.3818)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round"><path d="M11 13 h12.5 L35 24.5 L23.5 36 L11 23.5 Z" fill="#ffffff" stroke="none"/><circle cx="18" cy="20" r="2.6" fill="#3a3a3c" stroke="none"/></g></g><text x="52" y="33" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600">11 тек</text></g>
+        <path d="M36 260 H914" stroke="#ffffff"
+              stroke-opacity="0.09"/>
+        <g transform="translate(68.0 278)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-archive-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#adadb3"/><stop offset="1" stop-color="#7a7a7e"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-archive-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 13 h28 v8 H8 Z"/>
+      <path d="M11.5 21 v11.5 a3 3 0 0 0 3 3 h15 a3 3 0 0 0 3 -3 V21"/>
+      <path d="M18 27 h8"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">Архів</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">4 проєкти</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="6" height="4" rx="2" fill="#8e8e93"/></g><g transform="translate(206.0 278)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-security-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff5447"/><stop offset="1" stop-color="#db3b32"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-security-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 7 L36.5 12 v11 c0 9 -7 14.5 -14.5 17.5 C14 37.5 7.5 32 7.5 23 V12 Z"/>
+      <path d="M16.5 22.5 l4.5 4.5 L29 19"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">Безпека</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">37 проєктів</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="38" height="4" rx="2" fill="#ff453a"/></g><g transform="translate(344.0 278)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-qa-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3bff6b"/><stop offset="1" stop-color="#29b44c"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-qa-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="22" cy="22" r="14"/>
+      <path d="M15.5 22.5 l5 5 L30 18"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">QA</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">30 проєктів</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="31" height="4" rx="2" fill="#30d158"/></g><g transform="translate(482.0 278)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-skills-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e96eff"/><stop offset="1" stop-color="#a44dd0"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-skills-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 11 L38.5 18 L22 25 L5.5 18 Z"/>
+      <path d="M12 21.2 v7.8 c0 3 4.5 5 10 5 s10 -2 10 -5 v-7.8"/>
+      <path d="M35.5 19.5 V30"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">Skills</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">44 проєкти</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="45" height="4" rx="2" fill="#bf5af2"/></g><g transform="translate(620.0 278)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-llm-infra-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4ef4ff"/><stop offset="1" stop-color="#37acc1"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-llm-infra-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 8 L35.5 15.5 V30 L22 37.5 L8.5 30 V15.5 Z"/>
+      <path d="M8.5 15.5 L22 23 L35.5 15.5"/>
+      <path d="M22 23 V37.5"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">LLM-інфра</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">15 проєктів</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="15" height="4" rx="2" fill="#40c8e0"/></g><g transform="translate(758.0 278)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-memory-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7370ff"/><stop offset="1" stop-color="#514fc6"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-memory-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="22" cy="11.5" r="4.2"/>
+      <circle cx="10.5" cy="31" r="4.2"/>
+      <circle cx="33.5" cy="31" r="4.2"/>
+      <path d="M19.2 14.8 L13.3 27.7"/>
+      <path d="M24.8 14.8 L30.7 27.7"/>
+      <path d="M14.7 31 h14.6"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">Пам'ять</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">23 проєкти</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="24" height="4" rx="2" fill="#5e5ce6"/></g><g transform="translate(137.0 444)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-media-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff4374"/><stop offset="1" stop-color="#db2f52"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-media-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="7" y="11" width="30" height="22" rx="5.5"/>
+      <path d="M19 17.5 L28.5 22 L19 26.5 Z" fill="#ffffff" stroke="none"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">Медіа</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">20 проєктів</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="21" height="4" rx="2" fill="#ff375f"/></g><g transform="translate(275.0 444)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-agents-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0ca1ff"/><stop offset="1" stop-color="#0972db"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-agents-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="9.5" y="15" width="25" height="20" rx="6"/>
+      <circle cx="17.5" cy="24" r="2.3" fill="#ffffff" stroke="none"/>
+      <circle cx="26.5" cy="24" r="2.3" fill="#ffffff" stroke="none"/>
+      <path d="M22 15 V9.5"/>
+      <circle cx="22" cy="7.5" r="2.4" fill="#ffffff" stroke="none"/>
+      <path d="M9.5 26 H5.5"/>
+      <path d="M34.5 26 H38.5"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">Агенти</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">78 проєктів</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="80" height="4" rx="2" fill="#0a84ff"/></g><g transform="translate(413.0 444)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-devops-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffc20c"/><stop offset="1" stop-color="#db8909"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-devops-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="15.5" cy="22" r="7.6"/>
+      <circle cx="28.5" cy="22" r="7.6"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">DevOps</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">14 проєктів</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="14" height="4" rx="2" fill="#ff9f0a"/></g><g transform="translate(551.0 444)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-resources-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffff0c"/><stop offset="1" stop-color="#dbb809"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-resources-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 14 c-4 -3 -9.5 -4.2 -14.5 -3.2 V30.5 c5 -1 10.5 0.2 14.5 3.3 Z"/>
+      <path d="M22 14 c4 -3 9.5 -4.2 14.5 -3.2 V30.5 c-5 -1 -10.5 0.2 -14.5 3.3 Z"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">Ресурси</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">13 проєктів</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="13" height="4" rx="2" fill="#ffd60a"/></g><g transform="translate(689.0 444)"><rect width="124" height="152" rx="18" fill="#ffffff" fill-opacity="0.055"/><rect width="124" height="152" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.085"/><g><defs><linearGradient id="ic-web-62-48" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#79ffe8"/><stop offset="1" stop-color="#55c6a3"/></linearGradient></defs><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="url(#ic-web-62-48)"/><rect x="34.0" y="20.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(45.2 31.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="22" cy="22" r="14"/>
+      <path d="M8 22 H36"/>
+      <ellipse cx="22" cy="22" rx="6.2" ry="14"/></g></g><text x="62.0" y="99" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="620" letter-spacing="-0.2">Веб</text><text x="62.0" y="122" text-anchor="middle" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18">8 проєктів</text><rect x="22" y="134" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/><rect x="22" y="134" width="8" height="4" rx="2" fill="#63e6be"/></g>
+      </g>
+    </g>
+
+    
+    <g>
+      <rect x="363.0" y="718" width="474" height="92" rx="26"
+            fill="#ffffff" fill-opacity="0.14"/>
+      <rect x="363.0" y="718" width="474" height="92" rx="26" fill="none"
+            stroke="#ffffff" stroke-opacity="0.20"/>
+      <path d="M389.0 719 H811.0" stroke="#ffffff"
+            stroke-opacity="0.28" stroke-width="1.5"/>
+      <g><title>update.py</title><defs><linearGradient id="ic-terminal-409-764" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#474749"/><stop offset="1" stop-color="#323234"/></linearGradient></defs><rect x="381.0" y="736.0" width="56" height="56" rx="14.6" fill="url(#ic-terminal-409-764)"/><rect x="381.0" y="736.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(392.2 747.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M13 15 l7 7 l-7 7"/>
+      <path d="M24 29 h8"/></g></g><g><title>GitHub</title><defs><linearGradient id="ic-git-481-764" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff623e"/><stop offset="1" stop-color="#ce452c"/></linearGradient></defs><rect x="453.0" y="736.0" width="56" height="56" rx="14.6" fill="url(#ic-git-481-764)"/><rect x="453.0" y="736.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(464.2 747.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="14" cy="12.5" r="4"/>
+      <circle cx="14" cy="32" r="4"/>
+      <circle cx="30" cy="18.5" r="4"/>
+      <path d="M14 16.5 V28"/>
+      <path d="M14 22.5 h10 a6 6 0 0 0 6 -6"/></g></g><g><title>щотижневий запуск</title><defs><linearGradient id="ic-clock-553-764" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0ca1ff"/><stop offset="1" stop-color="#0972db"/></linearGradient></defs><rect x="525.0" y="736.0" width="56" height="56" rx="14.6" fill="url(#ic-clock-553-764)"/><rect x="525.0" y="736.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(536.2 747.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="22" cy="22" r="13"/>
+      <path d="M22 13.5 V22 l6.5 4"/></g></g><g><title>довідка</title><defs><linearGradient id="ic-doc-625-764" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#adadb3"/><stop offset="1" stop-color="#7a7a7e"/></linearGradient></defs><rect x="597.0" y="736.0" width="56" height="56" rx="14.6" fill="url(#ic-doc-625-764)"/><rect x="597.0" y="736.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(608.2 747.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M13.5 9 h12 l6.5 6.5 V35 a2 2 0 0 1 -2 2 H15.5 a2 2 0 0 1 -2 -2 Z"/>
+      <path d="M18.5 23 h10"/>
+      <path d="M18.5 29 h10"/></g></g><g><title>винятки</title><defs><linearGradient id="ic-sliders-697-764" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7370ff"/><stop offset="1" stop-color="#514fc6"/></linearGradient></defs><rect x="669.0" y="736.0" width="56" height="56" rx="14.6" fill="url(#ic-sliders-697-764)"/><rect x="669.0" y="736.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(680.2 747.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11 15 h22"/><path d="M11 22 h22"/><path d="M11 29 h22"/>
+      <circle cx="19" cy="15" r="3" fill="#ffffff" stroke="none"/>
+      <circle cx="27" cy="22" r="3" fill="#ffffff" stroke="none"/>
+      <circle cx="17" cy="29" r="3" fill="#ffffff" stroke="none"/></g></g><path d="M752.0 734 V794" fill="none" stroke="#ffffff" stroke-opacity="0.20"/><g><title>видалені форки</title><defs><linearGradient id="ic-trash-791-764" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#58585a"/><stop offset="1" stop-color="#3e3e40"/></linearGradient></defs><rect x="763.0" y="736.0" width="56" height="56" rx="14.6" fill="url(#ic-trash-791-764)"/><rect x="763.0" y="736.0" width="56" height="56" rx="14.6" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(774.2 747.2) scale(0.7636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11 15 h22"/>
+      <path d="M15 15 v18 a2 2 0 0 0 2 2 h10 a2 2 0 0 0 2 -2 V15"/>
+      <path d="M18.5 11.5 h7"/></g></g>
+    </g>
   </g>
 </svg>

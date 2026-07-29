@@ -631,20 +631,20 @@ def render_index(rows, now, shown, any_fork):
         )
     add("")
 
-    # Сітка тек. Три колонки: чотири по 240 пікселів уже не вміщаються
-    # в контентну ширину GitHub і поїхали б у горизонтальний скрол.
+    # Сітка тек — це навігація, а не повтор обкладинки: лічильників на плитках
+    # немає, вони вже є вище й нижче. Чотири колонки по 164 пікселі вміщаються
+    # в контентну ширину GitHub без горизонтального скролу.
     add("<table>")
-    for start in range(0, len(live), 3):
+    for start in range(0, len(live), 4):
         add("  <tr>")
-        for cat in live[start:start + 3]:
+        for cat in live[start:start + 4]:
             key = cat["key"]
             label = LOOK[key][0]
-            count = len(grouped[key])
             add(
-                f'    <td align="center" width="33%">'
+                f'    <td align="center" width="25%">'
                 f'<a href="docs/{key}.md">'
-                f'<img src="assets/readme/folder-{key}.svg" width="240" '
-                f'alt="{label} — {artwork.projects(count)}"></a></td>'
+                f'<img src="assets/readme/folder-{key}.svg" width="164" '
+                f'alt="Тека «{label}»"></a></td>'
             )
         add("  </tr>")
     add("</table>")
@@ -781,16 +781,23 @@ def write_site(rows, now):
     any_fork = any(r["url"] for r in rows)
     shown = visible_badges(rows, any_fork)
 
+    # Картки робочого столу: та сама четвірка, з якої малюються плитки й вікна,
+    # тож лічильники на іконках не можуть розійтися з таблицями.
+    cards = [
+        (c["key"], LOOK[c["key"]][0], LOOK[c["key"]][1], len(grouped[c["key"]]))
+        for c in live
+    ]
+
     ASSETS.mkdir(parents=True, exist_ok=True)
     DOCS.mkdir(parents=True, exist_ok=True)
 
     written = set()
     HERO_PATH.write_text(
-        artwork.hero(
+        artwork.desktop(
             len(rows),
             sum(r["stars"] or 0 for r in rows),
-            len(live),
             f"{now:%d.%m.%Y}",
+            cards,
         ),
         encoding="utf-8",
     )
@@ -800,10 +807,10 @@ def write_site(rows, now):
         label, color = LOOK[key]
         count = len(grouped[key])
         (ASSETS / f"folder-{key}.svg").write_text(
-            artwork.folder(label, color, count), encoding="utf-8"
+            artwork.folder(label, color, key), encoding="utf-8"
         )
         (ASSETS / f"window-{key}.svg").write_text(
-            artwork.window(cat["title"], color, count), encoding="utf-8"
+            artwork.window(cat["title"], color, count, key), encoding="utf-8"
         )
         (DOCS / f"{key}.md").write_text(
             render_category(cat, grouped[key], shown, any_fork, live), encoding="utf-8"
@@ -933,15 +940,30 @@ def self_test() -> None:
 
     # SVG має бути валідним XML: GitHub мовчки не покаже зламану картинку.
     from xml.etree import ElementTree
-    for svg in (
-        artwork.hero(286, 7_342_994, 11, "29.07.2026"),
-        artwork.folder("Пам'ять", "#5e5ce6", 23),
-        artwork.window("Кібербезпека, OSINT і red team", "#ff453a", 37),
-    ):
+    sample = [(c["key"], *LOOK[c["key"]], 7 * i + 3) for i, c in enumerate(CATEGORIES)]
+    art = [
+        artwork.desktop(286, 7_342_994, "29.07.2026", sample),
+        artwork.folder("Пам'ять", "#5e5ce6", "memory"),
+        artwork.window("Кібербезпека, OSINT і red team", "#ff453a", 37, "security"),
+        # Одна категорія: останній рядок сітки не має ділити на нуль чи з'їхати.
+        artwork.desktop(1, 0, "01.01.2026", [("web", "Веб", "#63e6be", 1)]),
+    ]
+    for svg in art:
         ElementTree.fromstring(svg)
     # Ні скриптів, ні зовнішніх ресурсів — GitHub усе одно їх вирізає.
-    assert "<script" not in artwork.hero(1, 1, 1, "x")
-    assert "http://www.w3.org/2000/svg" in artwork.folder("x", "#000000", 1)
+    assert not any("<script" in svg or "foreignObject" in svg for svg in art)
+    assert not any("http://" in svg.replace("http://www.w3.org/2000/svg", "") for svg in art)
+
+    # Детермінованість. Ті самі дані мусять давати побайтово той самий файл,
+    # інакше щотижневий запуск комітить 23 «зміни» при незмінному каталозі.
+    # Найлегше зламати це через hash() у назвах id — він рандомізований між
+    # процесами, тож перевіряємо повторним викликом.
+    assert artwork.desktop(286, 7_342_994, "29.07.2026", sample) == art[0]
+    assert artwork.folder("Пам'ять", "#5e5ce6", "memory") == art[1]
+
+    # У кожної категорії власний глиф: на столі теки шукають за формою.
+    assert set(keys) <= set(artwork.GLYPHS), f"немає глифа: {set(keys) - set(artwork.GLYPHS)}"
+    assert len({body.strip() for body in artwork.GLYPHS.values()}) == len(artwork.GLYPHS)
 
     # Українська множина в підписах тек.
     assert artwork.projects(1) == "1 проєкт"
@@ -950,7 +972,7 @@ def self_test() -> None:
     assert artwork.projects(22) == "22 проєкти"
 
     # Екранування в SVG: назва з амперсандом не має ламати XML.
-    ElementTree.fromstring(artwork.window("R&D <test>", "#30d158", 2))
+    ElementTree.fromstring(artwork.window("R&D <test>", "#30d158", 2, "qa"))
 
     print(f"Самоперевірка пройдена: {len(cases)} кейсів класифікації, {len(keys)} категорій.")
 

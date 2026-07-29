@@ -4,12 +4,11 @@
     <clipPath id="win"><rect width="1200" height="112" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#win)">
-    <rect width="1200" height="112" fill="#1c1c1f"/>
-    <rect width="1200" height="56" fill="#2a2a2e"/>
+    <rect width="1200" height="112" fill="#1c1c1e"/>
+    <rect width="1200" height="56" fill="#2c2c2e"/>
     <path d="M0 56 H1200" stroke="#ffffff" stroke-opacity="0.10"/>
     <path d="M0 0.5 H1200" stroke="#ffffff" stroke-opacity="0.14"/>
 
-    <!-- Керування вікном завжди ліворуч зверху — ламати це немає підстав. -->
     <circle cx="28" cy="28" r="7.5" fill="#ff5f57"/>
     <circle cx="52" cy="28" r="7.5" fill="#febc2e"/>
     <circle cx="76" cy="28" r="7.5" fill="#28c840"/>
@@ -17,18 +16,16 @@
     <text x="600" y="36" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
           font-size="26" font-weight="640" letter-spacing="-0.4">Медіа, контент і маркетинг</text>
 
-    <g transform="translate(28 70)">
-      <rect x="0" y="0" width="13" height="6" rx="2" fill="#c72b4a"/>
-      <rect x="0" y="3" width="30" height="19" rx="4" fill="#d12d4e"/>
-      <rect x="0" y="7" width="30" height="15" rx="4" fill="#ff3d69"/>
-    </g>
-    <text x="70" y="88" fill="#f5f5f7" fill-opacity="0.60" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+    <g><defs><linearGradient id="ic-media-42-84" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff4374"/><stop offset="1" stop-color="#db2f52"/></linearGradient></defs><rect x="25.0" y="67.0" width="34" height="34" rx="8.8" fill="url(#ic-media-42-84)"/><rect x="25.0" y="67.0" width="34" height="34" rx="8.8" fill="none" stroke="#ffffff" stroke-opacity="0.22"/><g transform="translate(31.8 73.8) scale(0.4636)" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="7" y="11" width="30" height="22" rx="5.5"/>
+      <path d="M19 17.5 L28.5 22 L19 26.5 Z" fill="#ffffff" stroke="none"/></g></g>
+    <text x="70" y="91" fill="#f5f5f7" fill-opacity="0.60" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
           font-size="21">Атлас</text>
-    <text x="127" y="88" fill="#f5f5f7" fill-opacity="0.34" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+    <text x="127" y="91" fill="#f5f5f7" fill-opacity="0.34" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
           font-size="21">›</text>
-    <text x="145" y="88" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21"
+    <text x="145" y="91" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21"
           font-weight="560">Медіа, контент і маркетинг</text>
-    <text x="1172" y="88" text-anchor="end" fill="#98989d" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+    <text x="1172" y="91" text-anchor="end" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
           font-size="21">20 проєктів</text>
   </g>
 </svg>

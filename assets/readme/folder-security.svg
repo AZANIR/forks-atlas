@@ -1,31 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 288" width="240" height="216" role="img" aria-label="Тека «Безпека», 37 проєктів">
-  <title>Тека «Безпека», 37 проєктів</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 252" width="164" height="129" role="img" aria-label="Тека «Безпека»">
+  <title>Тека «Безпека»</title>
   <defs>
     <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#26262b"/>
-      <stop offset="1" stop-color="#161619"/>
+      <stop offset="0" stop-color="#2a2a2f"/>
+      <stop offset="1" stop-color="#1a1a1d"/>
     </linearGradient>
     <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ff5043"/>
-      <stop offset="1" stop-color="#f04137"/>
+      <stop offset="0" stop-color="#ff5144"/>
+      <stop offset="1" stop-color="#eb3f35"/>
     </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000"
+                    flood-opacity="0.30"/>
+    </filter>
   </defs>
 
-  <rect width="320" height="288" rx="28" fill="url(#tile)"/>
-  <!-- Верхня грань ловить світло: так поверхня читається як матеріал, а не як заливка. -->
-  <rect x="1" y="1" width="318" height="286" rx="27" fill="none"
+  <rect width="320" height="252" rx="28" fill="url(#tile)"/>
+  <!-- Верхня грань ловить світло: так поверхня читається як матеріал, а не заливка. -->
+  <rect x="1" y="1" width="318" height="250" rx="27" fill="none"
         stroke="#ffffff" stroke-opacity="0.09"/>
-  <path d="M29 1 H291" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+  <path d="M29 1 H291" fill="none" stroke="#ffffff" stroke-opacity="0.16"
+        stroke-width="1.5"/>
 
-  <g>
-    <rect x="80" y="56" width="68" height="34" rx="11" fill="#bd332b"/>
-    <rect x="80" y="72" width="160" height="100" rx="16" fill="#cc372e"/>
-    <rect x="80" y="90" width="160" height="82" rx="16" fill="url(#front)"/>
-    <path d="M96 91 H224" stroke="#ffffff" stroke-opacity="0.34" stroke-width="1.5"/>
+  <g filter="url(#shadow)">
+    <rect x="80" y="44" width="68" height="34" rx="11" fill="#b8322a"/>
+    <rect x="80" y="60" width="160" height="104" rx="16" fill="#c7362d"/>
+    <rect x="80" y="78" width="160" height="86" rx="16" fill="url(#front)"/>
+    <path d="M96 79 H224" fill="none" stroke="#ffffff" stroke-opacity="0.34"
+          stroke-width="1.5"/>
   </g>
+  <g transform="translate(134.0 95.0) scale(1.1818)" fill="none" stroke="#ffffff" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 7 L36.5 12 v11 c0 9 -7 14.5 -14.5 17.5 C14 37.5 7.5 32 7.5 23 V12 Z"/>
+      <path d="M16.5 22.5 l4.5 4.5 L29 19"/></g>
 
-  <text x="160" y="214" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-        font-size="27" font-weight="600" letter-spacing="-0.3">Безпека</text>
-  <text x="160" y="248" text-anchor="middle" fill="#98989d" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-        font-size="21" letter-spacing="0.2">37 проєктів</text>
+  <text x="160" y="212" text-anchor="middle" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="30" font-weight="600" letter-spacing="-0.4">Безпека</text>
 </svg>

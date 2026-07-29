@@ -4,23 +4,21 @@
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="docs/archive.md"><img src="assets/readme/folder-archive.svg" width="240" alt="Архів — 4 проєкти"></a></td>
-    <td align="center" width="33%"><a href="docs/security.md"><img src="assets/readme/folder-security.svg" width="240" alt="Безпека — 37 проєктів"></a></td>
-    <td align="center" width="33%"><a href="docs/qa.md"><img src="assets/readme/folder-qa.svg" width="240" alt="QA — 30 проєктів"></a></td>
+    <td align="center" width="25%"><a href="docs/archive.md"><img src="assets/readme/folder-archive.svg" width="164" alt="Тека «Архів»"></a></td>
+    <td align="center" width="25%"><a href="docs/security.md"><img src="assets/readme/folder-security.svg" width="164" alt="Тека «Безпека»"></a></td>
+    <td align="center" width="25%"><a href="docs/qa.md"><img src="assets/readme/folder-qa.svg" width="164" alt="Тека «QA»"></a></td>
+    <td align="center" width="25%"><a href="docs/skills.md"><img src="assets/readme/folder-skills.svg" width="164" alt="Тека «Skills»"></a></td>
   </tr>
   <tr>
-    <td align="center" width="33%"><a href="docs/skills.md"><img src="assets/readme/folder-skills.svg" width="240" alt="Skills — 44 проєкти"></a></td>
-    <td align="center" width="33%"><a href="docs/llm-infra.md"><img src="assets/readme/folder-llm-infra.svg" width="240" alt="LLM-інфра — 15 проєктів"></a></td>
-    <td align="center" width="33%"><a href="docs/memory.md"><img src="assets/readme/folder-memory.svg" width="240" alt="Пам'ять — 23 проєкти"></a></td>
+    <td align="center" width="25%"><a href="docs/llm-infra.md"><img src="assets/readme/folder-llm-infra.svg" width="164" alt="Тека «LLM-інфра»"></a></td>
+    <td align="center" width="25%"><a href="docs/memory.md"><img src="assets/readme/folder-memory.svg" width="164" alt="Тека «Пам'ять»"></a></td>
+    <td align="center" width="25%"><a href="docs/media.md"><img src="assets/readme/folder-media.svg" width="164" alt="Тека «Медіа»"></a></td>
+    <td align="center" width="25%"><a href="docs/agents.md"><img src="assets/readme/folder-agents.svg" width="164" alt="Тека «Агенти»"></a></td>
   </tr>
   <tr>
-    <td align="center" width="33%"><a href="docs/media.md"><img src="assets/readme/folder-media.svg" width="240" alt="Медіа — 20 проєктів"></a></td>
-    <td align="center" width="33%"><a href="docs/agents.md"><img src="assets/readme/folder-agents.svg" width="240" alt="Агенти — 78 проєктів"></a></td>
-    <td align="center" width="33%"><a href="docs/devops.md"><img src="assets/readme/folder-devops.svg" width="240" alt="DevOps — 14 проєктів"></a></td>
-  </tr>
-  <tr>
-    <td align="center" width="33%"><a href="docs/resources.md"><img src="assets/readme/folder-resources.svg" width="240" alt="Ресурси — 13 проєктів"></a></td>
-    <td align="center" width="33%"><a href="docs/web.md"><img src="assets/readme/folder-web.svg" width="240" alt="Веб — 8 проєктів"></a></td>
+    <td align="center" width="25%"><a href="docs/devops.md"><img src="assets/readme/folder-devops.svg" width="164" alt="Тека «DevOps»"></a></td>
+    <td align="center" width="25%"><a href="docs/resources.md"><img src="assets/readme/folder-resources.svg" width="164" alt="Тека «Ресурси»"></a></td>
+    <td align="center" width="25%"><a href="docs/web.md"><img src="assets/readme/folder-web.svg" width="164" alt="Тека «Веб»"></a></td>
   </tr>
 </table>
 
@@ -40,6 +38,6 @@
 
 `scripts/update.py` тягне список форків через GitHub GraphQL, додає проєкти з `scripts/extra.json` (ті, за якими стежимо без форку), розкладає все за правилами і перегенеровує цю сторінку, теки в `docs/` та `data/forks.json`. Правила й тексти категорій лежать у самому скрипті, ручні виправлення — у `scripts/overrides.json`.
 
-`286 проєктів` · `7 343 240 ★ сумарно` · `11 тек` · `оновлено 29.07.2026`
+`286 проєктів` · `7 344 050 ★ сумарно` · `11 тек` · `оновлено 29.07.2026`
 
 Деталі, формат винятків і як додати категорію — у [docs/how-it-works.md](docs/how-it-works.md).
