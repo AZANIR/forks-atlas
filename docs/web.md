@@ -6,9 +6,9 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [tw93/Pake](https://github.com/tw93/Pake) | 60 311 | Rust | 🤱🏻 Turn any webpage into a desktop app with one command. |
-| [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) 📋 | 39 997 | Vue | Collection of handy online tools for developers, with great UX. |
-| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) 📋 | 20 182 | TypeScript | A curated list of awesome things related to shadcn/ui. |
+| [tw93/Pake](https://github.com/tw93/Pake) | 60 417 | Rust | 🤱🏻 Turn any webpage into a desktop app with one command. |
+| [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) 📋 | 40 056 | Vue | Collection of handy online tools for developers, with great UX. |
+| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) 📋 | 20 213 | TypeScript | A curated list of awesome things related to shadcn/ui. |
 | [vladilenm/astro-cc](https://github.com/vladilenm/astro-cc) 💤 | 8 | Astro | — |
 | [andberry/berry-11ty](https://github.com/andberry/berry-11ty) 💤 | 5 | SCSS | Eleventy (11ty) playground with multi-sections landing pages setup, and Frontend workflow (Scss, JS es6+) implemented with gulp |
 | [ZennoHelpers/ZennoPoster-project-template](https://github.com/ZennoHelpers/ZennoPoster-project-template) ⚠️💤 | 5 | C# | Проект ZennoPoster для IDE (C# и F#) |
