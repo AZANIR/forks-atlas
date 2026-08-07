@@ -384,8 +384,13 @@ def graphql(query: str, variables: dict, token: str) -> dict:
         try:
             with urllib.request.urlopen(request, timeout=60) as response:
                 payload = json.load(response)
-            if payload.get("errors"):
-                sys.exit(f"GraphQL повернув помилку: {payload['errors']}")
+            # NOT_FOUND для окремих вузлів у batched-запиті extra.json — очікувана
+            # ситуація (репо видалили/перейменували); data при цьому все одно приходить
+            # з null на місці відсутніх, і fetch_extra їх просто пропускає.
+            errors = payload.get("errors") or []
+            fatal = [e for e in errors if e.get("type") != "NOT_FOUND"]
+            if fatal or (errors and "data" not in payload):
+                sys.exit(f"GraphQL повернув помилку: {errors}")
             return payload["data"]
         except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
             last = str(exc)
