@@ -6,11 +6,11 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 📋💤 | 237 138 | — | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. |
-| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 40 893 | Python | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. |
-| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 34 175 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
-| [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero) 💤 | 23 889 | Jupyter Notebook | Neural Networks: Zero to Hero |
-| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 23 673 | Jupyter Notebook | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 📋💤 | 237 140 | — | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 40 894 | Python | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. |
+| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 34 195 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
+| [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero) 💤 | 23 890 | Jupyter Notebook | Neural Networks: Zero to Hero |
+| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 23 674 | Jupyter Notebook | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. |
 | [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | 21 255 | Jupyter Notebook | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment. |
 | [wesbos/awesome-uses](https://github.com/wesbos/awesome-uses) 📋 | 5 289 | JavaScript | A list of /uses pages detailing developer setups, gear, software and configs. |
 | [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) 📋 | 2 858 | Python | A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases. |

@@ -6,9 +6,9 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 24 046 | TypeScript | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple… **— правила відносять до безпеки через red teaming, але за суттю це тест-фреймворк для промптів** |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 24 047 | TypeScript | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple… **— правила відносять до безпеки через red teaming, але за суттю це тест-фреймворк для промптів** |
 | [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) | 10 876 | Java | Continuous Inspection |
-| [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) | 9 498 | Python | UI Automation Framework for Games and Apps |
+| [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) | 9 497 | Python | UI Automation Framework for Games and Apps |
 | [refreshdotdev/web-eval-agent](https://github.com/refreshdotdev/web-eval-agent) ⚠️ | 1 240 | Python | An MCP server that autonomously evaluates web applications. |
 | [akshayp7/playwright-typescript-playwright-test](https://github.com/akshayp7/playwright-typescript-playwright-test) | 718 | TypeScript | This is a boilerplate/template for a Playwright-Typescript framework for web UI, API, mobile emulation, DB, and visual testing. Docker image, SonarQube, Lighthouse,… |
 | [AppiumTestDistribution/appium-device-farm](https://github.com/AppiumTestDistribution/appium-device-farm) | 616 | TypeScript | This is an Appium 2.0 plugin designed to manage and create driver sessions on available devices. |

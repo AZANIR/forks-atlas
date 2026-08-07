@@ -6,8 +6,8 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [tw93/Pake](https://github.com/tw93/Pake) | 60 500 | Rust | 🤱🏻 Turn any webpage into a desktop app with one command. |
-| [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) 📋 | 40 119 | Vue | Collection of handy online tools for developers, with great UX. |
+| [tw93/Pake](https://github.com/tw93/Pake) | 60 502 | Rust | 🤱🏻 Turn any webpage into a desktop app with one command. |
+| [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) 📋 | 40 120 | Vue | Collection of handy online tools for developers, with great UX. |
 | [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) 📋 | 20 256 | TypeScript | A curated list of awesome things related to shadcn/ui. |
 | [vladilenm/astro-cc](https://github.com/vladilenm/astro-cc) 💤 | 8 | Astro | — |
 | [andberry/berry-11ty](https://github.com/andberry/berry-11ty) 💤 | 5 | SCSS | Eleventy (11ty) playground with multi-sections landing pages setup, and Frontend workflow (Scss, JS es6+) implemented with gulp |
