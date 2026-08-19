@@ -6,24 +6,24 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) 📋 | 72 937 | PHP | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types… |
-| [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 72 531 | Java | Ghidra is a software reverse engineering (SRE) framework |
-| [usestrix/strix](https://github.com/usestrix/strix) | 55 644 | Python | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. |
-| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 46 942 | TypeScript | Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove… |
+| [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) 📋 | 72 936 | PHP | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types… |
+| [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 72 530 | Java | Ghidra is a software reverse engineering (SRE) framework |
+| [usestrix/strix](https://github.com/usestrix/strix) | 55 668 | Python | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. |
+| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 46 944 | TypeScript | Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove… |
 | [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | 44 737 | Python | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
 | [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | 30 604 | Go | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle… |
-| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 29 767 | Python | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) ·… |
+| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 29 786 | Python | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) ·… |
 | [authelia/authelia](https://github.com/authelia/authelia) | 28 626 | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
-| [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 26 705 | PowerShell | Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving… |
+| [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 26 713 | PowerShell | Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving… |
 | [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) | 23 786 | JavaScript | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites |
-| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 21 899 | Go | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 21 900 | Go | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
 | [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) | 18 486 | — | This repository contains a 90-day cybersecurity study plan, along with resources and materials for learning various cybersecurity concepts and technologies. The… |
-| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 14 785 | Python | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in… |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 14 786 | Python | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in… |
 | [awslabs/git-secrets](https://github.com/awslabs/git-secrets) | 13 377 | Shell | Prevents you from committing secrets and credentials into git repositories |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 📋 | 12 814 | JavaScript | Community curated list of templates for the nuclei engine to find security vulnerabilities. |
 | [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) 📋 | 10 546 | — | A curated list of Awesome Threat Intelligence resources |
-| [aliasrobotics/cai](https://github.com/aliasrobotics/cai) | 9 768 | Python | Cybersecurity AI (CAI), the framework for AI Security |
-| [lissy93/awesome-privacy](https://github.com/lissy93/awesome-privacy) 📋 | 9 757 | Astro | 🦄 A curated list of privacy & security-focused software and services |
+| [aliasrobotics/cai](https://github.com/aliasrobotics/cai) | 9 769 | Python | Cybersecurity AI (CAI), the framework for AI Security |
+| [lissy93/awesome-privacy](https://github.com/lissy93/awesome-privacy) 📋 | 9 758 | Astro | 🦄 A curated list of privacy & security-focused software and services |
 | [anchore/syft](https://github.com/anchore/syft) | 9 439 | Go | CLI tool and library for generating a Software Bill of Materials from container images and filesystems |
 | [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) 📋 | 9 339 | — | A curated list of tools for incident response |
 | [reddelexc/hackerone-reports](https://github.com/reddelexc/hackerone-reports) | 6 448 | Python | Top disclosed reports from HackerOne |
@@ -37,7 +37,7 @@
 | [lkarlslund/Adalanche](https://github.com/lkarlslund/Adalanche) | 2 194 | Go | Attack Graph Visualizer and Explorer (Active Directory) ...Who's *really* Domain Admin? |
 | [iknowjason/Awesome-CloudSec-Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs) 📋 | 2 176 | — | Awesome free cloud native security learning labs. Includes CTF, self-hosted workshops, guided vulnerability labs, and research labs. |
 | [TheGP/untidetect-tools](https://github.com/TheGP/untidetect-tools) | 1 893 | — | List of anti-detect and humanizing tools and browsers, including captcha solvers and sms-activation. |
-| [bugbasesecurity/pentest-copilot](https://github.com/bugbasesecurity/pentest-copilot) | 1 309 | TypeScript | Pentest Copilot is an AI-powered browser based ethical hacking assistant tool designed to streamline pentesting workflows. |
+| [bugbasesecurity/pentest-copilot](https://github.com/bugbasesecurity/pentest-copilot) | 1 308 | TypeScript | Pentest Copilot is an AI-powered browser based ethical hacking assistant tool designed to streamline pentesting workflows. |
 | [PaulJerimy/SecCertRoadmapHTML](https://github.com/PaulJerimy/SecCertRoadmapHTML) 💤 | 1 183 | HTML | Security Certification Roadmap HTML5/CSS3 version |
 | [HadessCS/Red-team-Interview-Questions](https://github.com/HadessCS/Red-team-Interview-Questions) 💤 | 774 | — | Red team Interview Questions |
 | [ubikron/Awesome-AI-OSINT](https://github.com/ubikron/Awesome-AI-OSINT) 📋 | 763 | — | A list of articles, videos, and tools related to the use of AI for OSINT. |

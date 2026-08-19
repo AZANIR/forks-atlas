@@ -6,9 +6,9 @@
 
 | Проєкт | ★ | Мова | Що це |
 | --- | --: | --- | --- |
-| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 📋 | 132 217 | HTML | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev |
-| [jdx/mise](https://github.com/jdx/mise) | 32 714 | Rust | dev tools, env vars, task runner **— заміна asdf/nvm/pyenv одним бінарником — керує і версіями інструментів, і env, і тасками** |
-| [basecamp/omarchy](https://github.com/basecamp/omarchy) | 26 753 | Shell | Beautiful, Modern & Opinionated Linux |
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 📋 | 132 220 | HTML | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev |
+| [jdx/mise](https://github.com/jdx/mise) | 32 715 | Rust | dev tools, env vars, task runner **— заміна asdf/nvm/pyenv одним бінарником — керує і версіями інструментів, і env, і тасками** |
+| [basecamp/omarchy](https://github.com/basecamp/omarchy) | 26 761 | Shell | Beautiful, Modern & Opinionated Linux |
 | [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) | 20 289 | — | DevOps Roadmap for 2026. with learning resources |
 | [sqshq/sampler](https://github.com/sqshq/sampler) 💤 | 14 785 | Go | Tool for shell commands execution, visualization and alerting. Configured with a simple YAML file. |
 | [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) 📋 | 10 027 | Shell | A curated list of delightful Bash scripts and resources. |
