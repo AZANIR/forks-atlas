@@ -4,23 +4,23 @@
 
 Курировані списки й дорожні карти, що не належать жодній технічній категорії напряму. Зверніть увагу: тематичні awesome-списки (наприклад, про безпеку чи агентів) лежать не тут, а у своїх категоріях із міткою 📋 — формат не є темою.
 
-| Проєкт | ★ | Мова | Що це |
-| --- | --: | --- | --- |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) 📋 | 279 969 | Python | Curated list of project-based tutorials |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 📋💤 | 239 207 | — | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. |
-| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 41 108 | Python | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. |
-| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 39 494 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
-| [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero) 💤 | 24 029 | Jupyter Notebook | Neural Networks: Zero to Hero |
-| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 23 879 | Jupyter Notebook | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. |
-| [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | 21 307 | Jupyter Notebook | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment. |
-| [wesbos/awesome-uses](https://github.com/wesbos/awesome-uses) 📋 | 5 299 | JavaScript | A list of /uses pages detailing developer setups, gear, software and configs. |
-| [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) 📋 | 2 932 | Python | A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases. |
-| [qosf/awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) 📋 | 2 379 | — | Curated list of open-source quantum software projects. |
-| [digitalknk/openclaw-runbook](https://github.com/digitalknk/openclaw-runbook) | 1 103 | Astro | Unofficial OpenClaw runbook for running agents day to day without burning money, exposing your gateway, or trusting random automation. **— найкорисніше в колекції з експлуатації: як не спалити бюджет і не відкрити гейтвей назовні** |
-| [GnuriaN/format-README](https://github.com/GnuriaN/format-README) | 1 039 | — | Формат файла README |
-| [nexu-io/harness-engineering-guide](https://github.com/nexu-io/harness-engineering-guide) | 614 | TypeScript | 🔧 The open guide to Harness Engineering — concepts, tutorials, papers, tools, and resources for building and managing AI agent runtimes. |
-| [justxor/MachineLearningRoadmap](https://github.com/justxor/MachineLearningRoadmap) | 345 | — | Полный Roadmap по машинному обучению 2026 |
-| [coleam00/evolution-of-ai-agents](https://github.com/coleam00/evolution-of-ai-agents) | 36 | Python | Three working examples showing how AI agent development evolved - from traditional RAG to batteries-included SDKs and skill-based frameworks |
+| Проєкт | Оригінал | ★ | Мова | Що це |
+| --- | --- | --: | --- | --- |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) 📋🔗 | — | 280 555 | Python | Curated list of project-based tutorials |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 📋🔗💤 | — | 240 047 | — | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. |
+| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) 🔗 | — | 41 392 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) 🔗 | — | 41 171 | Python | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. |
+| [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero) 🔗💤 | — | 24 089 | Jupyter Notebook | Neural Networks: Zero to Hero |
+| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) 🔗 | — | 23 960 | Jupyter Notebook | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. |
+| [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) 🔗 | — | 21 325 | Jupyter Notebook | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment. |
+| [wesbos/awesome-uses](https://github.com/wesbos/awesome-uses) 📋🔗 | — | 5 299 | JavaScript | A list of /uses pages detailing developer setups, gear, software and configs. |
+| [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) 📋🔗 | — | 2 938 | Python | A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases. |
+| [qosf/awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) 📋🔗 | — | 2 382 | — | Curated list of open-source quantum software projects. |
+| [digitalknk/openclaw-runbook](https://github.com/digitalknk/openclaw-runbook) 🔗 | — | 1 103 | Astro | Unofficial OpenClaw runbook for running agents day to day without burning money, exposing your gateway, or trusting random automation. **— найкорисніше в колекції з експлуатації: як не спалити бюджет і не відкрити гейтвей назовні** |
+| [GnuriaN/format-README](https://github.com/GnuriaN/format-README) 🔗 | — | 1 039 | — | Формат файла README |
+| [nexu-io/harness-engineering-guide](https://github.com/nexu-io/harness-engineering-guide) 🔗 | — | 617 | TypeScript | 🔧 The open guide to Harness Engineering — concepts, tutorials, papers, tools, and resources for building and managing AI agent runtimes. |
+| [justxor/MachineLearningRoadmap](https://github.com/justxor/MachineLearningRoadmap) 🔗 | — | 349 | — | Полный Roadmap по машинному обучению 2026 |
+| [coleam00/evolution-of-ai-agents](https://github.com/coleam00/evolution-of-ai-agents) 🔗 | — | 36 | Python | Three working examples showing how AI agent development evolved - from traditional RAG to batteries-included SDKs and skill-based frameworks |
 
 ---
 
