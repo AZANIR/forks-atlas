@@ -1,4 +1,4 @@
-![Skills — 48 проєктів](../assets/readme/window-skills.svg)
+![Skills — 49 проєктів](../assets/readme/window-skills.svg)
 
 # Agent Skills, субагенти та плагіни
 
@@ -6,53 +6,54 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [obra/superpowers](https://github.com/obra/superpowers) 🔗 | — | 276 770 | Shell | An agentic skills framework & software development methodology that works. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) 🔗 | — | 242 667 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and… **— harness-система: skills, інстинкти, пам'ять і research-first підхід одним набором** |
-| [mattpocock/skills](https://github.com/mattpocock/skills) 🔗 | — | 234 275 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
-| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) 🔗 | — | 205 926 | — | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
-| [anthropics/skills](https://github.com/anthropics/skills) 🔗 | — | 171 237 | Python | Public repository for Agent Skills |
-| [garrytan/gstack](https://github.com/garrytan/gstack) 🔗 | — | 129 364 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) 🔗 | — | 120 319 | Python | An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) 🔗 | — | 109 016 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) 🔗 | — | 64 917 | HTML | from vibe coding to agentic engineering - practice makes claude perfect |
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) 🔗 | — | 63 435 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1… |
-| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) 🔗 | — | 59 118 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
-| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) 📋🔗 | — | 52 142 | — | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 |
-| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) 🔗 | — | 45 322 | Python | AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic… |
-| [wshobson/agents](https://github.com/wshobson/agents) 🔗 | — | 39 061 | Python | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravity |
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) 📋🔗 | — | 38 173 | Python | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. |
-| [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 🔗 | — | 32 231 | JavaScript | Use Codex from Claude Code to review code or delegate tasks. |
-| [emilkowalski/skills](https://github.com/emilkowalski/skills) 🔗 | — | 31 927 | Markdown | Skills for Designers and Engineers. |
-| [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) 📋🔗 | — | 31 670 | — | A community collection of OpenClaw use cases for making life easier. |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) 📋🔗 | — | 31 445 | — | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more. |
-| [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) 🔗 | — | 27 590 | JavaScript | A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress |
-| [agentskills/agentskills](https://github.com/agentskills/agentskills) 🔗 | — | 24 638 | Python | Specification and documentation for Agent Skills |
-| [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) 🔗 | — | 24 487 | TypeScript | Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more |
-| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) 🔗 | — | 24 473 | Shell | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. |
-| [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) 📋🔗 | — | 17 810 | Python | A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or… |
-| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) 🔗 | — | 14 886 | Python | Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence,… |
-| [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) 📋🔗 | — | 9 858 | JavaScript | A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai |
-| [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) 🔗 | — | 9 444 | Python | GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup,… |
-| [oso95/scroll-world](https://github.com/oso95/scroll-world) 🔗 | — | 8 516 | JavaScript | A skill that turn any brand into a scrollable 3D world landing page |
-| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) 🔗 | — | 7 928 | Python | Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram,… |
-| [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) 📋🔗 | — | 6 166 | TypeScript | 🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus,… |
-| [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) 📋🔗 | — | 6 020 | — | A collection of 130+ specialized Codex subagents covering a wide range of development use cases. |
-| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) 📋🔗 | — | 5 427 | — | Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent. |
-| [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus) 🔗 | — | 3 998 | Shell | Run multiple AI models against the same research, design, or coding task. Surface disagreements before you ship. |
+| [obra/superpowers](https://github.com/obra/superpowers) 🔗 | — | 278 531 | Shell | An agentic skills framework & software development methodology that works. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) 🔗 | — | 243 690 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and… **— harness-система: skills, інстинкти, пам'ять і research-first підхід одним набором** |
+| [mattpocock/skills](https://github.com/mattpocock/skills) 🔗 | — | 238 814 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) 🔗 | — | 207 983 | — | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
+| [anthropics/skills](https://github.com/anthropics/skills) 🔗 | — | 172 025 | Python | Public repository for Agent Skills |
+| [garrytan/gstack](https://github.com/garrytan/gstack) 🔗 | — | 130 004 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) 🔗 | — | 121 779 | Python | An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) 🔗 | — | 113 724 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) 🔗 | — | 65 249 | HTML | from vibe coding to agentic engineering - practice makes claude perfect |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) 🔗 | — | 63 676 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1… |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) 🔗 | — | 59 519 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
+| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) 📋🔗 | — | 52 202 | — | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) 🔗 | — | 45 534 | Python | AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic… |
+| [wshobson/agents](https://github.com/wshobson/agents) 🔗 | — | 39 192 | Python | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravity |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) 📋🔗 | — | 38 311 | JavaScript | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. |
+| [emilkowalski/skills](https://github.com/emilkowalski/skills) 🔗 | — | 32 977 | Markdown | Skills for Designers and Engineers. |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) 📋🔗 | — | 32 894 | — | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more. |
+| [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 🔗 | — | 32 450 | JavaScript | Use Codex from Claude Code to review code or delegate tasks. |
+| [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) 📋🔗 | — | 31 669 | — | A community collection of OpenClaw use cases for making life easier. |
+| [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) 🔗 | — | 27 672 | JavaScript | A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress |
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) 🔗 | — | 24 781 | Python | Specification and documentation for Agent Skills |
+| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) 🔗 | — | 24 600 | Shell | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. |
+| [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) 🔗 | — | 24 597 | TypeScript | Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more |
+| [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) 📋🔗 | — | 17 846 | Python | A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or… |
+| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) 🔗 | — | 15 536 | Python | Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence,… |
+| [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) 📋🔗 | — | 9 943 | JavaScript | A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai |
+| [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) 🔗 | — | 9 492 | Python | GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup,… |
+| [oso95/scroll-world](https://github.com/oso95/scroll-world) 🔗 | — | 8 695 | JavaScript | A skill that turn any brand into a scrollable 3D world landing page |
+| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) 🔗 | — | 8 076 | Python | Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 39 tools: codebase/CI/infra-to-diagram, image→editable diagram,… |
+| [htdt/godogen](https://github.com/htdt/godogen) 🔗 | — | 6 413 | Python | Autonomous game development for Godot, Bevy, and Babylon.js with Claude Code and Codex |
+| [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) 📋🔗 | — | 6 182 | TypeScript | 🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus,… |
+| [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) 📋🔗 | — | 6 034 | — | A collection of 130+ specialized Codex subagents covering a wide range of development use cases. |
+| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) 📋🔗 | — | 5 472 | — | Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent. |
+| [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus) 🔗 | — | 4 012 | Shell | Run multiple AI models against the same research, design, or coding task. Surface disagreements before you ship. |
 | [op7418/Claude-to-IM-skill](https://github.com/op7418/Claude-to-IM-skill) 🔗 | — | 2 867 | TypeScript | Bridge Claude Code / Codex to IM platforms — chat with AI coding agents from Telegram, Discord, or Feishu/Lark. |
-| [zubair-trabzada/ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude) 🔗 | — | 2 531 | Python | AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents — audit any website, generate copy, email sequences, ad campaigns, content… |
+| [zubair-trabzada/ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude) 🔗 | — | 2 557 | Python | AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents — audit any website, generate copy, email sequences, ad campaigns, content… |
+| [plannotator/effective-html](https://github.com/plannotator/effective-html) 🔗 | — | 2 450 | HTML | Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams. |
 | [iannuttall/claude-agents](https://github.com/iannuttall/claude-agents) 🔗⚠️💤 | — | 2 049 | — | Custom subagents to use with Claude Code. |
-| [AgriciDaniel/claude-blog](https://github.com/AgriciDaniel/claude-blog) 🔗 | — | 1 750 | Python | Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development… |
-| [plannotator/effective-html](https://github.com/plannotator/effective-html) 🔗 | — | 1 749 | HTML | Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams. |
-| [oil-oil/beautify-github-readme](https://github.com/oil-oil/beautify-github-readme) 🔗 | — | 1 658 | Python | Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown |
-| [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) 🔗 | — | 1 100 | Python | Battle-tested Claude Code, OpenAI Codex, Cursor configs, plugins, hooks and agents with Kimi, MiniMax and GLM API support. |
-| [yetone/kill-ai-slop](https://github.com/yetone/kill-ai-slop) 🔗 | — | 1 049 | TypeScript | A field guide to the visual & copy tics of AI-generated products — and an Agent Skill that scans your project and strips them out. https://killaislop.com |
-| [shang-zhu/violin](https://github.com/shang-zhu/violin) 🔗 | — | 1 046 | Python | Open-source Video Translation Skill |
-| [Kappaemme-git/codex-startup-pressure-test-skill](https://github.com/Kappaemme-git/codex-startup-pressure-test-skill) 🔗 | — | 990 | JavaScript | — |
+| [AgriciDaniel/claude-blog](https://github.com/AgriciDaniel/claude-blog) 🔗 | — | 1 919 | Python | Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development… |
+| [oil-oil/beautify-github-readme](https://github.com/oil-oil/beautify-github-readme) 🔗 | — | 1 673 | Python | Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown |
+| [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) 🔗 | — | 1 112 | Python | Battle-tested Claude Code, OpenAI Codex, Cursor configs, plugins, hooks and agents with Kimi, MiniMax and GLM API support. |
+| [yetone/kill-ai-slop](https://github.com/yetone/kill-ai-slop) 🔗 | — | 1 069 | TypeScript | A field guide to the visual & copy tics of AI-generated products — and an Agent Skill that scans your project and strips them out. https://killaislop.com |
+| [shang-zhu/violin](https://github.com/shang-zhu/violin) 🔗 | — | 1 047 | Python | Open-source Video Translation Skill |
+| [Kappaemme-git/codex-startup-pressure-test-skill](https://github.com/Kappaemme-git/codex-startup-pressure-test-skill) 🔗 | — | 993 | JavaScript | — |
 | [LSTM-Kirigaya/openmcp-client](https://github.com/LSTM-Kirigaya/openmcp-client) 🔗 | — | 752 | TypeScript | All in one vscode plugin for mcp developer |
-| [smixs/visual-skills](https://github.com/smixs/visual-skills) 🔗 | — | 203 | — | AI film director skills for agents: cinematic dramaturgy (Murch, blocking, montage) + exact prompt syntax for Seedance 2.5, Kling 3.0 Turbo/Omni, Veo 3.1, Nano… |
+| [smixs/visual-skills](https://github.com/smixs/visual-skills) 🔗 | — | 213 | — | AI film director skills for agents: cinematic dramaturgy (Murch, blocking, montage) + exact prompt syntax for Seedance 2.5, Kling 3.0 Turbo/Omni, Veo 3.1, Nano… |
 | [genkovich/sdd](https://github.com/genkovich/sdd) 🔗 | — | 117 | Python | Spec-Driven Development for Claude Code: 12 atomic Socratic skills + a TDD implement engine (agent-team & dynamic-workflow modes) |
-| [Houseofmvps/claude-rank](https://github.com/Houseofmvps/claude-rank) 🔗 | — | 94 | JavaScript | Claude Code plugin that tells you why your site won't get cited by AI — and fixes the discoverability files automatically. 170+ rules across 10 scanners. |
+| [Houseofmvps/claude-rank](https://github.com/Houseofmvps/claude-rank) 🔗 | — | 95 | JavaScript | Claude Code plugin that tells you why your site won't get cited by AI — and fixes the discoverability files automatically. 170+ rules across 10 scanners. |
 | [DimPa1966/creative-director-skill](https://github.com/DimPa1966/creative-director-skill) 🔗 | — | 6 | — | AI Creative Director skill for Claude, GPT, Gemini — 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER), Cannes-calibrated scoring, recursive refinement. Insight →… |
 
 ---
