@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 112" width="1200" height="112" role="img" aria-label="Вікно Finder: Ресурси, роадмапи та навчальні матеріали, 16 проєктів">
-  <title>Вікно Finder: Ресурси, роадмапи та навчальні матеріали, 16 проєктів</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 112" width="1200" height="112" role="img" aria-label="Вікно Finder: Ресурси, роадмапи та навчальні матеріали, 18 проєктів">
+  <title>Вікно Finder: Ресурси, роадмапи та навчальні матеріали, 18 проєктів</title>
   <defs>
     <clipPath id="win"><rect width="1200" height="112" rx="16"/></clipPath>
   </defs>
@@ -26,6 +26,6 @@
     <text x="145" y="91" fill="#f5f5f7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21"
           font-weight="560">Ресурси, роадмапи та навчальні матеріали</text>
     <text x="1172" y="91" text-anchor="end" fill="#a1a1a6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
-          font-size="21">16 проєктів</text>
+          font-size="21">18 проєктів</text>
   </g>
 </svg>
