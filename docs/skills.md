@@ -6,15 +6,15 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [obra/superpowers](https://github.com/obra/superpowers) 🔗 | — | 286 146 | Shell | An agentic skills framework & software development methodology that works. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) 🔗 | — | 261 175 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
+| [obra/superpowers](https://github.com/obra/superpowers) 🔗 | — | 286 147 | Shell | An agentic skills framework & software development methodology that works. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) 🔗 | — | 261 176 | Shell | Skills for Real Engineers. Straight from my .agents directory. |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) 🔗 | — | 257 681 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and… **— harness-система: skills, інстинкти, пам'ять і research-first підхід одним набором** |
 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) 🔗 | — | 212 764 | — | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
 | [anthropics/skills](https://github.com/anthropics/skills) 🔗 | — | 176 109 | Python | Public repository for Agent Skills |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) 🔗 | — | 137 238 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) 🔗 | — | 137 239 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | [garrytan/gstack](https://github.com/garrytan/gstack) 🔗 | — | 132 867 | TypeScript | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) 🔗 | — | 127 361 | Python | An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. |
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) 🔗 | — | 65 945 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1… |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) 🔗 | — | 65 946 | JavaScript | Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1… |
 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) 🔗 | — | 65 897 | HTML | from vibe coding to agentic engineering - practice makes claude perfect |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) 🔗 | — | 61 968 | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) 🔗 | — | 60 634 | JavaScript | Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export. |

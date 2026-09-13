@@ -6,13 +6,13 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) 🔗 | — | 389 613 | TypeScript | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) 🔗 | — | 389 614 | TypeScript | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) 🔗 | — | 245 145 | Python | The agent that grows with you |
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) 🔗 | — | 204 181 | TypeScript | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) 🔗 | — | 195 223 | Rust | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. |
-| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) 🔗 | — | 152 116 | Shell | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized… |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) 🔗 | — | 152 117 | Shell | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized… |
 | [github/spec-kit](https://github.com/github/spec-kit) 🔗 | — | 136 343 | Python | 💫 Toolkit to help you get started with Spec-Driven Development |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) 🔗 | — | 95 706 | Python | AI agents running research on single-GPU nanochat training automatically |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) 🔗 | — | 95 707 | Python | AI agents running research on single-GPU nanochat training automatically |
 | [lobehub/lobehub](https://github.com/lobehub/lobehub) 🔗 | — | 82 445 | TypeScript | 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team. |
 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) 🔗 | — | 80 594 | TypeScript | The open-source app everyone uses to manage agents at work |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) 🔗 | — | 72 315 | TypeScript | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive… |

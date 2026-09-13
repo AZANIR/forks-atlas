@@ -17,7 +17,7 @@
 | [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) 🔗 | — | 31 137 | Go | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle… |
 | [authelia/authelia](https://github.com/authelia/authelia) 🔗 | — | 28 948 | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready. |
 | [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) 🔗 | — | 24 025 | JavaScript | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites |
-| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) 🔗 | — | 23 894 | Go | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) 🔗 | — | 23 895 | Go | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
 | [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) 🔗 | — | 19 269 | — | This repository contains a 90-day cybersecurity study plan, along with resources and materials for learning various cybersecurity concepts and technologies. The… |
 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 🔗 | — | 17 084 | Python | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in… |
 | [awslabs/git-secrets](https://github.com/awslabs/git-secrets) 🔗 | — | 13 394 | Shell | Prevents you from committing secrets and credentials into git repositories |

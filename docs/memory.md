@@ -6,9 +6,9 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) 🔗 | — | 116 395 | Python | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini… |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) 🔗 | — | 116 396 | Python | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini… |
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) 🔗 | — | 93 804 | TypeScript | Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back… |
-| [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) 🔗 | — | 82 510 | TypeScript | Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code,… |
+| [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) 🔗 | — | 82 511 | TypeScript | Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code,… |
 | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) 🔗 | — | 65 986 | JavaScript | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience |
 | [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) 🔗 | — | 38 704 | TypeScript | An Open Source implementation of Notebook LM with more flexibility and features |
 | [qdrant/qdrant](https://github.com/qdrant/qdrant) 🔗 | — | 34 522 | Rust | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ |

@@ -7,14 +7,14 @@
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) 📋🔗 | — | 283 188 | Python | Curated list of project-based tutorials |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 📋🔗💤 | — | 243 553 | — | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. |
-| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) 🔗 | — | 46 248 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 📋🔗💤 | — | 243 554 | — | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. |
+| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) 🔗 | — | 46 249 | Python | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 **— книга китайською; цінна саме розділами про пам'ять і контекст, код доданий покроково** |
 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) 🔗 | — | 41 459 | Python | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. |
 | [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero) 🔗💤 | — | 24 367 | Jupyter Notebook | Neural Networks: Zero to Hero |
 | [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) 🔗 | — | 24 267 | Jupyter Notebook | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. |
 | [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) 🔗 | — | 21 445 | Jupyter Notebook | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment. |
 | [wesbos/awesome-uses](https://github.com/wesbos/awesome-uses) 📋🔗 | — | 5 299 | JavaScript | A list of /uses pages detailing developer setups, gear, software and configs. |
-| [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) 📋🔗 | — | 3 492 | Python | A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases. |
+| [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) 📋🔗 | — | 3 493 | Python | A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases. |
 | [raiyanyahya/how-to-train-your-gpt](https://github.com/raiyanyahya/how-to-train-your-gpt) 🔗 | — | 3 338 | Jupyter Notebook | Build a modern LLM from scratch. Every line commented. Explained like we are five. **— навчальний репозиторій: LLM з нуля, кожен рядок прокоментовано; теми llama/llm інакше тягнуть у LLM-інфру** |
 | [qosf/awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) 📋🔗 | — | 2 393 | — | Curated list of open-source quantum software projects. |
 | [digitalknk/openclaw-runbook](https://github.com/digitalknk/openclaw-runbook) 🔗 | — | 1 108 | Astro | Unofficial OpenClaw runbook for running agents day to day without burning money, exposing your gateway, or trusting random automation. **— найкорисніше в колекції з експлуатації: як не спалити бюджет і не відкрити гейтвей назовні** |

@@ -7,12 +7,12 @@
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) 🔗 | — | 183 550 | Python | Python tool for converting files and office documents to Markdown. |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) 🔗 | — | 132 921 | Python | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. **— diffusion GUI/API; topic ai тягне в агенти** |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 🔗 | — | 123 188 | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. **— генерація коротких відео з AI-озвучкою; тема text-to-speech інакше тягне в LLM-інфру** |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) 🔗 | — | 132 922 | Python | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. **— diffusion GUI/API; topic ai тягне в агенти** |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 🔗 | — | 123 189 | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. **— генерація коротких відео з AI-озвучкою; тема text-to-speech інакше тягне в LLM-інфру** |
 | [nexu-io/open-design](https://github.com/nexu-io/open-design) 🔗 | — | 95 932 | TypeScript | 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine:… |
-| [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 🔗 | — | 89 339 | TypeScript | The open-source CapCut alternative |
+| [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 🔗 | — | 89 340 | TypeScript | The open-source CapCut alternative |
 | [penpot/penpot](https://github.com/penpot/penpot) 🔗 | — | 59 951 | Clojure | Penpot: The open-source design platform for Product teams that need scalable collaboration. |
-| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 🔗 | — | 58 343 | Python | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI… |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 🔗 | — | 58 344 | Python | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI… |
 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 🔗 | — | 54 087 | Python | AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio… |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) 🔗 | — | 49 522 | TypeScript | Write HTML. Render video. Built for agents. |
 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) 🔗⚠️ | — | 39 932 | TypeScript | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. |
