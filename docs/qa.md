@@ -6,20 +6,20 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) 🔗 | — | 24 819 | TypeScript | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple… **— правила відносять до безпеки через red teaming, але за суттю це тест-фреймворк для промптів** |
-| [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) 🔗 | — | 10 951 | Java | Continuous Inspection |
-| [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) 🔗 | — | 9 547 | Python | UI Automation Framework for Games and Apps |
-| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) 🔗 | — | 9 037 | Python | From text & real sources to maintainable .drawio architecture models: Diagram IR with source-kind profiles, incremental sync preserving manual layout, multi-view… |
-| [refreshdotdev/web-eval-agent](https://github.com/refreshdotdev/web-eval-agent) 🔗⚠️ | — | 1 240 | Python | An MCP server that autonomously evaluates web applications. |
-| [akshayp7/playwright-typescript-playwright-test](https://github.com/akshayp7/playwright-typescript-playwright-test) 🔗 | — | 730 | TypeScript | This is a boilerplate/template for a Playwright-Typescript framework for web UI, API, mobile emulation, DB, and visual testing. Docker image, SonarQube, Lighthouse,… |
-| [AppiumTestDistribution/appium-device-farm](https://github.com/AppiumTestDistribution/appium-device-farm) 🔗 | — | 630 | TypeScript | This is an Appium 2.0 plugin designed to manage and create driver sessions on available devices. |
-| [currents-dev/playwright-best-practices-skill](https://github.com/currents-dev/playwright-best-practices-skill) 🔗 | — | 373 | — | AI Skill for Playwright Best Practices—made by Currents.dev |
-| [LambdaTest/agent-skills](https://github.com/LambdaTest/agent-skills) 🔗 | — | 366 | Python | AI agent skills for TestMu AI (Formerly LambdaTest). |
-| [appclawhq/AppClaw](https://github.com/appclawhq/AppClaw) 🔗 | — | 110 | TypeScript | AI-powered mobile automation agent — describe what you want in plain English, AppClaw reads the screen, reasons, and acts. LLM-agnostic, open-source, zero telemetry. |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) 🔗 | — | 25 063 | TypeScript | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple… **— правила відносять до безпеки через red teaming, але за суттю це тест-фреймворк для промптів** |
+| [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) 🔗 | — | 10 979 | Java | Continuous Inspection |
+| [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) 🔗 | — | 9 555 | Python | UI Automation Framework for Games and Apps |
+| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) 🔗 | — | 9 296 | Python | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI and Protobuf sources into editable, tested draw.io architecture diagrams:… |
+| [refreshdotdev/web-eval-agent](https://github.com/refreshdotdev/web-eval-agent) 🔗⚠️ | — | 1 238 | Python | An MCP server that autonomously evaluates web applications. |
+| [akshayp7/playwright-typescript-playwright-test](https://github.com/akshayp7/playwright-typescript-playwright-test) 🔗 | — | 732 | TypeScript | This is a boilerplate/template for a Playwright-Typescript framework for web UI, API, mobile emulation, DB, and visual testing. Docker image, SonarQube, Lighthouse,… |
+| [AppiumTestDistribution/appium-device-farm](https://github.com/AppiumTestDistribution/appium-device-farm) 🔗 | — | 634 | TypeScript | This is an Appium 2.0 plugin designed to manage and create driver sessions on available devices. |
+| [currents-dev/playwright-best-practices-skill](https://github.com/currents-dev/playwright-best-practices-skill) 🔗 | — | 376 | — | AI Skill for Playwright Best Practices—made by Currents.dev |
+| [LambdaTest/agent-skills](https://github.com/LambdaTest/agent-skills) 🔗 | — | 367 | Python | AI agent skills for TestMu AI (Formerly LambdaTest). |
+| [appclawhq/AppClaw](https://github.com/appclawhq/AppClaw) 🔗 | — | 111 | TypeScript | AI-powered mobile automation agent — describe what you want in plain English, AppClaw reads the screen, reasons, and acts. LLM-agnostic, open-source, zero telemetry. |
 | [JoanEsquivel/cypress-cucumber-boilerplate](https://github.com/JoanEsquivel/cypress-cucumber-boilerplate) 🔗💤 | — | 109 | JavaScript | Cypress.IO Project using Javascript and Cucumber to start automating E2E tests just cloning it and installing dependencies. |
 | [seontechnologies/playwright-utils](https://github.com/seontechnologies/playwright-utils) 📋🔗 | — | 109 | TypeScript | A collection of utilities for Playwright tests at SEON Technologies, designed to make testing more efficient and maintainable. |
-| [bmad-code-org/bmad-method-test-architecture-enterprise](https://github.com/bmad-code-org/bmad-method-test-architecture-enterprise) 🔗 | — | 96 | JavaScript | Test Architect Full BMad Method Enhancement |
-| [testomatio/explorbot](https://github.com/testomatio/explorbot) 🔗 | — | 73 | TypeScript | AI Agent for Exploratory Browser Testing |
+| [bmad-code-org/bmad-method-test-architecture-enterprise](https://github.com/bmad-code-org/bmad-method-test-architecture-enterprise) 🔗 | — | 99 | JavaScript | Test Architect Full BMad Method Enhancement |
+| [testomatio/explorbot](https://github.com/testomatio/explorbot) 🔗 | — | 74 | TypeScript | AI Agent for Exploratory Browser Testing |
 | [marle3003/mokapi](https://github.com/marle3003/mokapi) 🔗 | — | 58 | Go | Your API mocking tool for OpenAPI and AsyncAPI using Go and JavaScript - https://mokapi.io **— мок OpenAPI/AsyncAPI; правила плутають через тему ldap** |
 | [403-html/the-qa-architecture-handbook](https://github.com/403-html/the-qa-architecture-handbook) 🔗 | — | 18 | — | This guide provides a structured framework and practical advice for building a rock-solid, end-to-end QA architecture in an organization. |
 | [deepakkamboj/playwright-ai-reporter](https://github.com/deepakkamboj/playwright-ai-reporter) 🔗 | — | 5 | TypeScript | Playwright AI Reporter is an enterprise-grade, production-ready test reporter that combines artificial intelligence with comprehensive test automation workflows. |
