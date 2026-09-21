@@ -22,7 +22,7 @@
   </tr>
 </table>
 
-**Швидкий перехід** · [Архів](docs/archive.md) 4 · [Безпека](docs/security.md) 40 · [QA](docs/qa.md) 32 · [Skills](docs/skills.md) 53 · [LLM-інфра](docs/llm-infra.md) 21 · [Пам'ять](docs/memory.md) 26 · [Медіа](docs/media.md) 34 · [Агенти](docs/agents.md) 95 · [DevOps](docs/devops.md) 14 · [Ресурси](docs/resources.md) 18 · [Веб](docs/web.md) 8
+**Швидкий перехід** · [Архів](docs/archive.md) 4 · [Безпека](docs/security.md) 40 · [QA](docs/qa.md) 32 · [Skills](docs/skills.md) 53 · [LLM-інфра](docs/llm-infra.md) 22 · [Пам'ять](docs/memory.md) 27 · [Медіа](docs/media.md) 33 · [Агенти](docs/agents.md) 94 · [DevOps](docs/devops.md) 14 · [Ресурси](docs/resources.md) 18 · [Веб](docs/web.md) 8
 
 ### Позначки
 
@@ -39,6 +39,6 @@
 
 `scripts/update.py` тягне список форків через GitHub GraphQL, додає проєкти з `scripts/extra.json` (ті, за якими стежимо без форку), розкладає все за правилами і перегенеровує цю сторінку, теки в `docs/` та `data/forks.json`. Правила й тексти категорій лежать у самому скрипті, ручні виправлення — у `scripts/overrides.json`.
 
-`345 проєктів` · `9 398 807 ★ сумарно` · `11 тек` · `оновлено 14.09.2026`
+`345 проєктів` · `9 527 203 ★ сумарно` · `11 тек` · `оновлено 21.09.2026`
 
 Деталі, формат винятків і як додати категорію — у [docs/how-it-works.md](docs/how-it-works.md).
