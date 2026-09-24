@@ -1,4 +1,4 @@
-![Медіа — 33 проєкти](../assets/readme/window-media.svg)
+![Медіа — 34 проєкти](../assets/readme/window-media.svg)
 
 # Медіа, контент і маркетинг
 
@@ -6,36 +6,37 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) 🔗 | — | 186 090 | Python | Python tool for converting files and office documents to Markdown. |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) 🔗 | — | 134 233 | Python | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. **— diffusion GUI/API; topic ai тягне в агенти** |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 🔗 | — | 124 917 | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. **— генерація коротких відео з AI-озвучкою; тема text-to-speech інакше тягне в LLM-інфру** |
-| [nexu-io/open-design](https://github.com/nexu-io/open-design) 🔗 | — | 97 396 | TypeScript | 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine:… |
-| [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 🔗 | — | 90 239 | TypeScript | The open-source CapCut alternative |
-| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 🔗 | — | 60 622 | Python | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI… |
-| [penpot/penpot](https://github.com/penpot/penpot) 🔗 | — | 60 213 | Clojure | Penpot: The open-source design platform for Product teams that need scalable collaboration. |
-| [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 🔗 | — | 55 732 | Python | AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio… |
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) 🔗 | — | 52 098 | TypeScript | Write HTML. Render video. Built for agents. |
-| [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) 🔗⚠️ | — | 39 960 | TypeScript | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. |
-| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) 🔗 | — | 30 994 | Rust | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local… **— правила чіпляються за privacy first, але це транскрибування зустрічей** |
-| [webadderallorg/Recordly](https://github.com/webadderallorg/Recordly) 🔗 | — | 30 156 | TypeScript | Create polished demo videos without editing skills. Mac/Windows/Linux **— screen recorder для demo-відео; слово skills у описі збиває в skill-паки** |
-| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) 🔗 | — | 29 334 | Java | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
-| [bradautomates/claude-video](https://github.com/bradautomates/claude-video) 🔗 | — | 17 477 | Python | Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. |
-| [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) 🔗 | — | 9 540 | Python | A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, LTX-2, Qwen Image, Hunyuan Video, LTX Video and Flux. |
-| [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) 🔗 | — | 9 192 | Python | The only downloader you need. 下载器的集大成者。 |
-| [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) 🔗 | — | 9 156 | TypeScript | AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template **— skill-пак, але артефакт — кінематографічне відео; skill у описі збиває в skill-паки** |
-| [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) 🔗 | — | 7 889 | TypeScript | Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. |
-| [opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) 🔗 | — | 7 743 | C++ | OpenToonz - An open-source full-featured 2D animation creation software |
-| [persepolisdm/persepolis](https://github.com/persepolisdm/persepolis) 🔗 | — | 7 457 | Python | Persepolis is a download manager written in Python. |
-| [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) 🔗 | — | 5 321 | TypeScript | Online editor to create and manipulate SVG paths |
-| [oop7/YTSage](https://github.com/oop7/YTSage) 🔗 | — | 4 610 | Python | Modern YouTube downloader with a clean PySide6 interface. Download videos in any quality, extract audio, fetch subtitles, sponsorBlock, and view video metadata.… |
-| [kane50613/takumi](https://github.com/kane50613/takumi) 🔗 | — | 3 012 | Rust | Render OG images and paged PDFs from JSX, HTML, and CSS. No headless browser. Runs on Node.js, Cloudflare Workers, browsers, and Rust. |
-| [walterlow/freecut](https://github.com/walterlow/freecut) 🔗 | — | 2 191 | TypeScript | FreeCut is a professional-grade video editor that runs entirely in your browser. Professional video editing, zero installation. Create stunning videos with… |
-| [kacperkapusciak/goldie](https://github.com/kacperkapusciak/goldie) 🔗 | — | 2 142 | TypeScript | ✨ agentic app store previews and screenshots **— генерує скріншоти й preview-відео для app store; написаний для coding-агентів, тому agentic тягне в агентів** |
-| [perminder-klair/subwave](https://github.com/perminder-klair/subwave) 🔗 | — | 1 376 | TypeScript | Personal internet radio: Agentic AI DJ **— агентне за реалізацією, але артефакт — ефір: AI-діджей добирає треки й говорить між ними** |
-| [kizuna-ai-lab/sokuji](https://github.com/kizuna-ai-lab/sokuji) 🔗 | — | 1 325 | TypeScript | Real-time two-way speech translation for bilingual meetings — auto-detects the spoken language and translates both directions, cloud or fully offline on-device.… |
-| [Formsmith746/SketchForge-3D](https://github.com/Formsmith746/SketchForge-3D) 🔗 | — | 1 044 | TypeScript | A local-first browser 3D design editor for building, cutting, importing STL files, and exporting models. |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) 🔗 | — | 186 796 | Python | Python tool for converting files and office documents to Markdown. |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) 🔗 | — | 134 847 | Python | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. **— diffusion GUI/API; topic ai тягне в агенти** |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 🔗 | — | 125 499 | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. **— генерація коротких відео з AI-озвучкою; тема text-to-speech інакше тягне в LLM-інфру** |
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) 🔗 | — | 97 944 | TypeScript | 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine:… |
+| [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 🔗 | — | 90 601 | TypeScript | The open-source CapCut alternative |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 🔗 | — | 61 161 | Python | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI… |
+| [penpot/penpot](https://github.com/penpot/penpot) 🔗 | — | 60 335 | Clojure | Penpot: The open-source design platform for Product teams that need scalable collaboration. |
+| [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 🔗 | — | 56 282 | Python | AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio… |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) 🔗 | — | 52 841 | TypeScript | Write HTML. Render video. Built for agents. |
+| [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) 🔗⚠️ | — | 39 967 | TypeScript | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. |
+| [webadderallorg/Recordly](https://github.com/webadderallorg/Recordly) 🔗 | — | 31 122 | TypeScript | Create polished demo videos without editing skills. Mac/Windows/Linux **— screen recorder для demo-відео; слово skills у описі збиває в skill-паки** |
+| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) 🔗 | — | 31 081 | Rust | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local… **— правила чіпляються за privacy first, але це транскрибування зустрічей** |
+| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) 🔗 | — | 29 363 | Java | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
+| [bradautomates/claude-video](https://github.com/bradautomates/claude-video) 🔗 | — | 17 623 | Python | Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. |
+| [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) 🔗 | — | 9 588 | Python | A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, LTX-2, Qwen Image, Hunyuan Video, LTX Video and Flux. |
+| [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) 🔗 | — | 9 423 | TypeScript | AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template **— skill-пак, але артефакт — кінематографічне відео; skill у описі збиває в skill-паки** |
+| [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) 🔗 | — | 9 254 | Python | The only downloader you need. 下载器的集大成者。 |
+| [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) 🔗 | — | 8 886 | Python | AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具 |
+| [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) 🔗 | — | 8 157 | TypeScript | Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. |
+| [opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) 🔗 | — | 7 758 | C++ | OpenToonz - An open-source full-featured 2D animation creation software |
+| [persepolisdm/persepolis](https://github.com/persepolisdm/persepolis) 🔗 | — | 7 463 | Python | Persepolis is a download manager written in Python. |
+| [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) 🔗 | — | 5 324 | TypeScript | Online editor to create and manipulate SVG paths |
+| [oop7/YTSage](https://github.com/oop7/YTSage) 🔗 | — | 4 623 | Python | Modern YouTube downloader with a clean PySide6 interface. Download videos in any quality, extract audio, fetch subtitles, sponsorBlock, and view video metadata.… |
+| [kane50613/takumi](https://github.com/kane50613/takumi) 🔗 | — | 3 023 | Rust | Render OG images and paged PDFs from JSX, HTML, and CSS. No headless browser. Runs on Node.js, Cloudflare Workers, browsers, and Rust. |
+| [walterlow/freecut](https://github.com/walterlow/freecut) 🔗 | — | 2 195 | TypeScript | FreeCut is a professional-grade video editor that runs entirely in your browser. Professional video editing, zero installation. Create stunning videos with… |
+| [kacperkapusciak/goldie](https://github.com/kacperkapusciak/goldie) 🔗 | — | 2 175 | TypeScript | ✨ agentic app store previews and screenshots **— генерує скріншоти й preview-відео для app store; написаний для coding-агентів, тому agentic тягне в агентів** |
+| [perminder-klair/subwave](https://github.com/perminder-klair/subwave) 🔗 | — | 1 392 | TypeScript | Personal internet radio: Agentic AI DJ **— агентне за реалізацією, але артефакт — ефір: AI-діджей добирає треки й говорить між ними** |
+| [kizuna-ai-lab/sokuji](https://github.com/kizuna-ai-lab/sokuji) 🔗 | — | 1 336 | TypeScript | Real-time two-way speech translation for bilingual meetings — auto-detects the spoken language and translates both directions, cloud or fully offline on-device.… |
+| [Formsmith746/SketchForge-3D](https://github.com/Formsmith746/SketchForge-3D) 🔗 | — | 1 052 | TypeScript | A local-first browser 3D design editor for building, cutting, importing STL files, and exporting models. |
 | [NathanRSmith/graphql-visualizer](https://github.com/NathanRSmith/graphql-visualizer) 🔗💤 | — | 198 | JavaScript | — |
-| [CharlesHoskinson/anthropies](https://github.com/CharlesHoskinson/anthropies) 🔗 | — | 187 | TypeScript | Restore clean title in work you already own. Strip vendor marks from Outputs Anthropic assigned to you. **— прибирає vendor marks з уже власного контенту; anthropic у тексті збиває правила** |
+| [CharlesHoskinson/anthropies](https://github.com/CharlesHoskinson/anthropies) 🔗 | — | 188 | TypeScript | Restore clean title in work you already own. Strip vendor marks from Outputs Anthropic assigned to you. **— прибирає vendor marks з уже власного контенту; anthropic у тексті збиває правила** |
 | [AgriciDaniel/seo-os](https://github.com/AgriciDaniel/seo-os) 🔗 | — | 126 | TypeScript | SEO Office is a local-first SEO agency operating system. claw3d UI + claude-seo specialists + marketing-brain. Distributed as a private repo to a non-technical… |
 | [orlovvugorivzai/ua-ultimate-humanizer-by-orlov](https://github.com/orlovvugorivzai/ua-ultimate-humanizer-by-orlov) 🔗 | — | 16 | — | Найпотужніший інструмент для гуманізації українських текстів будь-яких форматів (блоги, статті, технічна документація, README, маркетинг). **— гуманізатор українських текстів; README в описі тягне в ресурси** |
 | [yuriiss/X-Forge-Factory](https://github.com/yuriiss/X-Forge-Factory) 🔗 | — | 5 | TypeScript | Self-hosted operator console for Magnific / Freepik AI. REST + MCP, 48 image models, 52 video models, credit-safe job engine |

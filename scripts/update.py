@@ -411,6 +411,7 @@ fragment RepoFields on Repository {
   stargazerCount
   forkCount
   isArchived
+  isPrivate
   pushedAt
   licenseInfo { spdxId }
   primaryLanguage { name }
@@ -441,10 +442,15 @@ def fetch_extra(names: list[str], token: str) -> list[dict]:
         data = graphql(EXTRA_QUERY % "\n".join(aliases), {}, token)
         for index, full in enumerate(chunk):
             repo = data.get(f"r{index}")
-            if repo:
-                found.append(repo)
-            else:
+            if not repo:
                 print(f"  увага: {full} недоступний — пропущено")
+            elif repo["isPrivate"]:
+                # Та сама причина, що й privacy: PUBLIC у запиті форків: особистий токен
+                # бачить приватне, токен Actions — ні. Без цієї перевірки кожен локальний
+                # запуск публікував би опис приватного репо, а щотижневий — прибирав.
+                print(f"  увага: {full} приватний — пропущено")
+            else:
+                found.append(repo)
     return found
 
 
@@ -624,9 +630,18 @@ def render_index(rows, now, shown, any_fork):
 
     if any_fork:
         forked = sum(1 for r in rows if r["url"])
+        # «Більшість» — лише коли це правда: пара форків серед сотень посилань
+        # інакше дає у вступі «Більшість — форки (2)».
+        if forked * 2 > total:
+            lead = f"Більшість — форки ({forked}); решта позначена 🔗."
+        else:
+            lead = (
+                f"Здебільшого це посилання на оригінали (🔗) і лише {forked} "
+                f"{artwork.plural(forked, 'форк', 'форки', 'форків')}."
+            )
         add(
-            f"Каталог проєктів, за якими стежу. Більшість — форки ({forked}); решта "
-            "позначена 🔗. Розкладено по теках, оновлюється автоматично раз на тиждень."
+            f"Каталог проєктів, за якими стежу. {lead} Розкладено по теках, "
+            "оновлюється автоматично раз на тиждень."
         )
     else:
         add(
@@ -932,6 +947,25 @@ def self_test() -> None:
     assert classify(tracked, no_overrides) == "security"
     built = build([tracked], no_overrides, now)[0]
     assert built["upstream"] == "authelia/authelia" and built["url"] is None
+
+    # Приватне з extra.json не потрапляє на публічну сторінку, хоч би чий токен
+    # запустив скрипт. Мережа підмінена: перевіряється саме фільтр.
+    import contextlib, io
+    from unittest import mock
+    fake = {"r0": {"name": "open", "isPrivate": False},
+            "r1": {"name": "secret", "isPrivate": True}, "r2": None}
+    with mock.patch(f"{__name__}.graphql", return_value=fake), \
+            contextlib.redirect_stdout(io.StringIO()):
+        kept = fetch_extra(["a/open", "a/secret", "a/gone"], "token")
+    assert [r["name"] for r in kept] == ["open"], kept
+
+    # Вступ не перебільшує частку форків: «Більшість» лише коли їх справді більшість.
+    def intro(forks, links):
+        rows = ([{"url": "u", "category": "web", "stars": 0}] * forks
+                + [{"url": None, "category": "web", "stars": 0}] * links)
+        return render_index(rows, now, set(), any_fork=True)
+    assert "Більшість" not in intro(2, 360) and "лише 2 форки" in intro(2, 360)
+    assert "Більшість — форки (3)" in intro(3, 1)
 
     # Екранування таблиці: символ '|' не має ламати розмітку.
     assert cell("a | b") == "a \\| b"

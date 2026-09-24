@@ -1,4 +1,4 @@
-![Агенти — 94 проєкти](../assets/readme/window-agents.svg)
+![Агенти — 98 проєктів](../assets/readme/window-agents.svg)
 
 # AI-агенти, harness'и та оркестрація
 
@@ -6,94 +6,98 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) 🔗 | — | 390 185 | TypeScript | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) 🔗 | — | 247 643 | Python | The agent that grows with you |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) 🔗 | — | 205 536 | TypeScript | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) 🔗 | — | 390 396 | TypeScript | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) 🔗 | — | 248 669 | Python | The agent that grows with you |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) 🔗 | — | 205 874 | TypeScript | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) 🔗 | — | 195 279 | Rust | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. |
-| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) 🔗 | — | 153 880 | Shell | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized… |
-| [github/spec-kit](https://github.com/github/spec-kit) 🔗 | — | 138 148 | Python | 💫 Toolkit to help you get started with Spec-Driven Development |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) 🔗 | — | 96 476 | Python | AI agents running research on single-GPU nanochat training automatically |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) 🔗 | — | 82 722 | TypeScript | 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team. |
-| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) 🔗 | — | 81 172 | TypeScript | The open-source app everyone uses to manage agents at work |
-| [stablyai/orca](https://github.com/stablyai/orca) 🔗 | — | 74 224 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) 🔗 | — | 72 975 | TypeScript | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive… |
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) 🔗 | — | 72 306 | JavaScript | Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs… |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) 🔗 | — | 49 647 | Python | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) 🔗 | — | 48 449 | Python | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps |
-| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) 🔗 | — | 42 980 | Rust | Browser automation CLI for AI agents |
-| [herdrdev/herdr](https://github.com/herdrdev/herdr) 🔗 | — | 39 976 | Rust | the runtime your coding agents live on |
-| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) 🔗 | — | 39 285 | TypeScript | Teams-first Multi-agent orchestration for Claude Code |
-| [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) 🔗 | — | 38 363 | TypeScript | Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click **— мультиагентна інтерактивна класна кімната; слово classroom інакше тягне в навчальний архів** |
-| [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) 🔗 | — | 34 728 | TypeScript | Clone any website with one command using AI coding agents |
-| [block/buzz](https://github.com/block/buzz) 🔗 | — | 33 798 | Rust | A hive mind communication platform **— спільний простір, де люди й агенти працюють над задачею на власному релеї** |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) 🔗 | — | 32 103 | Python | Build and run agents you can see, understand and trust. |
-| [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) 🔗 | — | 31 163 | Python | Python scraper based on AI |
-| [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 🔗 | — | 30 916 | C# | OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single… **— CLI-сюїт Office для агентів (docx/xlsx/pptx); тема skills збиває в skill-паки** |
-| [simstudioai/sim](https://github.com/simstudioai/sim) 🔗 | — | 29 694 | TypeScript | Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders. |
-| [oraios/serena](https://github.com/oraios/serena) 🔗 | — | 29 661 | Python | A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the IDE for your agent **— семантичний пошук по коду через LSP — дає агенту навігацію рівня IDE замість grep** |
-| [openai/symphony](https://github.com/openai/symphony) 🔗 | — | 27 327 | Elixir | Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents. |
-| [trycua/cua](https://github.com/trycua/cua) 🔗 | — | 25 474 | HTML | Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation. |
-| [karpathy/llm-council](https://github.com/karpathy/llm-council) 🔗 | — | 24 938 | Python | LLM Council works together to answer your hardest questions |
-| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) 🔗 | — | 24 527 | TypeScript | AGENTS.md — a simple, open format for guiding coding agents |
-| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) 🔗 | — | 22 958 | TypeScript | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you |
-| [dyad-sh/dyad](https://github.com/dyad-sh/dyad) 🔗 | — | 21 594 | TypeScript | Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it! |
-| [1jehuang/jcode](https://github.com/1jehuang/jcode) 🔗 | — | 19 966 | Rust | The most RAM efficient harness |
-| [iii-hq/iii](https://github.com/iii-hq/iii) 🔗 | — | 18 791 | Rust | Effortlessly compose, extend, and observe every service in real-time for the first time ever. |
-| [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) 🔗 | — | 17 935 | TypeScript | AI coworker with memory and collaboration |
-| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) 🔗 | — | 14 564 | TypeScript | Autonomous multi-session AI coding |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) 🔗 | — | 14 485 | Python | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |
-| [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) 🔗 | — | 14 269 | TypeScript | Desktop Companion for Hermes Agent |
-| [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) 🔗 | — | 12 969 | TypeScript | 🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more. |
-| [CodebuffAI/freebuff](https://github.com/CodebuffAI/freebuff) 🔗 | — | 12 484 | TypeScript | The free coding agent |
-| [oblien/openship](https://github.com/oblien/openship) 🔗 | — | 12 386 | TypeScript | Self-hosted deployment platform |
-| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) 🔗 | — | 11 272 | TypeScript | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and… |
-| [trycompai/crm](https://github.com/trycompai/crm) 🔗 | — | 10 691 | TypeScript | Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. |
-| [miuuyy/codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web) 🔗 | — | 10 195 | TypeScript | Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota. **— ChatGPT Web як нативна модель у Codex; тема playwright (внутрішні тести) збиває правила в QA** |
-| [open-jarvis/OpenJarvis](https://github.com/open-jarvis/OpenJarvis) 🔗 | — | 10 050 | Python | Personal AI, On Personal Devices |
-| [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) 🔗 | — | 9 674 | JavaScript | Git. Ship. Done - Core **— методологія Git/Ship/Done для кодуючих агентів; topic context-engineering тягне в пам'ять** |
-| [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) 🔗 | — | 9 360 | TypeScript | Pixel office. |
-| [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) 🔗 | — | 8 715 | Python | Real-time Claude Code usage monitor with predictions and warnings |
-| [HKUDS/ClawWork](https://github.com/HKUDS/ClawWork) 🔗 | — | 8 550 | Python | "ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours" |
-| [vudovn/ag-kit](https://github.com/vudovn/ag-kit) 🔗 | — | 8 179 | TypeScript | — **— агентний кіт для Antigravity; в оригіналі немає ні опису, ні тем, тому правила його не бачать** |
-| [pickle-com/glass](https://github.com/pickle-com/glass) 🔗 | — | 7 608 | JavaScript | Digital Mind Extension |
-| [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) 🔗 | — | 7 481 | HTML | A pixel office for your OpenClaw: turn invisible work states into a cozy little space with characters, daily notes, and guest agents. Code under MIT; art assets for… |
-| [craft-ai-agents/craft-agents-oss](https://github.com/craft-ai-agents/craft-agents-oss) 🔗 | — | 7 194 | TypeScript | — |
-| [coleam00/ottomator-agents](https://github.com/coleam00/ottomator-agents) 🔗 | — | 5 772 | Python | All the open source AI Agents hosted on the oTTomator Live Agent Studio platform! |
-| [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) 🔗 | — | 5 540 | Python | "ClawTeam: Agent Swarm Intelligence" (One Command → Full Automation) |
-| [buildermethods/agent-os](https://github.com/buildermethods/agent-os) 🔗 | — | 5 435 | Shell | Agent OS is a system for injecting your codebase standards and writing better specs for spec-driven development. |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) 🔗 | — | 154 490 | Shell | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized… |
+| [github/spec-kit](https://github.com/github/spec-kit) 🔗 | — | 138 747 | Python | 💫 Toolkit to help you get started with Spec-Driven Development |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) 🔗 | — | 96 719 | Python | AI agents running research on single-GPU nanochat training automatically |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) 🔗 | — | 82 801 | TypeScript | 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team. |
+| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) 🔗 | — | 82 206 | TypeScript | The open-source app everyone uses to manage agents at work |
+| [stablyai/orca](https://github.com/stablyai/orca) 🔗 | — | 77 402 | TypeScript | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) 🔗 | — | 73 207 | TypeScript | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive… |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) 🔗 | — | 72 615 | JavaScript | Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs… |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) 🔗 | — | 50 246 | Python | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) 🔗 | — | 48 547 | Python | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps |
+| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) 🔗 | — | 43 155 | Rust | Browser automation CLI for AI agents |
+| [herdrdev/herdr](https://github.com/herdrdev/herdr) 🔗 | — | 40 583 | Rust | the runtime your coding agents live on |
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) 🔗 | — | 39 340 | TypeScript | Teams-first Multi-agent orchestration for Claude Code |
+| [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) 🔗 | — | 38 919 | TypeScript | Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click **— мультиагентна інтерактивна класна кімната; слово classroom інакше тягне в навчальний архів** |
+| [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) 🔗 | — | 35 059 | TypeScript | Clone any website with one command using AI coding agents |
+| [block/buzz](https://github.com/block/buzz) 🔗 | — | 34 252 | Rust | A hive mind communication platform **— спільний простір, де люди й агенти працюють над задачею на власному релеї** |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) 🔗 | — | 32 304 | Python | Build and run agents you can see, understand and trust. |
+| [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) 🔗 | — | 31 266 | Python | Python scraper based on AI |
+| [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 🔗 | — | 31 199 | C# | OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single… **— CLI-сюїт Office для агентів (docx/xlsx/pptx); тема skills збиває в skill-паки** |
+| [oraios/serena](https://github.com/oraios/serena) 🔗 | — | 29 774 | Python | A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the IDE for your agent **— семантичний пошук по коду через LSP — дає агенту навігацію рівня IDE замість grep** |
+| [simstudioai/sim](https://github.com/simstudioai/sim) 🔗 | — | 29 716 | TypeScript | Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders. |
+| [openai/symphony](https://github.com/openai/symphony) 🔗 | — | 27 396 | Elixir | Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents. |
+| [trycua/cua](https://github.com/trycua/cua) 🔗 | — | 26 249 | HTML | Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation. |
+| [karpathy/llm-council](https://github.com/karpathy/llm-council) 🔗 | — | 24 980 | Python | LLM Council works together to answer your hardest questions |
+| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) 🔗 | — | 24 599 | TypeScript | AGENTS.md — a simple, open format for guiding coding agents |
+| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) 🔗 | — | 22 989 | TypeScript | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you |
+| [dyad-sh/dyad](https://github.com/dyad-sh/dyad) 🔗 | — | 21 604 | TypeScript | Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it! |
+| [1jehuang/jcode](https://github.com/1jehuang/jcode) 🔗 | — | 20 097 | Rust | The most RAM efficient harness |
+| [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) 🔗 | — | 19 715 | Python | Fastest and cheapest web agent **— Jev обирає операцію й елемент сторінки, мала LLM пише лише текст — Google Flights за 7 секунд** |
+| [iii-hq/iii](https://github.com/iii-hq/iii) 🔗 | — | 18 803 | Rust | Effortlessly compose, extend, and observe every service in real-time for the first time ever. |
+| [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) 🔗 | — | 17 962 | TypeScript | AI coworker with memory and collaboration |
+| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) 🔗 | — | 14 571 | TypeScript | Autonomous multi-session AI coding |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) 🔗 | — | 14 523 | Python | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |
+| [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) 🔗 | — | 14 293 | TypeScript | Desktop Companion for Hermes Agent |
+| [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) 🔗 | — | 13 013 | TypeScript | 🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more. |
+| [CodebuffAI/freebuff](https://github.com/CodebuffAI/freebuff) 🔗 | — | 12 674 | TypeScript | The free coding agent |
+| [oblien/openship](https://github.com/oblien/openship) 🔗 | — | 12 451 | TypeScript | Self-hosted deployment platform |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) 🔗 | — | 11 301 | TypeScript | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and… |
+| [miuuyy/codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web) 🔗 | — | 11 215 | TypeScript | Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota. **— ChatGPT Web як нативна модель у Codex; тема playwright (внутрішні тести) збиває правила в QA** |
+| [trycompai/crm](https://github.com/trycompai/crm) 🔗 | — | 10 816 | TypeScript | Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. |
+| [open-jarvis/OpenJarvis](https://github.com/open-jarvis/OpenJarvis) 🔗 | — | 10 182 | Python | Personal AI, On Personal Devices |
+| [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) 🔗 | — | 9 814 | JavaScript | Git. Ship. Done - Core **— методологія Git/Ship/Done для кодуючих агентів; topic context-engineering тягне в пам'ять** |
+| [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) 🔗 | — | 9 394 | TypeScript | Pixel office. |
+| [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) 🔗 | — | 8 722 | Python | Real-time Claude Code usage monitor with predictions and warnings |
+| [HKUDS/ClawWork](https://github.com/HKUDS/ClawWork) 🔗 | — | 8 553 | Python | "ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours" |
+| [vudovn/ag-kit](https://github.com/vudovn/ag-kit) 🔗 | — | 8 181 | TypeScript | — **— агентний кіт для Antigravity; в оригіналі немає ні опису, ні тем, тому правила його не бачать** |
+| [pickle-com/glass](https://github.com/pickle-com/glass) 🔗 | — | 7 602 | JavaScript | Digital Mind Extension |
+| [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) 🔗 | — | 7 484 | HTML | A pixel office for your OpenClaw: turn invisible work states into a cozy little space with characters, daily notes, and guest agents. Code under MIT; art assets for… |
+| [craft-ai-agents/craft-agents-oss](https://github.com/craft-ai-agents/craft-agents-oss) 🔗 | — | 7 204 | TypeScript | — |
+| [coleam00/ottomator-agents](https://github.com/coleam00/ottomator-agents) 🔗 | — | 5 775 | Python | All the open source AI Agents hosted on the oTTomator Live Agent Studio platform! |
+| [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) 🔗 | — | 5 543 | Python | "ClawTeam: Agent Swarm Intelligence" (One Command → Full Automation) |
+| [buildermethods/agent-os](https://github.com/buildermethods/agent-os) 🔗 | — | 5 443 | Shell | Agent OS is a system for injecting your codebase standards and writing better specs for spec-driven development. |
 | [thirdlayerinc/autoagent](https://github.com/thirdlayerinc/autoagent) 🔗 | — | 4 573 | Python | autonomous harness engineering |
-| [abhi1693/openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) 🔗⚠️ | — | 4 106 | TypeScript | AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway. |
-| [b-nnett/grok-bot-0.18-reconstructed](https://github.com/b-nnett/grok-bot-0.18-reconstructed) 🔗⚠️ | — | 3 512 | TypeScript | Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS **— реконструкція Grok Bot для macOS; без тем правила не бачать** |
-| [llm-as-a-verifier/llm-as-a-verifier](https://github.com/llm-as-a-verifier/llm-as-a-verifier) 🔗 | — | 3 253 | Python | LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training. It achieves SOTA… |
-| [taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp) 🔗 | — | 3 199 | Python | Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace MCP Server & CLI Tool **— MCP/CLI до Gmail, Calendar, Docs тощо — не медіа-контент, хоча в описі є Docs/Sheets/Slides** |
-| [kyrolabs/awesome-agents](https://github.com/kyrolabs/awesome-agents) 📋🔗 | — | 2 826 | — | 🤖 Awesome list of AI Agents |
+| [abhi1693/openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) 🔗⚠️ | — | 4 104 | TypeScript | AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway. |
+| [b-nnett/grok-bot-0.18-reconstructed](https://github.com/b-nnett/grok-bot-0.18-reconstructed) 🔗⚠️ | — | 3 514 | TypeScript | Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS **— реконструкція Grok Bot для macOS; без тем правила не бачать** |
+| [llm-as-a-verifier/llm-as-a-verifier](https://github.com/llm-as-a-verifier/llm-as-a-verifier) 🔗 | — | 3 267 | Python | LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training. It achieves SOTA… |
+| [taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp) 🔗 | — | 3 221 | Python | Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace MCP Server & CLI Tool **— MCP/CLI до Gmail, Calendar, Docs тощо — не медіа-контент, хоча в описі є Docs/Sheets/Slides** |
+| [NVlabs/SoL-Pi](https://github.com/NVlabs/SoL-Pi) 🔗 | — | 3 032 | TypeScript | SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses **— розширення NVIDIA для coding-агента Pi: менше повторних ходів, контексту й логів на довгих задачах** |
+| [kyrolabs/awesome-agents](https://github.com/kyrolabs/awesome-agents) 📋🔗 | — | 2 837 | — | 🤖 Awesome list of AI Agents |
 | [plexe-ai/plexe](https://github.com/plexe-ai/plexe) 🔗 | — | 2 644 | Python | ✨ Build a machine learning model from a prompt |
-| [nusquama/n8nworkflows.xyz](https://github.com/nusquama/n8nworkflows.xyz) 🔗 | — | 2 497 | — | N8N Workflows Catalog |
-| [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp) 🔗 | — | 2 427 | Python | FreeCAD MCP(Model Context Protocol) server |
-| [hyperspaceai/agi](https://github.com/hyperspaceai/agi) 🔗 | — | 2 057 | JavaScript | The first distributed AGI system. Thousands of autonomous AI agents collaboratively train models, share experiments via P2P gossip, and push breakthroughs here.… |
+| [nusquama/n8nworkflows.xyz](https://github.com/nusquama/n8nworkflows.xyz) 🔗 | — | 2 509 | — | N8N Workflows Catalog |
+| [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp) 🔗 | — | 2 458 | Python | FreeCAD MCP(Model Context Protocol) server |
+| [hyperspaceai/agi](https://github.com/hyperspaceai/agi) 🔗 | — | 2 062 | JavaScript | The first distributed AGI system. Thousands of autonomous AI agents collaboratively train models, share experiments via P2P gossip, and push breakthroughs here.… |
 | [grp06/openclaw-studio](https://github.com/grp06/openclaw-studio) 🔗 | — | 2 035 | TypeScript | A clean web dashboard for OpenClaw. Connect your Gateway, manage agents, and ship faster. ⭐️ Star if you like it! |
-| [virattt/ai-financial-agent](https://github.com/virattt/ai-financial-agent) 🔗💤 | — | 2 032 | TypeScript | A financial agent for investment research |
-| [xmanrui/OpenClaw-bot-review](https://github.com/xmanrui/OpenClaw-bot-review) 🔗 | — | 2 014 | TypeScript | A lightweight web dashboard for viewing all your OpenClaw Bots/Agents/Models/Sessions status at a glance. |
-| [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) 📋🔗 | — | 1 979 | — | List of agent orchestrators |
-| [ShenSeanChen/waku-agent](https://github.com/ShenSeanChen/waku-agent) 🔗 | — | 1 804 | Python | Waku Waku! Waku Agent is a local-first AI agent harness you actually own, including loop, memory, eval, all in code built to stay legible as it grows. |
-| [Pickle-Pixel/ApplyPilot](https://github.com/Pickle-Pixel/ApplyPilot) 🔗 | — | 1 620 | Python | AI agent that applies to jobs for you. Any site. Any form. |
-| [traycerai/traycer](https://github.com/traycerai/traycer) 🔗 | — | 1 503 | TypeScript | Traycer: Nerve Center for Agentic Coding **— оркестратор кодуючих агентів; без тем правила не бачать** |
-| [firecrawl/open-scouts](https://github.com/firecrawl/open-scouts) 🔗 | — | 1 367 | TypeScript | 🔥 AI-powered web monitoring platform. Create automated scouts that search the web and send email alerts when they find what you're looking for. |
-| [yashab-cyber/opendroid](https://github.com/yashab-cyber/opendroid) 🔗 | — | 1 064 | Kotlin | Your Open Autonomous Android Agent — A production-ready, self-planning AI assistant powered by local/remote LLMs and accessibility-driven screen automation. |
+| [virattt/ai-financial-agent](https://github.com/virattt/ai-financial-agent) 🔗💤 | — | 2 033 | TypeScript | A financial agent for investment research |
+| [xmanrui/OpenClaw-bot-review](https://github.com/xmanrui/OpenClaw-bot-review) 🔗 | — | 2 015 | TypeScript | A lightweight web dashboard for viewing all your OpenClaw Bots/Agents/Models/Sessions status at a glance. |
+| [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) 📋🔗 | — | 2 001 | — | List of agent orchestrators |
+| [ShenSeanChen/waku-agent](https://github.com/ShenSeanChen/waku-agent) 🔗 | — | 1 833 | Python | Waku Waku! Waku Agent is a local-first AI agent harness you actually own, including loop, memory, eval, all in code built to stay legible as it grows. |
+| [Pickle-Pixel/ApplyPilot](https://github.com/Pickle-Pixel/ApplyPilot) 🔗 | — | 1 637 | Python | AI agent that applies to jobs for you. Any site. Any form. |
+| [traycerai/traycer](https://github.com/traycerai/traycer) 🔗 | — | 1 521 | TypeScript | Traycer: Nerve Center for Agentic Coding **— оркестратор кодуючих агентів; без тем правила не бачать** |
+| [firecrawl/open-scouts](https://github.com/firecrawl/open-scouts) 🔗 | — | 1 368 | TypeScript | 🔥 AI-powered web monitoring platform. Create automated scouts that search the web and send email alerts when they find what you're looking for. |
+| [yashab-cyber/opendroid](https://github.com/yashab-cyber/opendroid) 🔗 | — | 1 069 | Kotlin | Your Open Autonomous Android Agent — A production-ready, self-planning AI assistant powered by local/remote LLMs and accessibility-driven screen automation. |
 | [iannuttall/mcp-boilerplate](https://github.com/iannuttall/mcp-boilerplate) 🔗⚠️ | — | 1 023 | TypeScript | A remote Cloudflare MCP server boilerplate with user authentication and Stripe for paid tools. |
-| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) 🔗 | — | 872 | TypeScript | Real-time web cockpit for OpenClaw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage… |
+| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) 🔗 | — | 871 | TypeScript | Real-time web cockpit for OpenClaw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage… |
 | [openswarm-ai/openswarm](https://github.com/openswarm-ai/openswarm) 🔗 | — | 818 | TypeScript | Your mission control center for a swarm of Ai agents. |
-| [phioranex/openclaw-docker](https://github.com/phioranex/openclaw-docker) 🔗 | — | 682 | Shell | — |
-| [paulrobello/claude-office](https://github.com/paulrobello/claude-office) 🔗 | — | 521 | TypeScript | Real-time pixel art office simulation that visualizes Claude Code operations |
+| [phioranex/openclaw-docker](https://github.com/phioranex/openclaw-docker) 🔗 | — | 683 | Shell | — |
+| [paulrobello/claude-office](https://github.com/paulrobello/claude-office) 🔗 | — | 524 | TypeScript | Real-time pixel art office simulation that visualizes Claude Code operations |
 | [EpicStaff/EpicStaff](https://github.com/EpicStaff/EpicStaff) 🔗 | — | 356 | Python | Source-available, self-hosted platform for building AI agent flows - visual editor over a Django backend. |
 | [eggent-ai/eggent](https://github.com/eggent-ai/eggent) 🔗 | — | 347 | TypeScript | An AI employee with their own computer. |
 | [ErwanLorteau/BMAD_Openclaw](https://github.com/ErwanLorteau/BMAD_Openclaw) 🔗 | — | 309 | TypeScript | Bridging the BMad Method to OpenClaw — Structured AI-driven development workflows. |
 | [geezerrrr/agent-town](https://github.com/geezerrrr/agent-town) 🔗 | — | 243 | TypeScript | A pixel-art AI agent online collaboration platform. |
-| [nikok6/herdr-mirror](https://github.com/nikok6/herdr-mirror) 🔗 | — | 239 | Rust | Unify your local and remote sessions in one window: mirror remote herdr servers into your local sidebar and drive them over SSH **— дзеркалить агентів з віддалених машин в одну панель — видно, хто працює, хто заблокований, хто завершив** |
-| [iannuttall/task-magic](https://github.com/iannuttall/task-magic) 🔗⚠️💤 | — | 238 | — | A complete task management system using Cursor/Windsurf rules |
+| [nikok6/herdr-mirror](https://github.com/nikok6/herdr-mirror) 🔗 | — | 243 | Rust | Unify your local and remote sessions in one window: mirror remote herdr servers into your local sidebar and drive them over SSH **— дзеркалить агентів з віддалених машин в одну панель — видно, хто працює, хто заблокований, хто завершив** |
+| [iannuttall/task-magic](https://github.com/iannuttall/task-magic) 🔗⚠️💤 | — | 239 | — | A complete task management system using Cursor/Windsurf rules |
+| [BillionsBobby/JevRouter](https://github.com/BillionsBobby/JevRouter) 🔗 | — | 202 | TypeScript | A lightweight Jev-powered router for models, tools, and subagents **— Jev вирішує, хто виконає наступний крок агента: модель, субагент, skill чи MCP; subagents тягне в skill-паки** |
 | [3DCF-Labs/safepilot](https://github.com/3DCF-Labs/safepilot) 🔗 | — | 194 | Rust | AI assistant that executes real work, safely. |
-| [noblehacks/frenemy](https://github.com/noblehacks/frenemy) 🔗 | — | 50 | JavaScript | I got tired of copy pasting between Claude and Codex, so I made them talk to each other. No API keys, just the subscriptions you already pay for. |
-| [karem505/openclaw-agent-dashboard](https://github.com/karem505/openclaw-agent-dashboard) 🔗 | — | 48 | HTML | Glassmorphic agent management dashboard for OpenClaw |
+| [OCA/ai](https://github.com/OCA/ai) 🔗 | — | 55 | Python | ai **— AI-модулі для Odoo 18: міст до зовнішніх AI-систем, AI-користувач у chatter, Ollama замість IAP, tools для MCP** |
+| [noblehacks/frenemy](https://github.com/noblehacks/frenemy) 🔗 | — | 52 | JavaScript | I got tired of copy pasting between Claude and Codex, so I made them talk to each other. No API keys, just the subscriptions you already pay for. |
+| [karem505/openclaw-agent-dashboard](https://github.com/karem505/openclaw-agent-dashboard) 🔗 | — | 47 | HTML | Glassmorphic agent management dashboard for OpenClaw |
 | [amartelr/antigravity-workspace-manager](https://github.com/amartelr/antigravity-workspace-manager) 🔗 | — | 15 | Python | A powerful CLI to orchestrate workspaces and dynamically inject specialized skills into AI coding agents. **— оркестратор воркспейсів для кодуючих агентів; слово skills у описі — про інжекцію, а не про skill-пак** |
 | [genkovich/sdlc](https://github.com/genkovich/sdlc) 🔗 | — | 15 | Python | SDLC toolkit for Claude Code: idea-to-ship pipeline, greenfield scaffold from base-tpl, UI verification, user docs |
 | [MattMagg/clawdash](https://github.com/MattMagg/clawdash) 🔗 | — | 13 | TypeScript | Real-time control plane for OpenClaw — monitor, manage, and configure AI agents and gateway from a single dashboard. **— панель керування, а не інфраструктура — слово gateway в описі збиває правила** |

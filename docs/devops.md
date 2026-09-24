@@ -6,18 +6,18 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 📋🔗 | — | 137 923 | HTML | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev |
-| [omacom/omarchy](https://github.com/omacom/omarchy) 🔗 | — | 42 463 | Shell | Beautiful, Modern & Opinionated Linux |
-| [jdx/mise](https://github.com/jdx/mise) 🔗 | — | 34 163 | Rust | dev tools, env vars, task runner **— заміна asdf/nvm/pyenv одним бінарником — керує і версіями інструментів, і env, і тасками** |
-| [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) 🔗 | — | 20 581 | — | DevOps Roadmap for 2026. with learning resources |
-| [sqshq/sampler](https://github.com/sqshq/sampler) 🔗💤 | — | 14 803 | Go | Tool for shell commands execution, visualization and alerting. Configured with a simple YAML file. |
-| [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) 📋🔗 | — | 10 085 | Shell | A curated list of delightful Bash scripts and resources. |
-| [remote-android/redroid-doc](https://github.com/remote-android/redroid-doc) 🔗 | — | 6 840 | Shell | redroid (Remote-Android) is a multi-arch, GPU enabled, Android in Cloud solution. Track issues / docs here |
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 📋🔗 | — | 138 233 | HTML | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev |
+| [omacom/omarchy](https://github.com/omacom/omarchy) 🔗 | — | 42 991 | Shell | Beautiful, Modern & Opinionated Linux |
+| [jdx/mise](https://github.com/jdx/mise) 🔗 | — | 34 257 | Rust | dev tools, env vars, task runner **— заміна asdf/nvm/pyenv одним бінарником — керує і версіями інструментів, і env, і тасками** |
+| [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) 🔗 | — | 20 617 | — | DevOps Roadmap for 2026. with learning resources |
+| [sqshq/sampler](https://github.com/sqshq/sampler) 🔗💤 | — | 14 807 | Go | Tool for shell commands execution, visualization and alerting. Configured with a simple YAML file. |
+| [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) 📋🔗 | — | 10 095 | Shell | A curated list of delightful Bash scripts and resources. |
+| [remote-android/redroid-doc](https://github.com/remote-android/redroid-doc) 🔗 | — | 6 849 | Shell | redroid (Remote-Android) is a multi-arch, GPU enabled, Android in Cloud solution. Track issues / docs here |
 | [pshenok/server-survival](https://github.com/pshenok/server-survival) 🔗 | — | 6 426 | JavaScript | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. |
-| [lissy93/networking-toolbox](https://github.com/lissy93/networking-toolbox) 🔗 | — | 2 677 | Svelte | 🛜 100+ offline-first networking tools and utilities |
-| [Manoj-engineer/k8squest](https://github.com/Manoj-engineer/k8squest) 🔗 | — | 1 475 | Shell | K8sQuest — A local, hands-on Kubernetes learning game with real-world troubleshooting challenges. Practice Pods, Deployments, Services, networking, storage, and… |
-| [karam-ajaj/atlas](https://github.com/karam-ajaj/atlas) 🔗 | — | 1 325 | JavaScript | Open-source tool for network discovery, visualization, and monitoring. Built with Go, FastAPI, and React, supports Docker host scanning. |
-| [AmineDjeghri/personal-os-setup](https://github.com/AmineDjeghri/personal-os-setup) 🔗 | — | 621 | Python | An app and guide to easily configure Windows, Linux, MacOS, Google TV, Stremio, Home Assistant and more (including WSL2, GPU drivers & development tools). Improve… |
+| [lissy93/networking-toolbox](https://github.com/lissy93/networking-toolbox) 🔗 | — | 2 678 | Svelte | 🛜 100+ offline-first networking tools and utilities |
+| [Manoj-engineer/k8squest](https://github.com/Manoj-engineer/k8squest) 🔗 | — | 1 474 | Shell | K8sQuest — A local, hands-on Kubernetes learning game with real-world troubleshooting challenges. Practice Pods, Deployments, Services, networking, storage, and… |
+| [karam-ajaj/atlas](https://github.com/karam-ajaj/atlas) 🔗 | — | 1 324 | JavaScript | Open-source tool for network discovery, visualization, and monitoring. Built with Go, FastAPI, and React, supports Docker host scanning. |
+| [AmineDjeghri/personal-os-setup](https://github.com/AmineDjeghri/personal-os-setup) 🔗 | — | 622 | Python | An app and guide to easily configure Windows, Linux, MacOS, Google TV, Stremio, Home Assistant and more (including WSL2, GPU drivers & development tools). Improve… |
 | [AlariCode/docker-demo](https://github.com/AlariCode/docker-demo) 🔗💤 | — | 43 | TypeScript | — |
 | [dimdimuzun/LearningTerraform](https://github.com/dimdimuzun/LearningTerraform) 🔗💤 | — | 0 | HCL | — |
 
