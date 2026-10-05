@@ -6,46 +6,46 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) 🔗 | — | 79 839 | Java | Ghidra is a software reverse engineering (SRE) framework |
-| [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) 📋🔗 | — | 73 796 | PHP | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types… |
-| [usestrix/strix](https://github.com/usestrix/strix) 🔗 | — | 65 322 | Python | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. |
-| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) 🔗 | — | 48 453 | TypeScript | Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove… |
-| [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) 🔗 | — | 45 178 | Python | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
-| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) 🔗 | — | 40 148 | Rust | OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust |
-| [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 🔗 | — | 38 505 | PowerShell | Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving… |
-| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) 🔗 | — | 33 504 | Python | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) ·… |
-| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) 🔗 | — | 31 588 | Go | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle… |
-| [authelia/authelia](https://github.com/authelia/authelia) 🔗 | — | 29 117 | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready. |
-| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) 🔗 | — | 25 060 | Go | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
-| [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) 🔗 | — | 24 136 | JavaScript | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites |
-| [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) 🔗 | — | 19 685 | — | This repository contains a 90-day cybersecurity study plan, along with resources and materials for learning various cybersecurity concepts and technologies. The… |
-| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 🔗 | — | 18 488 | Python | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in… |
-| [awslabs/git-secrets](https://github.com/awslabs/git-secrets) 🔗💤 | — | 13 407 | Shell | Prevents you from committing secrets and credentials into git repositories |
-| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 📋🔗 | — | 13 031 | JavaScript | Community curated list of templates for the nuclei engine to find security vulnerabilities. |
-| [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) 📋🔗 | — | 10 682 | — | A curated list of Awesome Threat Intelligence resources |
-| [lissy93/awesome-privacy](https://github.com/lissy93/awesome-privacy) 📋🔗 | — | 9 912 | Astro | 🦄 A curated list of privacy & security-focused software and services |
-| [aliasrobotics/cai](https://github.com/aliasrobotics/cai) 🔗⚠️ | — | 9 838 | Python | Cybersecurity AI (CAI), the framework for AI Security |
-| [anchore/syft](https://github.com/anchore/syft) 🔗 | — | 9 620 | Go | CLI tool and library for generating a Software Bill of Materials from container images and filesystems |
-| [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) 📋🔗 | — | 9 415 | — | A curated list of tools for incident response |
-| [reddelexc/hackerone-reports](https://github.com/reddelexc/hackerone-reports) 🔗 | — | 6 571 | Python | Top disclosed reports from HackerOne |
-| [vavkamil/awesome-bugbounty-tools](https://github.com/vavkamil/awesome-bugbounty-tools) 📋🔗 | — | 6 279 | — | A curated list of various bug bounty tools |
-| [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) 🔗 | — | 6 270 | TypeScript | autonomous red teaming platform; multi-agent offensive-security meta-harness |
-| [lanmaster53/recon-ng](https://github.com/lanmaster53/recon-ng) 🔗💤 | — | 5 947 | Python | Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources. |
+| [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) 🔗 | — | 80 709 | Java | Ghidra is a software reverse engineering (SRE) framework |
+| [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) 📋🔗 | — | 73 943 | PHP | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types… |
+| [usestrix/strix](https://github.com/usestrix/strix) 🔗 | — | 66 588 | Python | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. |
+| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) 🔗 | — | 48 582 | TypeScript | Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove… |
+| [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) 🔗 | — | 45 262 | Python | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) 🔗 | — | 40 642 | Rust | OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust |
+| [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 🔗 | — | 39 765 | PowerShell | Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving… |
+| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) 🔗 | — | 33 795 | Python | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) ·… |
+| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) 🔗 | — | 31 738 | Go | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle… |
+| [authelia/authelia](https://github.com/authelia/authelia) 🔗 | — | 29 178 | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready. |
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) 🔗 | — | 25 257 | Go | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
+| [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) 🔗 | — | 24 226 | JavaScript | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites |
+| [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) 🔗 | — | 19 794 | — | This repository contains a 90-day cybersecurity study plan, along with resources and materials for learning various cybersecurity concepts and technologies. The… |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 🔗 | — | 19 425 | Python | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in… |
+| [awslabs/git-secrets](https://github.com/awslabs/git-secrets) 🔗💤 | — | 13 409 | Shell | Prevents you from committing secrets and credentials into git repositories |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 📋🔗 | — | 13 057 | JavaScript | Community curated list of templates for the nuclei engine to find security vulnerabilities. |
+| [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) 📋🔗 | — | 10 699 | — | A curated list of Awesome Threat Intelligence resources |
+| [lissy93/awesome-privacy](https://github.com/lissy93/awesome-privacy) 📋🔗 | — | 9 930 | Astro | 🦄 A curated list of privacy & security-focused software and services |
+| [aliasrobotics/cai](https://github.com/aliasrobotics/cai) 🔗⚠️ | — | 9 843 | Python | Cybersecurity AI (CAI), the framework for AI Security |
+| [anchore/syft](https://github.com/anchore/syft) 🔗 | — | 9 634 | Go | CLI tool and library for generating a Software Bill of Materials from container images and filesystems |
+| [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) 📋🔗 | — | 9 432 | — | A curated list of tools for incident response |
+| [reddelexc/hackerone-reports](https://github.com/reddelexc/hackerone-reports) 🔗 | — | 6 587 | Python | Top disclosed reports from HackerOne |
+| [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) 🔗 | — | 6 380 | TypeScript | autonomous red teaming platform; multi-agent offensive-security meta-harness |
+| [vavkamil/awesome-bugbounty-tools](https://github.com/vavkamil/awesome-bugbounty-tools) 📋🔗 | — | 6 288 | — | A curated list of various bug bounty tools |
+| [lanmaster53/recon-ng](https://github.com/lanmaster53/recon-ng) 🔗💤 | — | 5 969 | Python | Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources. |
 | [onlurking/awesome-infosec](https://github.com/onlurking/awesome-infosec) 📋🔗 | — | 5 755 | — | A curated list of awesome infosec courses and training resources. |
-| [ShadowHackrs/gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) 🔗 | — | 5 139 | Python | 🚀 Advanced automated Gmail account creation tool with anti-detection, phone verification bypass, 5sim integration, and beautiful modern interface. Create Gmail… **— інструмент обходу антифроду; тут як зразок технік, а не для використання** |
-| [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) 🔗 | — | 5 022 | Python | 🕵️‍♂️ (2-in-1) Email & Username OSINT suite featuring native MCP support for deep data extraction just from a single Email/Username. Analyzes 1080+ actively… |
-| [gadievron/raptor](https://github.com/gadievron/raptor) 🔗 | — | 3 831 | Python | Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and… |
-| [lkarlslund/Adalanche](https://github.com/lkarlslund/Adalanche) 🔗 | — | 2 202 | Go | Attack Graph Visualizer and Explorer (Active Directory) ...Who's *really* Domain Admin? |
-| [iknowjason/Awesome-CloudSec-Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs) 📋🔗 | — | 2 196 | — | Awesome free cloud native security learning labs. Includes CTF, self-hosted workshops, guided vulnerability labs, and research labs. |
-| [TheGP/untidetect-tools](https://github.com/TheGP/untidetect-tools) 🔗 | — | 2 013 | — | List of anti-detect and humanizing tools and browsers, including captcha solvers and sms-activation. |
-| [bugbasesecurity/pentest-copilot](https://github.com/bugbasesecurity/pentest-copilot) 🔗 | — | 1 508 | TypeScript | Pentest Copilot is an AI-powered browser based ethical hacking assistant tool designed to streamline pentesting workflows. |
-| [PaulJerimy/SecCertRoadmapHTML](https://github.com/PaulJerimy/SecCertRoadmapHTML) 🔗💤 | — | 1 206 | HTML | Security Certification Roadmap HTML5/CSS3 version |
-| [ubikron/Awesome-AI-OSINT](https://github.com/ubikron/Awesome-AI-OSINT) 📋🔗 | — | 787 | — | A list of articles, videos, and tools related to the use of AI for OSINT. |
-| [HadessCS/Red-team-Interview-Questions](https://github.com/HadessCS/Red-team-Interview-Questions) 🔗💤 | — | 774 | — | Red team Interview Questions |
-| [s0ld13rr/pentestcode](https://github.com/s0ld13rr/pentestcode) 🔗 | — | 721 | TypeScript | PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations. |
-| [UndeadSec/SwaggerSpy](https://github.com/UndeadSec/SwaggerSpy) 🔗 | — | 321 | Python | Automated OSINT on SwaggerHub |
-| [RojanSapkota/osint-terminal](https://github.com/RojanSapkota/osint-terminal) 🔗 | — | 40 | Python | Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case investigation workflows, no API keys required. |
-| [luispacheco22/OpenBurp](https://github.com/luispacheco22/OpenBurp) 🔗 | — | 21 | Shell | Connect Claude Code and Codex with Burp Suite Professional for authorized security testing. |
+| [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) 🔗 | — | 5 256 | Python | 🕵️‍♂️ (2-in-1) Email & Username OSINT suite featuring native MCP support for deep data extraction just from a single Email/Username. Analyzes 2720+ actively… |
+| [ShadowHackrs/gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) 🔗 | — | 5 185 | Python | 🚀 Advanced automated Gmail account creation tool with anti-detection, phone verification bypass, 5sim integration, and beautiful modern interface. Create Gmail… **— інструмент обходу антифроду; тут як зразок технік, а не для використання** |
+| [gadievron/raptor](https://github.com/gadievron/raptor) 🔗 | — | 3 858 | Python | Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and… |
+| [lkarlslund/Adalanche](https://github.com/lkarlslund/Adalanche) 🔗 | — | 2 207 | Go | Attack Graph Visualizer and Explorer (Active Directory) ...Who's *really* Domain Admin? |
+| [iknowjason/Awesome-CloudSec-Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs) 📋🔗💤 | — | 2 198 | — | Awesome free cloud native security learning labs. Includes CTF, self-hosted workshops, guided vulnerability labs, and research labs. |
+| [TheGP/untidetect-tools](https://github.com/TheGP/untidetect-tools) 🔗 | — | 2 021 | — | List of anti-detect and humanizing tools and browsers, including captcha solvers and sms-activation. |
+| [bugbasesecurity/pentest-copilot](https://github.com/bugbasesecurity/pentest-copilot) 🔗 | — | 1 526 | TypeScript | Pentest Copilot is an AI-powered browser based ethical hacking assistant tool designed to streamline pentesting workflows. |
+| [PaulJerimy/SecCertRoadmapHTML](https://github.com/PaulJerimy/SecCertRoadmapHTML) 🔗💤 | — | 1 207 | HTML | Security Certification Roadmap HTML5/CSS3 version |
+| [s0ld13rr/pentestcode](https://github.com/s0ld13rr/pentestcode) 🔗 | — | 801 | TypeScript | PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations. |
+| [ubikron/Awesome-AI-OSINT](https://github.com/ubikron/Awesome-AI-OSINT) 📋🔗 | — | 786 | — | A list of articles, videos, and tools related to the use of AI for OSINT. |
+| [HadessCS/Red-team-Interview-Questions](https://github.com/HadessCS/Red-team-Interview-Questions) 🔗💤 | — | 776 | — | Red team Interview Questions |
+| [UndeadSec/SwaggerSpy](https://github.com/UndeadSec/SwaggerSpy) 🔗 | — | 322 | Python | Automated OSINT on SwaggerHub |
+| [RojanSapkota/osint-terminal](https://github.com/RojanSapkota/osint-terminal) 🔗 | — | 41 | Python | Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case investigation workflows, no API keys required. |
+| [luispacheco22/OpenBurp](https://github.com/luispacheco22/OpenBurp) 🔗 | — | 23 | Shell | Connect Claude Code and Codex with Burp Suite Professional for authorized security testing. |
 | [ProwlrBot/CyberBox](https://github.com/ProwlrBot/CyberBox) 🔗 | — | 16 | Python | CyberSandbox — all-in-one Docker security workspace with 160+ tools, dual AI, Caido proxy, and plugin marketplace |
 
 ---
