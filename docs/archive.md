@@ -6,7 +6,7 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [dimashyshkin/advanced-selenium-webdriver](https://github.com/dimashyshkin/advanced-selenium-webdriver) 🔗💤 | — | 43 | HTML | Code examples for Advanced Selenium Webdriver course on Udemy |
+| [dimashyshkin/advanced-selenium-webdriver](https://github.com/dimashyshkin/advanced-selenium-webdriver) 🔗💤 | — | 44 | HTML | Code examples for Advanced Selenium Webdriver course on Udemy |
 | [jamesgeorge007/jamesgeorge007](https://github.com/jamesgeorge007/jamesgeorge007) 🔗 | — | 34 | — | 🙌 **— профільний README іншої людини — форкнуто як приклад оформлення** |
 | [ShyamPraveenSingh/ShyamPraveenSingh](https://github.com/ShyamPraveenSingh/ShyamPraveenSingh) 🔗💤 | — | 5 | — | — |
 | [LumenRvenu/LumenRvenu](https://github.com/LumenRvenu/LumenRvenu) 🔗💤 | — | 0 | — | Config files for my GitHub profile. |
