@@ -1,4 +1,15 @@
 {
+  "FlashML-org/FreeVideo": { "category": "media", "note": "локальна генерація відео на власному залізі; слова про модель збивають у llm-infra" },
+  "Gsync/jobsync": { "category": "agents", "note": "трекер вакансій з AI-помічником; не інфраструктура LLM, хоч у описі є AI" },
+  "adityaarsharma/youtube-marketing-skills": { "category": "media", "note": "YouTube growth toolkit (SEO, Shorts, аналітика); слово skills у назві збиває в skill-паки" },
+  "daslearning-org/OpenSMS": { "category": "devops", "note": "локальний SMS API/gateway на Android; слово gateway тягне в LLM-інфру" },
+  "debpalash/VoiceStudio": { "category": "media", "note": "локальний ElevenLabs: клонування голосу, дубляж, аудіокниги; tts/stt тягнуть у LLM-інфру" },
+  "google-research/harness2": { "category": "agents", "note": "агентний harness від Google Research; без опису й тем правила не бачать" },
+  "westpoint-io/mimik": { "category": "media", "note": "розширення: кліки → гайд зі скріншотами; privacy-first у темах тягне в безпеку" },
+  "k1p1l0/claude-telegram-supercharged": { "category": "agents", "note": "Claude Code 24/7 з Telegram; це канал керування агентом, а не skill-пак" },
+  "stackblitz/bolt-slides": { "category": "media", "note": "агентна генерація презентацій; слово agent у описі тягне в агенти" },
+  "video-db/call.md": { "category": "agents", "note": "агентні цикли навколо зустрічей; тема skills збиває в skill-паки" },
+  "zqxwce/vphone-ws": { "category": "devops", "note": "менеджер віртуальних iPhone на macOS; без тем правила не бачать" },
   "add_to_NotebookLM": { "note": "букмарклет: кидає будь-яку сторінку в NotebookLM без ручного копіювання" },
 
   "ag-kit": { "category": "agents", "note": "агентний кіт для Antigravity; в оригіналі немає ні опису, ні тем, тому правила його не бачать" },
