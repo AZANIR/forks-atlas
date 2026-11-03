@@ -1,4 +1,4 @@
-![Атлас проєктів @AZANIR — 403 проєкти](assets/readme/hero.svg)
+![Атлас проєктів @AZANIR — 410 проєктів](assets/readme/hero.svg)
 
 Каталог проєктів, за якими стежу. Здебільшого це посилання на оригінали (🔗) і лише 2 форки. Розкладено по теках, оновлюється автоматично раз на тиждень.
 
@@ -22,7 +22,7 @@
   </tr>
 </table>
 
-**Швидкий перехід** · [Архів](docs/archive.md) 4 · [Безпека](docs/security.md) 45 · [QA](docs/qa.md) 33 · [Skills](docs/skills.md) 61 · [LLM-інфра](docs/llm-infra.md) 27 · [Пам'ять](docs/memory.md) 29 · [Медіа](docs/media.md) 51 · [Агенти](docs/agents.md) 108 · [DevOps](docs/devops.md) 16 · [Ресурси](docs/resources.md) 21 · [Веб](docs/web.md) 8
+**Швидкий перехід** · [Архів](docs/archive.md) 4 · [Безпека](docs/security.md) 45 · [QA](docs/qa.md) 33 · [Skills](docs/skills.md) 63 · [LLM-інфра](docs/llm-infra.md) 28 · [Пам'ять](docs/memory.md) 29 · [Медіа](docs/media.md) 51 · [Агенти](docs/agents.md) 110 · [DevOps](docs/devops.md) 17 · [Ресурси](docs/resources.md) 22 · [Веб](docs/web.md) 8
 
 ### Позначки
 
@@ -39,6 +39,6 @@
 
 `scripts/update.py` тягне список форків через GitHub GraphQL, додає проєкти з `scripts/extra.json` (ті, за якими стежимо без форку), розкладає все за правилами і перегенеровує цю сторінку, теки в `docs/` та `data/forks.json`. Правила й тексти категорій лежать у самому скрипті, ручні виправлення — у `scripts/overrides.json`.
 
-`403 проєкти` · `11 505 882 ★ сумарно` · `11 тек` · `оновлено 02.11.2026`
+`410 проєктів` · `11 569 777 ★ сумарно` · `11 тек` · `оновлено 03.11.2026`
 
 Деталі, формат винятків і як додати категорію — у [docs/how-it-works.md](docs/how-it-works.md).
