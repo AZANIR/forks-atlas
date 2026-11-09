@@ -6,22 +6,22 @@
 
 | Проєкт | Оригінал | ★ | Мова | Що це |
 | --- | --- | --: | --- | --- |
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) 🔗 | — | 26 775 | TypeScript | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple… **— правила відносять до безпеки через red teaming, але за суттю це тест-фреймворк для промптів** |
-| [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) 🔗 | — | 11 143 | Java | Continuous Inspection |
-| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) 🔗 | — | 10 545 | Python | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture… |
-| [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) 🔗 | — | 9 635 | Python | UI Automation Framework for Games and Apps |
-| [refreshdotdev/web-eval-agent](https://github.com/refreshdotdev/web-eval-agent) 🔗⚠️ | — | 1 231 | Python | An MCP server that autonomously evaluates web applications. |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) 🔗 | — | 26 991 | TypeScript | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple… **— правила відносять до безпеки через red teaming, але за суттю це тест-фреймворк для промптів** |
+| [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) 🔗 | — | 11 167 | Java | Continuous Inspection |
+| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) 🔗 | — | 10 658 | Python | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture… |
+| [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) 🔗 | — | 9 643 | Python | UI Automation Framework for Games and Apps |
+| [refreshdotdev/web-eval-agent](https://github.com/refreshdotdev/web-eval-agent) 🔗⚠️ | — | 1 232 | Python | An MCP server that autonomously evaluates web applications. |
 | [akshayp7/playwright-typescript-playwright-test](https://github.com/akshayp7/playwright-typescript-playwright-test) 🔗 | — | 752 | TypeScript | This is a boilerplate/template for a Playwright-Typescript framework for web UI, API, mobile emulation, DB, and visual testing. Docker image, SonarQube, Lighthouse,… |
 | [AppiumTestDistribution/appium-device-farm](https://github.com/AppiumTestDistribution/appium-device-farm) 🔗 | — | 659 | TypeScript | This is an Appium 2.0 plugin designed to manage and create driver sessions on available devices. |
-| [currents-dev/playwright-best-practices-skill](https://github.com/currents-dev/playwright-best-practices-skill) 🔗 | — | 415 | — | AI Skill for Playwright Best Practices—made by Currents.dev |
-| [LambdaTest/agent-skills](https://github.com/LambdaTest/agent-skills) 🔗 | — | 388 | Python | AI agent skills for TestMu AI (Formerly LambdaTest). |
+| [currents-dev/playwright-best-practices-skill](https://github.com/currents-dev/playwright-best-practices-skill) 🔗 | — | 420 | — | AI Skill for Playwright Best Practices—made by Currents.dev |
+| [LambdaTest/agent-skills](https://github.com/LambdaTest/agent-skills) 🔗 | — | 393 | Python | AI agent skills for TestMu AI (Formerly LambdaTest). |
 | [appclawhq/AppClaw](https://github.com/appclawhq/AppClaw) 🔗 | — | 120 | TypeScript | AI-powered mobile automation agent — describe what you want in plain English, AppClaw reads the screen, reasons, and acts. LLM-agnostic, open-source, zero telemetry. |
-| [bmad-code-org/bmad-method-test-architecture-enterprise](https://github.com/bmad-code-org/bmad-method-test-architecture-enterprise) 🔗 | — | 115 | JavaScript | Test Architect Full BMad Method Enhancement |
+| [bmad-code-org/bmad-method-test-architecture-enterprise](https://github.com/bmad-code-org/bmad-method-test-architecture-enterprise) 🔗 | — | 116 | JavaScript | Test Architect Full BMad Method Enhancement |
 | [seontechnologies/playwright-utils](https://github.com/seontechnologies/playwright-utils) 📋🔗 | — | 111 | TypeScript | A collection of utilities for Playwright tests at SEON Technologies, designed to make testing more efficient and maintainable. |
 | [JoanEsquivel/cypress-cucumber-boilerplate](https://github.com/JoanEsquivel/cypress-cucumber-boilerplate) 🔗💤 | — | 109 | JavaScript | Cypress.IO Project using Javascript and Cucumber to start automating E2E tests just cloning it and installing dependencies. |
+| [testomatio/explorbot](https://github.com/testomatio/explorbot) 🔗 | — | 103 | TypeScript | AI Agent for Exploratory Browser Testing |
 | [vitalets/playwright-network-cache](https://github.com/vitalets/playwright-network-cache) 🔗 | — | 101 | TypeScript | Cache and mock network requests in Playwright |
-| [testomatio/explorbot](https://github.com/testomatio/explorbot) 🔗 | — | 100 | TypeScript | AI Agent for Exploratory Browser Testing |
-| [marle3003/mokapi](https://github.com/marle3003/mokapi) 🔗 | — | 61 | Go | Your API mocking tool for OpenAPI and AsyncAPI using Go and JavaScript - https://mokapi.io **— мок OpenAPI/AsyncAPI; правила плутають через тему ldap** |
+| [marle3003/mokapi](https://github.com/marle3003/mokapi) 🔗 | — | 60 | Go | Your API mocking tool for OpenAPI and AsyncAPI using Go and JavaScript - https://mokapi.io **— мок OpenAPI/AsyncAPI; правила плутають через тему ldap** |
 | [403-html/the-qa-architecture-handbook](https://github.com/403-html/the-qa-architecture-handbook) 🔗 | — | 19 | — | This guide provides a structured framework and practical advice for building a rock-solid, end-to-end QA architecture in an organization. |
 | [deepakkamboj/playwright-ai-reporter](https://github.com/deepakkamboj/playwright-ai-reporter) 🔗 | — | 14 | TypeScript | Playwright AI Reporter is an enterprise-grade, production-ready test reporter that combines artificial intelligence with comprehensive test automation workflows. |
 | [sherlock1982/wdio-selenoid-boilerplate](https://github.com/sherlock1982/wdio-selenoid-boilerplate) 🔗💤 | — | 4 | JavaScript | WebdriverIO 6 Selenoid boilerplate project with video support |
